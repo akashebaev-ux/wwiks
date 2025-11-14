@@ -169,6 +169,37 @@ main #about * {
     }
 
 
+/*Contact section*/
+#contact {
+    background-color: white;
+    font-family: "Poppins", serif;
+    
+}
+#contact h2 {
+    color: rgb(15, 4, 57); 
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    font-family: "DM Serif-Display", serif;
+}
+
+.custom-button {
+  width: 20%;
+  padding: 8px 0;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  color:rgb(15, 4, 57);
+  border-color: rgb(15, 4, 57);
+}
+.custom-button:hover {
+ background-color: rgb(15, 4, 57);
+      color: #fff;
+    }
+     footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 1.1rem;
+      color: rgb(15, 4, 57);
+    }
 
 
 
@@ -226,6 +257,7 @@ main #about * {
   display: flex;
     
 }}
+
 
 
 /* Media queries move div closer to the center on tablet screens */
