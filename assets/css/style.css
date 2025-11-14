@@ -2,7 +2,7 @@
 
 body {
 
-    background-color: aqua;
+    background-color: wheat;
 }
 /*Navbar custom CSS style*/
 
@@ -21,7 +21,13 @@ color: rgb(15, 4, 57);
 .navbar .btn-primary {
   color: #ffffff !important;
   justify-content: center;
+  background-color:   rgb(15, 4, 57);
 }
+.navbar .btn-primary:hover {
+background-color:  rgb(37, 8, 155);;
+
+}
+
 
 
 /*Hero section*/
@@ -37,7 +43,7 @@ h2 {
 #hero {
     background-image: url("../images/background.png");
       background-size: cover;      
-  background-position: center; 
+  background-position: 53% center; 
   background-repeat: no-repeat;
   height: 90vh;                
   width: 100%;                 
@@ -66,4 +72,13 @@ h2 {
 }
 #hero div {
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
+}
+#hero .btn-primary {
+  color: #ffffff !important;
+  justify-content: center;
+  background-color:   rgb(15, 4, 57);
+}
+#hero .btn-primary:hover {
+background-color:  rgb(37, 8, 155);;
+
 }
