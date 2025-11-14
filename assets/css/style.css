@@ -4,8 +4,21 @@ body {
 
     background-color: aqua;
 }
+/*Navbar custom CSS style*/
 
 .navbar-brand img {
   height: 50px;
   width: auto;
+}
+
+.navbar * {
+color: rgb(15, 4, 57);
+  font-size: 1.2rem;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem;  
+
+}
+.navbar .btn-primary {
+  color: #ffffff !important;
+  justify-content: center;
 }
