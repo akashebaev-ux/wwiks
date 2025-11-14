@@ -4,3 +4,8 @@ body {
 
     background-color: aqua;
 }
+
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
