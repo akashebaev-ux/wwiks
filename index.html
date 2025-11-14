@@ -110,10 +110,10 @@
      <!-- main content -->
     <main>
       <!-- About section links to #about href in navbar -->
-      <section id="about" class="container-fluid py-5 mb-5">
+      <section id="about" class="container-fluid">
         <div class="row g-4 align-items-center">
        
-          <div class="col-12 text-center my-4">
+          <div class="col-12 text-center my-4 py-3 mb-3">
             <h2 class="display-5 about">About Wiks</h2>
           </div>
        
@@ -150,7 +150,70 @@
         </div>
       </section>
 
+   <!-- templates section starts here -->
 
+      <section id="templates">
+<div class="container-fluid">
+    <h2></h2>
+    <div class="scroll-gallery" id="scrollGallery">
+
+
+      <!--Photo templates-->
+      <div class="scroll-item">
+      <img src="assets/images/Chess-website-template.png" alt="The chess website template"></div>
+     <div class="scroll-item">
+      <img src="assets/images/Technology-website-template.png" alt="The technology website template"></div>
+      <div class="scroll-item">
+      <img src="assets/images/Travel-website-template.png" alt="The travel website template"></div>
+  <div class="scroll-item">
+      <img src="assets/images/Code-training-website-template.png" alt="The code training website template"></div>
+<div class="scroll-item">
+      <img src="assets/images/Travel-agency-website-template.png" alt="The travel agency website template"></div>
+    
+
+     <div class="scroll-item">
+      <img src="assets/images/Coffeehouse-website-template.png" alt="The coffeehouse website template"></div>
+
+    </div>
+
+</div>
+
+<!--written by AI js-->
+
+<script>
+    const gallery = document.getElementById('scrollGallery');
+    let scrollInterval;
+
+    gallery.addEventListener('mousemove', (e) => {
+      const rect = gallery.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const width = rect.width;
+
+      clearInterval(scrollInterval);
+
+      // hover near the left edge → scroll left
+      if (x < width * 0.2) {
+        scrollInterval = setInterval(() => {
+          gallery.scrollLeft -= 10;
+        }, 10);
+      }
+
+      // hover near the right edge → scroll right
+      else if (x > width * 0.8) {
+        scrollInterval = setInterval(() => {
+          gallery.scrollLeft += 10;
+        }, 10);
+      }
+    });
+
+    // stop scrolling when mouse leaves the gallery
+    gallery.addEventListener('mouseleave', () => clearInterval(scrollInterval));
+  </script>
+  </section>
+
+        
+      </section>
+    </main>
 
     <!--Bootstrap-->
      <script

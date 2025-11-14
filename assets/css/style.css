@@ -112,13 +112,83 @@ main #about * {
 }
 
 
+/*Templates*/
+#templates {
+    background-color:rgb(15, 4, 57);
+
+}   
+
+.scroll-gallery {
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      gap: 1rem;
+      padding: 1rem;
+      
+    }
+
+    .scroll-gallery::-webkit-scrollbar {
+      display: none;
+    }
+
+    .scroll-item {
+      flex: 0 0 auto;
+      width: auto;
+      height: 30rem;
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .scroll-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .scroll-item:hover {
+      transform: scale(1.05);
+    }
+
+
+
+/*Templates section*/
+
+ .image-row {
+      display: flex;
+      justify-content: start; 
+      gap: 10px;
+    }
+
+    .image-row img {
+      width: 400px; 
+      border-radius: 5px; 
+      height: 30rem;
+    }
 
 
 
 
 
 
-/* move div closer to the bottom on small screens */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries - to move div closer to the bottom on small screens */
 @media (max-width: 768px) {
  
   #hero div {
@@ -158,7 +228,7 @@ main #about * {
 }}
 
 
-/* move div closer to the center on tablet screens */
+/* Media queries move div closer to the center on tablet screens */
 @media (max-width: 1200px) {
  
   #hero div {
@@ -197,7 +267,7 @@ main #about * {
     
 }}
 
-/* move div closer to the center on laptop & PC screens */
+/* Media queries move div closer to the center on laptop & PC screens */
 @media (max-width: 1400px) {
  
   #hero div {
