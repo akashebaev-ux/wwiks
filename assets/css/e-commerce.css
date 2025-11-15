@@ -44,7 +44,19 @@ section {
 }
 
 
+/*Main section*/
 
+.myvideo {
+    width: cover;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 500px;
+    margin: 2rem 2rem;
+}
+.video-container {
+
+    text-align: center;
+}
 
 
 
