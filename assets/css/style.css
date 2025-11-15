@@ -115,7 +115,7 @@ main #about * {
 
 /*Templates*/
 #templates {
-    background-color:rgb(15, 4, 57);
+    background-color:rgba(0, 19, 53);
 
 }   
 
@@ -202,10 +202,44 @@ main #about * {
       color: rgb(15, 4, 57);
     }
 
+    /*Contact info*/
+#contact1 {
+  background-color: rgba(0, 19, 53);
+  color: white;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 
 
 
+}
+#contact1 .color1 {
+  font-family: "DM Serif-Display", serif;
+   color: rgb(160, 106, 218);
+}
 
+#contact1 #table1 * {
+  background-color: transparent;
+  color: white;
+  margin-bottom: 2rem;
+}
+#contact i {
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+
+    color: rgb(160, 106, 218);
+    font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: rgb(56, 18, 96);
+
+}
 
 
 
