@@ -3,6 +3,7 @@
 body {
 
     background-color:  white;
+    padding-top: 62px; /*pushes the top of the header down under fixed navbar*/
 }
 /*Navbar custom CSS style*/
 
