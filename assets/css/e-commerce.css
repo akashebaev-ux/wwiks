@@ -35,42 +35,13 @@ color: rgb(7, 114, 149);
 .navbar .dropdown-item:hover {
     color: rgb(7, 114, 149);
 
-}/*Templates page*/
+}
 
-.search-form {
-
-    height: 25vh;
-    display: flex;
-    justify-content: center;
-    align-items: top;   
-   
-    margin-top: 60px;
-  }
-
-  input[type="text"] {
-    padding: 10px 15px;
-    font-size: 16px;
-    border-radius: 20px;
-    border: 1px solid #ccc;
-    width: 300px;
-    outline: none;
-  }
-
-  input[type="text"]:focus {
-    border-color: #0078ff;
-    box-shadow: 0 0 5px rgba(0,120,255,0.4);
-  }
-
-    .search-input {
-    background: url('../images/icons8-search.gif') no-repeat 10px center;
-    background-size: 18px;
-    padding-left: 40px;
-  }
-
-  .col {
-    height: 30px;
-
-  }
+section {
+            color: rgb(15, 4, 57); 
+     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    font-family: "DM Serif-Display", serif;
+}
 
 
 
@@ -86,9 +57,7 @@ color: rgb(7, 114, 149);
 
 
 
-
-
-      /*Contact info*/
+    /*Contact info*/
 #contact1 {
   background-color: rgba(0, 19, 53);
   color: white;
