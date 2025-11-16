@@ -202,13 +202,13 @@ main #about * {
       color: rgb(15, 4, 57);
     }
 
+
+
     /*Contact info*/
 #contact1 {
   background-color: rgba(0, 19, 53);
   color: white;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
-
-
 
 }
 #contact1 .color1 {
@@ -241,7 +241,14 @@ main #about * {
 
 }
 
+#contact1 address, 
+#contact1 p {
 
+  text-align: left !important;
+  padding-left: 80px;
+  font-family: "Poppins", serif;
+
+}
 
 
 
