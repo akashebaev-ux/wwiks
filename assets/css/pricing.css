@@ -12,8 +12,179 @@ body {
   width: auto;
 }
 
+.navbar * {
+color: rgb(15, 4, 57);
+  font-size: 1.2rem;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem;  
+
+}
+.navbar .btn-primary {
+  color: #ffffff !important;
+  justify-content: center;
+  background-color:   rgb(15, 4, 57);
+}
+.navbar .btn-primary:hover {
+background-color:  rgb(37, 8, 155);
+
+}
+
+.navbar .nav-link:hover {
+color: rgb(7, 114, 149);
+}
+.navbar .dropdown-item:hover {
+    color: rgb(7, 114, 149);
+
+}
 
 
 
 
+
+/* pricing.css */
+
+section {
+
+    font-family: "Poppins", serif;
+  color: rgb(15, 4, 57);
+  text-align: center;
+   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.navbar * {
+color: rgb(15, 4, 57);
+  font-size: 1.2rem;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem;  
+
+}
+.navbar .btn-primary {
+  color: #fff !important;
+  justify-content: center;
+}
+
+.btn-primary {
+  background:rgb(15, 4, 57);
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background:  rgb(37, 8, 155);
+}
+
+.btn-primary.big {
+  margin: 1rem 0 3rem;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+}
+
+.pricing h1 {
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  color: rgb(15, 4, 57);
+  font-family: "DM Serif-Display", serif;
+}
+
+.pricing p {
+  color:  rgb(15, 4, 57);
+  font-size: 1.1rem;
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.plan {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 270px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  text-align: left;
+}
+
+.plan h2 {
+  color:  rgb(15, 4, 57);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.plan .price {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.plan .price span {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.plan ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.plan ul li {
+  color: rgb(15, 4, 57);
+}
+
+.recommended {
+  border: 3px solid #2563eb;
+}
+
+.badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #10b981;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 9999px;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid  rgb(15, 4, 57);
+  color:  rgb(15, 4, 57);
+  padding: 0.7rem 1.8rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 3rem;
+}
+
+.btn-outline:hover {
+  background:  rgb(37, 8, 155);
+  color: white;
+}
 

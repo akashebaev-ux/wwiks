@@ -17,20 +17,133 @@
       crossorigin="anonymous">
 
       <!--Custom CSS stylesheet-->
-    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/pricing.css">
 </head>
 <body>
 
     <!--Bootstrap navbar-->
-  <nav class="navbar fixed-top navbar-expand-lg bg-white py-1 ">
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary py-1">
   
   <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
       <img src="assets/images/Wiks.png" alt="wwiks" width="120px">
     </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-lg-0">
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Product
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="templates.html">Website templates & design</a></li>
+            <li><a class="dropdown-item" href="e-commerce.html">E-Commerce</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            For customers
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Marketing & Promotions</a></li>
+            <li><a class="dropdown-item" href="#">CRM System</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">All-inclusive solution</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            For developers
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Actions</a></li>
+            <li><a class="dropdown-item" href="#">Quality controls</a></li>
+            <li><a class="dropdown-item" href="#">Terms & Conditions</a></li>
+          </ul>
+        </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link" href="pricing.html" role="button" aria-expanded="false">
+            Pricing
+          </a>
+        </li> 
+      </ul>
+     <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item">
+          <a class="nav-link me-4 w-100" href="login.html">Log in</a>
+        </li> 
+        
+        <button type="button" class="btn btn-primary me-3 rounded-pill w-100 justify-content-center">Get started</button>
+    </ul>
+      
+      </ul>
+    </div>
   </div>
 </nav>
 
+<section class="pricing">
+    <h1>Find the best plan for you</h1>
+    <p>Pick and adjust the site you like for free and/or choose the subscription plan.</p>
+    <button class="btn-primary big">Start for Free →</button>
+
+    <div class="plans">
+      <div class="plan elite">
+        <h2>Business</h2>
+        <p class="price">$50<span>/mo</span></p>
+        <ul>
+          <li>✔ Free domain for 1 year</li>
+
+          <li>✔ Advanced marketing suite</li>
+          <li>✔ Accept payments</li>
+          <li>✔ Advanced eCommerce</li>
+          <li>✔ Scheduling and services</li>
+         
+        </ul>
+      </div>
+
+      <div class="plan business recommended">
+        <span class="badge">RECOMMENDED</span>
+        <h2>Clients</h2>
+        <p class="price">$25<span>/mo</span></p>
+        <ul>
+          <li>✔ Free domain for 1 year</li>
+
+          <li>✔ Standard marketing suite</li>
+          <li>✔ Accept payments</li>
+          <li>✔ Standard eCommerce</li>
+
+        </ul>
+      </div>
+
+      <div class="plan core">
+        <h2>Core</h2>
+        <p class="price">$15<span>/mo</span></p>
+        <ul>
+          <li>✔ Free domain for 1 year</li>
+
+          <li>✔ Basic marketing suite</li>
+          <li>✔ Accept payments</li>
+          <li>✔ Basic eCommerce</li>
+  
+        </ul>
+      </div>
+
+      <div class="plan light">
+        <h2>Light</h2>
+        <p class="price">$10<span>/mo</span></p>
+        <ul>
+          <li>✔ Free domain for 1 year</li>
+
+          <li>✔ Light marketing suite</li>
+   
+        </ul>
+      </div>
+    </div>
+
+    <button class="btn-outline">Compare Plan Features</button>
+  </section>
 
 
  
