@@ -74,18 +74,25 @@ color: rgb(7, 114, 149);
     font-family: "Poppins", serif;
   }
 
-  .col {
-    height: 30px;
-
-  }
 
 
 
 /*Main section for templates*/
 
+.card-img-top {
+  object-fit: cover;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+.card {
+  height: 35rem;
+  transition: transform 0.3s ease;
+}
 
-
-
+.card:hover{
+    border: 3px solid  rgb(160, 106, 218);
+    transform: scale(1.05);
+}
 
 
 
