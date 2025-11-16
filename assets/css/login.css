@@ -121,10 +121,10 @@ body {
     /* Media queries */
 @media (max-width: 739px) {
 
-    .right {
-        width: auto;
-    }
+
     .social-btn {
-        width:auto;
+        width:auto; 
+        padding-left: 2px;
+        padding-right: 2px;
     }
 }
