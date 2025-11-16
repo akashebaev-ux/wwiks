@@ -241,11 +241,10 @@ main #about * {
 
 }
 
-#contact1 address, 
-#contact1 p {
+#contact1 {
 
   text-align: left !important;
-  padding-left: 80px;
+ 
   font-family: "Poppins", serif;
 
 }
