@@ -127,6 +127,10 @@ color: rgb(15, 4, 57);
   text-align: left;
 }
 
+.plan:hover {
+  border: 3px solid  rgb(160, 106, 218);
+}
+
 .plan h2 {
   color:  rgb(15, 4, 57);
   font-size: 1.5rem;
@@ -155,8 +159,8 @@ color: rgb(15, 4, 57);
   color: rgb(15, 4, 57);
 }
 
-.recommended {
-  border: 3px solid #2563eb;
+.recommended:hover {
+  border: 3px solid  rgb(160, 106, 218);
 }
 
 .badge {
