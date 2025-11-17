@@ -148,3 +148,47 @@ img {
   font-family: "Poppins", serif;
 
 }
+
+
+
+/* Media queries medium screens */
+@media (max-width: 760px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 97%;  
+  font-weight: 500;   
+  padding: 0.5rem 1rem; 
+  margin-right: 0.5rem;}
+
+  .navbar .btn-primary * {
+  color: #ffffff !important;
+  background-color:   rgb(15, 4, 57);
+  width: 100px;
+}
+.navbar .btn-primary:hover {
+background-color:  rgb(37, 8, 155);
+
+}
+.navbar-nav * {
+  width: 100px !important;
+}
+form {
+
+  width: 100%;
+  padding: 2rem;
+}
+
+
+ }
+
+/* Media queries medium screens */
+@media (max-width: 1000px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 97%;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem; }
+
+ }

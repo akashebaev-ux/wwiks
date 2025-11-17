@@ -188,12 +188,19 @@ main #about * {
   font-size: 1.2rem;
   border-radius: 10px;
   margin-bottom: 30px;
-  color:rgb(15, 4, 57);
-  border-color: rgb(15, 4, 57);
+  color: #fff;
+  background-color: rgb(15, 4, 57);
 }
 .custom-button:hover {
- background-color: rgb(15, 4, 57);
-      color: #fff;
+  color:rgb(15, 4, 57) !important;
+  border-color: rgb(15, 4, 57);
+  background-color: transparent !important;
+  border-radius: 10px;
+  border-width: 2px;
+  margin-bottom: 30px;
+    width: 20%;
+  padding: 8px 0;
+  font-size: 1.2rem;
     }
      footer {
       text-align: center;
@@ -249,10 +256,33 @@ main #about * {
 
 }
 
+/*for marketing html*/
 
+.marketing h1, 
+.marketing h2 {
+   color: rgb(15, 4, 57); 
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    font-family: "DM Serif-Display", serif;
+}
+.promotions {
 
+  font-family: "Poppins", serif;
+ 
+}
 
+h3 {
 
+color:rgb(160, 106, 218);
+}
+.btn {
+
+  color:#ffffff !important;
+  justify-content: center;
+  background-color:rgb(15, 4, 57);
+}
+.btn:hover {
+background-color:rgb(37, 8, 155);
+}
 
 
 
@@ -263,7 +293,6 @@ main #about * {
 /* Media queries - to move div closer to the bottom on small screens */
 @media (max-width: 768px) {
  
-
   #hero div {
     bottom: 6vh;          
   }
@@ -296,59 +325,20 @@ main #about * {
   overflow: hidden;
   justify-content: center;
   text-align: center;
-  display: flex;}}
+  display: flex;
+    
+}}
 
 
 
 
-/* Media queries medium screens */
-@media (max-width: 760px) {
-   /*to make the navbar collapse properly*/
- .navbar * {
-color: rgb(15, 4, 57);
-  font-size: 97%;  
-  font-weight: 500;   
-  padding: 0.5rem 1rem; 
-  margin-right: 0.5rem;}
 
-  .navbar .btn-primary * {
-  color: #ffffff !important;
-  background-color:   rgb(15, 4, 57);
-  width: 100px;
-}
-.navbar .btn-primary:hover {
-background-color:  rgb(37, 8, 155);
-
-}
-.navbar-nav * {
-  width: 100px !important;
-}
-form {
-
-  width: 100%;
-  padding: 2rem;
-}
-
-
- }
-
-/* Media queries medium screens */
-@media (max-width: 1000px) {
-   /*to make the navbar collapse properly*/
- .navbar * {
-color: rgb(15, 4, 57);
-  font-size: 97%;  
-  font-weight: 500;   
-  padding: 0.2rem 0.2rem; }
-
- }
 
 
 
 /* Media queries move div closer to the center on tablet screens */
 @media (max-width: 1200px) {
  
-
   #hero div {
     bottom: 8vh;          
   }
@@ -423,3 +413,72 @@ color: rgb(15, 4, 57);
   display: flex;
     
 }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries medium screens */
+@media (max-width: 760px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 97%;  
+  font-weight: 500;   
+  padding: 0.5rem 1rem; 
+  margin-right: 0.5rem;}
+
+  .navbar .btn-primary * {
+  color: #ffffff !important;
+  background-color:   rgb(15, 4, 57);
+  width: 100px;
+}
+.navbar .btn-primary:hover {
+background-color:  rgb(37, 8, 155);
+
+}
+.navbar-nav * {
+  width: 100px !important;
+}
+form {
+
+  width: 100%;
+  padding: 2rem;
+}
+
+
+ }
+
+/* Media queries medium screens */
+@media (max-width: 1000px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 97%;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem; }
+
+ }
