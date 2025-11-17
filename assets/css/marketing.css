@@ -355,8 +355,8 @@ background-color:rgb(37, 8, 155);
 color: rgb(15, 4, 57);
   font-size: 97%;  
   font-weight: 500;   
-  padding: 0.5rem 1rem; 
-  margin-right: 1rem;}
+  padding: 0.5rem 0.1rem; 
+  margin-right: 2rem;}
 
   .navbar .btn-primary * {
   color: #ffffff !important;
@@ -397,9 +397,23 @@ form {
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 97%;  
+  font-size: 90%;  
   font-weight: 500;   
   padding: 0.2rem 0.2rem; }
+
+  /*Main section for smaller screens*/
+
+.myvideo {
+    width: 70%;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: auto;
+    margin: 2rem 2rem;
+}
+.video-container {
+
+    text-align: center;
+}
 
  }
 
@@ -481,75 +495,4 @@ color: rgb(15, 4, 57);
   overflow: hidden;
   justify-content: center;
   text-align: center;
-  display: flex;
-    
-}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media queries medium screens */
-@media (max-width: 760px) {
-   /*to make the navbar collapse properly*/
- .navbar * {
-color: rgb(15, 4, 57);
-  font-size: 97%;  
-  font-weight: 500;   
-  padding: 0.5rem 1rem; 
-  margin-right: 0.5rem;}
-
-  .navbar .btn-primary * {
-  color: #ffffff !important;
-  background-color:   rgb(15, 4, 57);
-  width: 100px;
-}
-.navbar .btn-primary:hover {
-background-color:  rgb(37, 8, 155);
-
-}
-.navbar-nav * {
-  width: 100px !important;
-}
-form {
-
-  width: 100%;
-  padding: 2rem;
-}
-
-
- }
-
-/* Media queries medium screens */
-@media (max-width: 1000px) {
-   /*to make the navbar collapse properly*/
- .navbar * {
-color: rgb(15, 4, 57);
-  font-size: 97%;  
-  font-weight: 500;   
-  padding: 0.2rem 0.2rem; }
-
- }
+  display: flex;}}
