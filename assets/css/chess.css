@@ -88,6 +88,17 @@ img {
   color: rgb(15, 4, 57);
 }
 
+#file-input {
+  display:none;
+ padding-bottom: 0;
+}
+.button1 {
+  height: 114px;
+  width: 119px;
+
+
+}
+
 
 
  
