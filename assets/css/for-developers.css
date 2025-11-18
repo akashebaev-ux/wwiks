@@ -49,7 +49,15 @@ color: rgb(7, 114, 149);
 
 }
 
+/*header button*/
 
+.btn-primary {
+  color: #ffffff !important;
+  justify-content: center;
+  background-color:   rgb(15, 4, 57);
+}
+.btn-primary:hover {
+background-color:  rgb(37, 8, 155);}
 
 
 
