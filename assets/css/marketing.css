@@ -119,7 +119,8 @@ main #about * {
     border: 3px solid black;
     border-radius: 15px;
     height: 500px;
-    margin: 2rem 2rem;
+    margin: 1rem 1rem;
+    line-gap-override: inherit;
 }
 .video-container {
 
@@ -288,6 +289,7 @@ main #about * {
 h3 {
 
 color:rgb(160, 106, 218);
+ font-family: "Poppins", serif;
 }
 .btn {
 
@@ -356,7 +358,7 @@ color: rgb(15, 4, 57);
   font-size: 97%;  
   font-weight: 500;   
   padding: 0.5rem 0.1rem; 
-  margin-right: 2rem;}
+  margin-right: 1rem;}
 
   .navbar .btn-primary * {
   color: #ffffff !important;
@@ -378,11 +380,11 @@ form {
 /*Main section for smaller screens*/
 
 .myvideo {
-    width: 70%;
+    width: 100%;
     border: 3px solid black;
     border-radius: 15px;
     height: auto;
-    margin: 2rem 2rem;
+    margin: 1rem 1rem;
 }
 .video-container {
 
@@ -397,14 +399,14 @@ form {
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 90%;  
+  font-size: 97%;  
   font-weight: 500;   
   padding: 0.2rem 0.2rem; }
 
   /*Main section for smaller screens*/
 
 .myvideo {
-    width: 70%;
+    width: 100%;
     border: 3px solid black;
     border-radius: 15px;
     height: auto;
@@ -414,7 +416,13 @@ color: rgb(15, 4, 57);
 
     text-align: center;
 }
+.col-md-4 {
+    width: 100%;
+}
+.col-md-8 {
 
+    width: 97%;
+}
  }
 
 
@@ -458,7 +466,21 @@ color: rgb(15, 4, 57);
   text-align: center;
   display: flex;
     
-}}
+}
+.myvideo {
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: auto;
+    margin: 1rem 1rem;
+}
+.video-container {
+
+    text-align: center;
+}
+
+
+}
 
 /* Media queries move div closer to the center on laptop & PC screens */
 @media (max-width: 1400px) {
@@ -495,4 +517,18 @@ color: rgb(15, 4, 57);
   overflow: hidden;
   justify-content: center;
   text-align: center;
-  display: flex;}}
+  display: flex;}
+
+  .myvideo {
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: auto;
+    margin: 1rem 1rem;
+}
+.video-container {
+
+    text-align: center;
+}
+
+}
