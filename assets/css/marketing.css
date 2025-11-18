@@ -285,6 +285,9 @@ main #about * {
   font-family: "Poppins", serif;
  
 }
+.marketing p {
+    color:rgb(160, 106, 218);
+}
 
 h3 {
 
@@ -300,6 +303,8 @@ color:rgb(160, 106, 218);
 .btn:hover {
 background-color:rgb(37, 8, 155);
 }
+
+/*All-inclusive section*/
 
 
 
