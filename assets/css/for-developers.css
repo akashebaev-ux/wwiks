@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
+
+body {
+
+    background-color: white;
+    padding-top: 62px; /*pushes the top of the header down under fixed navbar*/
+}
+
+h1 {
+    color: rgb(15, 4, 57); 
+     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    font-family: "DM Serif-Display", serif;
+}
+h2 {
+
+    color: rgb(160, 106, 218);
+    font-family: "Poppins", serif;
+}
+
+/*Navbar custom CSS style*/
+
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+
+.navbar * {
+color: rgb(15, 4, 57);
+  font-size: 1.2rem;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem;  
+
+}
+.navbar .btn-primary {
+  color: #ffffff !important;
+  justify-content: center;
+  background-color:   rgb(15, 4, 57);
+}
+.navbar .btn-primary:hover {
+background-color:  rgb(37, 8, 155);
+
+}
+
+.navbar .nav-link:hover {
+color: rgb(7, 114, 149);
+}
+.navbar .dropdown-item:hover {
+    color: rgb(7, 114, 149);
+
+}
+
+
+
+
+
+
+/*About section*/
+main #about {
+    color: rgb(15, 4, 57);
+
+}
+#about{
+    background-color: white;
+}
+.about {
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+
+}
+
+.content {
+    padding-left: 7rem;
+
+}
+
+
+/*Templates*/
+#templates {
+    background-color:rgba(0, 19, 53);
+
+}   
+
+.scroll-gallery {
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      gap: 1rem;
+      padding: 1rem;
+      
+    }
+
+    .scroll-gallery::-webkit-scrollbar {
+      display: none;
+    }
+
+    .scroll-item {
+      flex: 0 0 auto;
+      width: auto;
+      height: 30rem;
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .scroll-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .scroll-item:hover {
+      transform: scale(1.05);
+    }
+
+
+
+/*Templates section*/
+
+ .image-row {
+      display: flex;
+      justify-content: start; 
+      gap: 10px;
+    }
+
+    .image-row img {
+      width: 400px; 
+      border-radius: 5px; 
+      height: 30rem;
+    }
+
+
+
+
+
+    /*Contact info*/
+#contact1 {
+  background-color: rgba(0, 19, 53);
+  color: white;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+
+}
+#contact1 .color1 {
+  font-family: "DM Serif-Display", serif;
+   color: rgb(160, 106, 218);
+}
+
+#contact1 #table1 * {
+  background-color: transparent;
+  color: white;
+  margin-bottom: 2rem;
+}
+#contact i {
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+
+    color: rgb(160, 106, 218);
+    font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: rgb(56, 18, 96);
+
+}
+
+#contact1 {
+
+  text-align: left !important;
+ 
+  font-family: "Poppins", serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries - to move div closer to the bottom on small screens */
+@media (max-width: 768px) {
+ 
+
+  #hero div {
+    bottom: 6vh;          
+  }
+
+  #hero h1 {
+    font-size: 1.8rem;
+  }
+
+  #hero h2 {
+    font-size: 1.2rem;
+  }
+
+  #hero p {
+    font-size: 1rem;
+  }
+
+  #hero .btn-primary {
+    font-size: 0.9rem;
+    padding: 10px 24px;
+  }
+ #hero {
+    background-image: url("../images/final-background-for-developers.png");
+      background-size: cover;      
+  background-position: 53% center; 
+  background-repeat: no-repeat;
+  height: 55vh;                
+  width: 100%;                 
+  position: relative;         
+  
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+  display: flex;}}
+
+
+
+
+/* Media queries medium screens */
+@media (max-width: 760px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 97%;  
+  font-weight: 500;   
+  padding: 0.5rem 1rem; 
+  margin-right: 0.5rem;}
+
+  .navbar .btn-primary * {
+  color: #ffffff !important;
+  background-color:   rgb(15, 4, 57);
+  width: 100px;
+}
+.navbar .btn-primary:hover {
+background-color:  rgb(37, 8, 155);
+
+}
+.navbar-nav * {
+  width: 100px !important;
+}
+form {
+
+  width: 100%;
+  padding: 2rem;
+}
+
+
+ }
+
+/* Media queries medium screens */
+@media (max-width: 1000px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 97%;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem; }
+
+ }
+
+
+
+/* Media queries move div closer to the center on tablet screens */
+@media (max-width: 1200px) {
+ 
+
+  #hero div {
+    bottom: 8vh;          
+  }
+
+  #hero h1 {
+    font-size: 1.8rem;
+  }
+
+  #hero h2 {
+    font-size: 1.2rem;
+  }
+
+  #hero p {
+    font-size: 1rem;
+  }
+
+  #hero .btn-primary {
+    font-size: 0.9rem;
+    padding: 10px 24px;
+  }
+ #hero {
+    background-image: url("../images/final-background-for-developers.png");
+      background-size: cover;      
+  background-position: 53% center; 
+  background-repeat: no-repeat;
+  height: 55vh;                
+  width: 100%;                 
+  position: relative;         
+  
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+    
+}}
+
+/* Media queries move div closer to the center on laptop & PC screens */
+@media (max-width: 1400px) {
+ 
+  #hero div {
+    bottom: 8vh;          
+  }
+
+  #hero h1 {
+    font-size: 1.8rem;
+  }
+
+  #hero h2 {
+    font-size: 1.2rem;
+  }
+
+  #hero p {
+    font-size: 1rem;
+  }
+
+  #hero .btn-primary {
+    font-size: 0.9rem;
+    padding: 10px 24px;
+  }
+ #hero {
+    background-image: url("../images/background.png");
+      background-size: cover;      
+  background-position: 53% center; 
+  background-repeat: no-repeat;
+  height: 70vh;                
+  width: 100%;                 
+  position: relative;         
+  
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+    
+}}

@@ -23,7 +23,7 @@
       crossorigin="anonymous">
 
       <!--Custom CSS stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/for-developers.css">
 </head>
 <body>
 
@@ -85,29 +85,9 @@
   </div>
 </nav>
 
-<!--Header section-->
-
- <header class="container-fluid">
-      <!-- section with hero image -->
-      <section class="row">
-        
-        <div class="col-12 text-center">
-          <h1 class="display-4 my-3">Choose a template and customize your website</h1>
-         
-          <h2 class="display-6 mb-3">Add your own images and text</h2>
-          <p class="lead">
-            Bring your vision to life with the world’s leading website builder.
-          </p>
-
-            <button type="button" class="btn btn-primary btn-lg w-40px rounded-pill">Get started</button>
-
-        
-          <p class="mt-2">Let's create something amazing together!</p>
-          <!-- Button trigger modal -->
-          
-        </div>
-      </section>
-    </header>
+<header>
+    <h1 class="text-center pt-5">WWiks for developers</h1>
+</header>
 
      <!-- main content -->
     <main>
@@ -115,150 +95,64 @@
       <section id="about" class="container-fluid">
         <div class="row g-4 align-items-center">
        
-          <div class="col-12 text-center my-4 py-3 mb-3">
-            <h2 class="display-5 about">About wWiks</h2>
-          </div>
-       
-          <div class="col-12 col-md-6 text-center">
-           
-            <img
-              src="assets/images/about-wiks.png"
-              class="img-fluid"
-              alt="Wiks">
+          <div class="col-12 text-center">
+            <h2 class="display-5 fw-bold">Create. Upload. Earn.</h2>
           </div>
          
-          <div class="col-12 col-md-6">
+          <div class="content col-12 col-md-6">
             
-              <h4 class="mb-3">🌐 Build Your Website Effortlessly</h4>
+              <h3 class="mb-3">Build, upload, and get paid for your creativity.</h3>
             <p>
-                Our Website Builder gives you everything you need to create a beautiful, professional website — no coding skills required. Whether you’re starting a blog, launching a business, or building an online store, you can design your site exactly the way you want it.
+                Our platform empowers developers, designers, and digital creators to showcase their best work — and get paid for it. Whether you're building templates, designing UI kits, or producing high-quality visuals, you can upload your projects to our library and reach thousands of potential buyers.
             </p>
             
-            <h5 class="mt-4 mb-3">✨ Key Features</h5>
+            <h4 class="mt-4 mb-3">✨ How It Works</h4>
+             
             <p>
               
                 <ul class="ms-3">
-                    <li>Drag & Drop Editor: Easily customize your pages with text, images, videos, and more.
+                    <h5 class="mt-4 mb-3"> 1. Upload Your Projects</h5>
+                    <li>Add your website templates, design assets, images, or videos directly to our creator library.
+                    We support a wide range of formats and creative styles.
                     </li>
-                    <li>Modern Templates: Choose from a wide range of responsive, ready-to-use designs.</li>
-                    <li>Built-in Hosting & Security: Your website is fast, secure, and always online.</li>
-                    <li>SEO & Analytics Tools: Optimize your site and track performance in real time.</li>
-                    <li>E-commerce Ready: Add products, manage payments, and grow your online business.</li>
+                    <h5 class="mt-4 mb-3"> 2. Build Your Portfolio</h5>
+                    <li>Your uploads become part of a curated marketplace where clients can browse, preview, and save your work.</li>
+
+                    <h5 class="mt-4 mb-3"> 3. Get Discovered by Clients</h5>
+                    <li>Businesses and individuals searching for ready-made websites or media assets can explore your portfolio.</li>
+
+                    <h5 class="mt-4 mb-3"> 4. Earn Money</h5>
+                    <li>When a client purchases your template or media asset, you receive a payout.
+                    You create — we handle the rest.</li>
 
                 </ul>
             </p>
            
           </div>
+
+          <div class="col-12 col-md-6 text-center">
+           
+            <img
+              src="assets/images/background-for-developers1.png"
+              class="img-fluid"
+              alt="Wiks">
+          </div>
+
+
+          
         </div>
       </section>
 
-   <!-- templates section starts here -->
-
-      <section id="templates">
-<div class="container-fluid">
-    <h2></h2>
-    <div class="scroll-gallery" id="scrollGallery">
+   
 
 
-      <!--Photo templates-->
-      <div class="scroll-item">
-      <img src="assets/images/Chess-website-template.png" alt="The chess website template"></div>
-     <div class="scroll-item">
-      <img src="assets/images/Technology-website-template.png" alt="The technology website template"></div>
-      <div class="scroll-item">
-      <img src="assets/images/Travel-website-template.png" alt="The travel website template"></div>
-  <div class="scroll-item">
-      <img src="assets/images/Code-training-website-template.png" alt="The code training website template"></div>
-<div class="scroll-item">
-      <img src="assets/images/Travel-agency-website-template.png" alt="The travel agency website template"></div>
-    
-
-     <div class="scroll-item">
-      <img src="assets/images/Coffeehouse-website-template.png" alt="The coffeehouse website template"></div>
-
-    </div>
-
-</div>
-
-<!--written by AI js-->
-
-<script>
-    const gallery = document.getElementById('scrollGallery');
-    let scrollInterval;
-
-    gallery.addEventListener('mousemove', (e) => {
-      const rect = gallery.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const width = rect.width;
-
-      clearInterval(scrollInterval);
-
-      // hover near the left edge → scroll left
-      if (x < width * 0.2) {
-        scrollInterval = setInterval(() => {
-          gallery.scrollLeft -= 10;
-        }, 10);
-      }
-
-      // hover near the right edge → scroll right
-      else if (x > width * 0.8) {
-        scrollInterval = setInterval(() => {
-          gallery.scrollLeft += 10;
-        }, 10);
-      }
-    });
-
-    // stop scrolling when mouse leaves the gallery
-    gallery.addEventListener('mouseleave', () => clearInterval(scrollInterval));
-  </script>
-  </section>
-
-        
-      </section>
     </main>
 
 
     <!--Contact section-->
 
     <footer id="contact">
-      <div class="row justify-content-center">
-        <div class="col-12 text-center p-5">
-          <h2 class="display-5">Contact</h2>
-          <p class="mt-4 mx-5 px-5 h6">
-            Got questions or ideas? Whether you're
-            interested in collaboration, have inquiries about our projects, please don't hesitate to get in
-            touch. We are always open to discussing new opportunities and how we
-            can work together to create something amazing!
-          </p>
-        </div>
 
-        <div class="col-12 col-md-10 col-lg-8 mb-4">
-          
-          <form class="row g-3 sharp-corners">
-            <div class="col-lg-4">
-              <label for="full-name" class="form-label">Full name</label>
-              <input type="text" class="form-control" id="full-name" />
-            </div>
-            <div class="col-lg-4">
-              <label for="phonenumber" class="form-label">Phone number</label>
-              <input type="number" class="form-control" id="phonenumber" />
-            </div>
-
-            <div class="col-lg-4">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" />
-            </div>
-            <div class="col-12">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="3"></textarea>
-            </div>
-
-            <div class="col-12">
-              <button type="submit" class="btn btn-outline-primary custom-button">Send</button>
-            </div>
-          </form>
-        </div>
-      </div>
 
 
 
