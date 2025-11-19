@@ -43,7 +43,7 @@ color: rgb(7, 114, 149);
 
 .search-form {
 
-    height: 25vh;
+    height: 16vh;
     display: flex;
     justify-content: center;
     align-items: top;   
@@ -85,7 +85,7 @@ color: rgb(7, 114, 149);
   transition: transform 0.3s ease;
 }
 .card {
-  height: 35rem;
+  height: auto;
   transition: transform 0.3s ease;
 }
 
@@ -195,3 +195,18 @@ color: rgb(15, 4, 57);
   padding: 0.2rem 0.2rem; }
 
  }
+
+ /* Media queries for Laptop  screens */
+@media (max-width: 1400px) {
+
+ .search-form {
+
+    height: 16vh; /*make smaller the margin top*/
+    display: flex;
+    justify-content: center;
+    align-items: top;   
+    font-family: "DM Serif-Display", serif;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    color: rgb(15, 4, 57);
+    margin-top: 60px;
+  }}
