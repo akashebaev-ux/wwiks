@@ -233,7 +233,13 @@ main #about {
   overflow: hidden;
   justify-content: center;
   text-align: center;
-  display: flex;}}
+  display: flex;}
+
+.content {
+    padding-left: 2rem;
+
+}
+}
 
 
 
