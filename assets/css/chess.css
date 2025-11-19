@@ -215,7 +215,7 @@ img {
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 97%;  
+  font-size: 95%;  
   font-weight: 500;   
   padding: 0.5rem 1rem; 
   margin-right: 0.5rem;}
@@ -259,7 +259,7 @@ color: rgb(15, 4, 57);
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 97%;  
+  font-size: 95%;  
   font-weight: 500;   
   padding: 0.2rem 0.2rem;}
 

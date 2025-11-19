@@ -405,9 +405,10 @@ form {
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 97%;  
+  font-size: 95%;  
   font-weight: 500;   
-  padding: 0.2rem 0.2rem; }
+  padding: 0.2rem 0.2rem;
+margin-right: 0px; }
 
   /*Main section for smaller screens*/
 
@@ -438,6 +439,13 @@ color: rgb(15, 4, 57);
 /* Media queries move div closer to the center on tablet screens */
 @media (max-width: 1200px) {
  
+   .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 97%;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem;
+  ;
+}
   #hero div {
     bottom: 8vh;          
   }
