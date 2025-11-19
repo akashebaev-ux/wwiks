@@ -45,7 +45,7 @@ color: rgb(7, 114, 149);
 
 img {
 
-    width: 40rem;
+    width: 100%;
     height: auto;
 }
 .elements-grid {
@@ -95,10 +95,18 @@ img {
 .button1 {
   height: 114px;
   width: 119px;
-
-
+}
+.el3 {
+  color: rgba(0, 19, 53);
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  font-family: "Poppins", serif;
+  text-align: center;
 }
 
+
+#file-input1 {
+  display:none;
+ padding-bottom: 0;}
 
 
  
@@ -179,6 +187,39 @@ form {
   padding: 2rem;
 }
 
+/*Media queries for buttons*/
+
+.elements-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  gap: 10px;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  width: 97%;
+}
+
+.button1 {
+  height: 118px;
+  width: 103px;
+  padding-top: 2%;
+}
+
+
+.element {
+  border: 1px solid rgb(15, 4, 57);
+  padding: 5px;
+  text-align: center;
+  border-radius: 6px;
+  transition: 0.2s ease;
+  cursor: pointer;
+  width: 90%;
+}
+.el3 {
+  color: rgba(0, 19, 53);
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  font-family: "Poppins", serif;
+  text-align: center;
+}
 
  }
 
@@ -191,4 +232,94 @@ color: rgb(15, 4, 57);
   font-weight: 500;   
   padding: 0.2rem 0.2rem; }
 
- }
+ 
+
+ .elements-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  gap: 10px;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  width: 97%;
+  margin-bottom: 5px;
+  justify-content: center;
+  
+  
+}
+
+.button1 {
+  height: 118px;
+  width: 103px;
+  padding-top: 2%;
+}
+
+
+.element {
+  border: 1px solid rgb(15, 4, 57);
+  padding: 5px;
+  text-align: center;
+  border-radius: 6px;
+  transition: 0.2s ease;
+  cursor: pointer;
+  width: 100%;
+}
+.el3 {
+  color: rgba(0, 19, 53);
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  font-family: "Poppins", serif;
+  text-align: center;
+}
+}
+ 
+/* Media queries Laptop screens */
+@media (max-width: 1200px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 97%;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem; }
+
+ 
+
+ .elements-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  gap: 10px;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  width: 97%;
+  margin-bottom: 5px;
+  justify-content: center;
+  
+}
+
+.button1 {
+  height: 118px;
+  width: 103px;
+  padding-top: 2%;
+}
+
+
+.element {
+  border: 1px solid rgb(15, 4, 57);
+  padding: 5px;
+  text-align: center;
+  border-radius: 6px;
+  transition: 0.2s ease;
+  cursor: pointer;
+  width: 100%;
+}
+.el3 {
+  color: rgba(0, 19, 53);
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  font-family: "Poppins", serif;
+  text-align: center;
+  
+ 
+}
+
+
+
+
+}
