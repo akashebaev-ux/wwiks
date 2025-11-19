@@ -57,7 +57,7 @@
             <li><a class="dropdown-item" href="marketing.html">Marketing & Promotions</a></li>
             
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">All-inclusive solution</a></li>
+            <li><a class="dropdown-item" href="#All-inclusive">All-inclusive solution</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -249,7 +249,7 @@
         <div class="row">
          <div class="col-12 py-3 px-5" id="about">
             
-              <h4>All-Inclusive Solutions</h4>
+              <h4 id="All-inclusive">All-Inclusive Solutions</h4>
             <div>
               <p> At WWIks, we don’t just give you a website builder — we deliver a complete, ready-to-go digital ecosystem for your business. Whether you need a modern website, a fully functional blog, a CRM system, or a full-scale online store similar to Amazon, our specialists create everything for you from start to finish.
 
@@ -378,5 +378,27 @@ Our all-inclusive approach goes far beyond design and development. We will:</p>
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous">
     </script>
+
+        <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+<script>
+    document
+        .querySelectorAll(".navbar-collapse .nav-link")
+        .forEach((link) => {
+            link.addEventListener("click", function (e) {
+                let section = document.querySelector(e.target.getAttribute("href"));
+                if (section) {
+                    e.preventDefault(); // Prevent default anchor click behavior
+                    let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                    window.scroll({
+                        top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                        behavior: "smooth",
+                    });
+                    document
+                        .querySelector(".navbar-collapse")
+                        .classList.remove("show"); // Collapse navbar
+                }
+            });
+        });
+</script>
 </body>
 </html>
