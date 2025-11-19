@@ -16,7 +16,8 @@ body {
 color: rgb(15, 4, 57);
   font-size: 1.2rem;  
   font-weight: 500;   
-  padding: 0.2rem 0.2rem;  
+  padding: 0.2rem 0.2rem;
+  margin: 10px;  
 
 }
 .navbar .btn-primary {
@@ -162,7 +163,7 @@ form {
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 97%;  
+  font-size: 95%;  
   font-weight: 500;   
   padding: 0.2rem 0.2rem; }
 

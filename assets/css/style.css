@@ -17,6 +17,7 @@ color: rgb(15, 4, 57);
   font-size: 1.2rem;  
   font-weight: 500;   
   padding: 0.2rem 0.2rem;  
+  margin-right: 5px;
 
 }
 .navbar .btn-primary {
@@ -308,8 +309,8 @@ main #about * {
 color: rgb(15, 4, 57);
   font-size: 97%;  
   font-weight: 500;   
-  padding: 0.5rem 1rem; 
-  margin-right: 0.5rem;}
+  padding: 0.2rem 0.2rem; 
+  margin-right: 10px;}
 
   .navbar .btn-primary * {
   color: #ffffff !important;
@@ -342,7 +343,9 @@ form {
       color: #fff;
     }
 
-
+#contact .my-4 {
+  margin: 0 !important;
+}
  }
 
 /* Media queries medium screens */
@@ -350,7 +353,7 @@ form {
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 95%;  
+  font-size: 92%;  
   font-weight: 500;   
   padding: 0.2rem 0.2rem; }
 
@@ -360,7 +363,12 @@ color: rgb(15, 4, 57);
 
 /* Media queries move div closer to the center on tablet screens */
 @media (max-width: 1200px) {
- 
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 95%;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem; }
+
 
   #hero div {
     bottom: 8vh;          
