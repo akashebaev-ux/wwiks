@@ -360,7 +360,7 @@ background-color:rgb(37, 8, 155);
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 97%;  
+  font-size: 95%;  
   font-weight: 500;   
   padding: 0.5rem 0.1rem; 
   margin-right: 1rem;}
