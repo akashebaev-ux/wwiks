@@ -328,7 +328,19 @@ form {
   width: 100%;
   padding: 2rem;
 }
-
+.custom-button {
+  width: 40%;
+  padding: 8px 0;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  color:rgb(15, 4, 57);
+  border-color: rgb(15, 4, 57);
+}
+.custom-button:hover {
+ background-color: rgb(15, 4, 57);
+      color: #fff;
+    }
 
  }
 
