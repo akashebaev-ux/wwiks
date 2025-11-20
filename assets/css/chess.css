@@ -94,8 +94,8 @@ img {
  padding-bottom: 0;
 }
 .button1 {
-  height: 114px;
-  width: 119px;
+  height: 100%;
+  width: 100%;
 }
 .el3 {
   color: rgba(0, 19, 53);
@@ -173,22 +173,22 @@ img {
 .elements-grid {
   display: grid;
  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
+  gap: 2px;
   font-family: "Poppins", sans-serif;
-  padding: 10px;
+  padding: 5px;
   width: auto;
 }
 
 .button1 {
-  height: 118px;
-  width: 103px;
+  height: 122px;
+  width: 100%;
   padding-top: 2%;
 }
 
 
 .element {
   border: 1px solid rgb(15, 4, 57);
-  padding: 20px;
+  padding: 5px;
   text-align: center;
   border-radius: 6px;
   transition: 0.2s ease;
