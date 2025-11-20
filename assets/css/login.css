@@ -4,7 +4,7 @@ body {
 
     background-color:  white;
     padding-top: 62px; /*pushes the top of the header down under fixed navbar*/
-    min-height: 100vh; /*pushes the footer to the bootom*/
+    min-height: 100vh; /*pushes the footer to the bootom*/ /*Success page*/
 }
 /*Navbar custom CSS style*/
 
@@ -119,15 +119,32 @@ body {
       background: white;
     }
 
+
+
+    /*Success page*/
  /*To bring a footer to the bottom*/
 .content {
       flex: 1;
       margin: 2rem;
 }
    
+    .btn-outline-dark {
+      color: white;
+      background-color:rgb(15, 4, 57);
+      transition: 0.3s;
+      border-radius: 30px;
+      padding: 10px 20px;
+    }
 
+  .btn-outline-dark:hover {
+      border: 1px solid rgb(15, 4, 57);
+      border-radius: 30px;
+      padding: 10px 20px;
+      background-color: transparent;
+      color:rgb(15, 4, 57);
+    }
 
-
+/*Success page*/
     /*Contact info*/
 #contact1 {
   background-color: rgba(0, 19, 53);
