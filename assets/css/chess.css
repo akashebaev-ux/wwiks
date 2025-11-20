@@ -165,7 +165,7 @@ img {
 
 
 /* Media queries medium screens */
-@media (min-width: 400px) {
+@media (man-width: 400px) {
 
 
 /*Media queries for buttons*/
@@ -202,7 +202,12 @@ img {
   text-align: center;
 }
 
-
+.element p {
+  margin: 0;
+   text-align: center;
+  font-size: auto;
+  color: rgb(15, 4, 57);
+}
 
 }
 
