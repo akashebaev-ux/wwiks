@@ -307,7 +307,7 @@ main #about * {
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 97%;  
+  font-size: 95%;  
   font-weight: 500;   
   padding: 0.2rem 0.2rem; 
   margin-right: 10px;}
