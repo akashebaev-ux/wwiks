@@ -76,10 +76,14 @@ body {
     }
 
 
-    h1, p {
+    .content h1, p {
       color: rgb(15, 4, 57);
        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 
+    }
+
+    .footer p {
+      color: white;
     }
 
 
@@ -118,6 +122,7 @@ body {
  /*To bring a footer to the bottom*/
 .content {
       flex: 1;
+      margin: 2rem;
 }
    
 
@@ -169,7 +174,7 @@ body {
 
 
     /* Media queries */
-@media (max-width: 739px) {
+@media (max-width: 760px) {
 
 
     .social-btn {
