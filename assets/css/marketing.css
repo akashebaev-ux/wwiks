@@ -309,9 +309,24 @@ background-color:rgb(37, 8, 155);
 
 #All-inclusive {
 
-  padding-top: 4.2rem;
+  scroll-margin-top: 100px;
+
+  margin-top: 20px;
+  text-align: center;
+   font-family: "DM Serif-Display", serif;
+   font-size: xx-large;
+   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+
+}
+.inclusive2{
+   margin-top: 20px;
+   font-family: "Poppins", serif;
+   font-size: larger;
+  
+   padding: 20px;
 }
 
+ 
 
 
 
@@ -399,7 +414,13 @@ form {
 
     text-align: center;
 }
-
+.inclusive2{
+   margin-top: 20px;
+   font-family: "Poppins", serif;
+   font-size: larger;
+  
+   padding: 5px;
+}
 
  }
 
