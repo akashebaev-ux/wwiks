@@ -367,7 +367,7 @@ color: rgb(15, 4, 57);
 @media (max-width: 1200px) {
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 95%;  
+  font-size: 92%;  
   font-weight: 500;   
   padding: 0.2rem 0.2rem;
   margin-right: 5px;}
