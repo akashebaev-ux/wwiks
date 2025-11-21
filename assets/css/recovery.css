@@ -5,8 +5,8 @@
 
 
     body {
-      font-family: "Poppins" sans-serif;
-      background-color: #fff;
+      font-family: "Poppins", sans-serif;
+      background-color: white;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -60,7 +60,7 @@
       transition: all 0.2s ease;
     }
     .back-btn {
-  background-color: #fff;
+  background-color: white;
   color: rgba(0, 19, 53);
   padding: 0.7rem 2rem;
   border-radius: 25px;
@@ -71,13 +71,17 @@
 
 .back-btn:hover {
   background-color: rgb(160, 106, 218);
-  color: #fff;
+  color: white;
 }
 
     .next-btn {
       background-color:rgba(0, 19, 53);
       color: white;
       border: none;
+      text-decoration: none;
+      border: 1px solid rgba(0, 19, 53);
+  font-weight: bold;
+  padding: 0.7rem 2rem;
     }
     .next-btn:hover {
       background-color: rgb(160, 106, 218);
