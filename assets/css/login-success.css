@@ -16,7 +16,7 @@ body {
 
 /*Log in section*/
 body {
-      background-color: #fff;
+      background-color: white;
       font-family: 'Poppins', sans-serif;
       display: flex;
       flex-direction: column;
@@ -63,13 +63,13 @@ body {
       border-radius: 30px;
       padding: 10px 20px;
       color: rgb(15, 4, 57);
-      background-color: #ffffff;
+      background-color: white;
       transition: 0.3s;
     }
 
     .btn-email:hover {
       background-color: rgb(15, 4, 57);
-      color: #ffffff;
+      color: white;
     }
     .email {
         color: rgb(160, 106, 218);
@@ -175,8 +175,6 @@ body {
 
     color: rgb(160, 106, 218);
     font-size: 1.9rem;
-    -webkit-transition: color 0.3s ease-in-out;
-    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
