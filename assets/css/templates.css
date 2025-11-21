@@ -25,7 +25,7 @@ color: rgb(15, 4, 57);
 
 }
 .navbar .btn-primary {
-  color: #ffffff !important;
+  color: white !important;
   justify-content: center;
   background-color:   rgb(15, 4, 57);
 }
@@ -47,7 +47,7 @@ color: rgb(160, 106, 218);
     height: 16vh;
     display: flex;
     justify-content: center;
-    align-items: top;   
+    align-items: flex-start;   
     font-family: "DM Serif-Display", serif;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     color: rgb(15, 4, 57);
@@ -135,9 +135,7 @@ color: rgb(160, 106, 218);
 .social-links i {
 
     color: rgb(160, 106, 218);
-    font-size: 1.9rem;
-    -webkit-transition: color 0.3s ease-in-out;
-    -o-transition: color 0.3s ease-in-out;
+    font-size: 1.9rem; 
     transition: color 0.3s ease-in-out;
 }
  .social-links i:hover {
@@ -188,7 +186,7 @@ form {
     height: 24vh; /*make smaller the margin top*/
     display: flex;
     justify-content: center;
-    align-items: top;   
+    align-items: flex-start;   
     font-family: "DM Serif-Display", serif;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     color: rgb(15, 4, 57);
@@ -229,7 +227,7 @@ margin-right: 0px; }}
     height: 24vh; /*make smaller the margin top*/
     display: flex;
     justify-content: center;
-    align-items: top;   
+    align-items: flex-start;   
     font-family: "DM Serif-Display", serif;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     color: rgb(15, 4, 57);
