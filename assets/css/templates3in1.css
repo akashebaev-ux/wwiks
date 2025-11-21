@@ -59,7 +59,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 120px);
   gap: 25px;
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .element {
@@ -292,7 +292,7 @@ margin-right: 0px;}
 
   .element {
   border: 1px solid rgb(15, 4, 57);
-  padding: auto;
+  padding: 5px;
   text-align: center;
   border-radius: 2px;
   transition: 0.2s ease;
@@ -303,9 +303,9 @@ margin-right: 0px;}
 .elements-grid {
   display: grid;
  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: auto;
+  gap: 10px;
   font-family: "Poppins", sans-serif;
-  padding: auto;
+  padding: 5px;
   width: 100%;
 }
 .col-lg-4 {
@@ -314,7 +314,7 @@ margin-right: 0px;}
 .element p {
   margin: 0;
    text-align: center;
-  font-size: auto;
+  font-size: 97%;
   color: rgb(15, 4, 57);
 }
 }  
