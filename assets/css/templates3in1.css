@@ -112,7 +112,7 @@ label span {
 .el3 {
   color: rgba(0, 19, 53);
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
@@ -128,7 +128,7 @@ label span {
   background-color: rgba(0, 19, 53);
   color: white;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
 
 
 
@@ -166,7 +166,7 @@ label span {
 
   text-align: left !important;
  
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
 
 }
 
@@ -210,7 +210,7 @@ label span {
 .el3 {
   color: rgba(0, 19, 53);
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 

@@ -9,12 +9,12 @@ body {
 h1 {
     color: rgb(15, 4, 57); 
      text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
-    font-family: "DM Serif-Display", serif;
+    font-family: "DM Serif Display", serif;
 }
 h2 {
 
     color: rgb(160, 106, 218);
-    font-family: "Poppins", serif;
+    font-family: "Poppins", sans-serif;
 }
 
 /*Navbar custom CSS style*/
@@ -33,7 +33,7 @@ color: rgb(15, 4, 57);
 
 }
 .navbar .btn-primary {
-  color: #ffffff !important;
+  color: white !important;
   justify-content: center;
   background-color:   rgb(15, 4, 57);
 }
@@ -53,7 +53,7 @@ color: rgb(160, 106, 218);
 /*header button*/
 
 .btn-primary {
-  color: #ffffff !important;
+  color: white !important;
   justify-content: center;
   background-color:   rgb(15, 4, 57);
 }
@@ -150,7 +150,7 @@ main #about {
 
 }
 #contact1 .color1 {
-  font-family: "DM Serif-Display", serif;
+  font-family: "DM Serif Display", serif;
    color: rgb(160, 106, 218);
 }
 
@@ -168,9 +168,7 @@ main #about {
 #contact .social-links i {
 
     color: rgb(160, 106, 218);
-    font-size: 1.9rem;
-    -webkit-transition: color 0.3s ease-in-out;
-    -o-transition: color 0.3s ease-in-out;
+    font-size: 1.9rem; 
     transition: color 0.3s ease-in-out;
 }
 
@@ -183,7 +181,7 @@ main #about {
 
   text-align: left !important;
  
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
 
 }
 
@@ -256,7 +254,7 @@ color: rgb(15, 4, 57);
   margin-right: 0.5rem;}
 
   .navbar .btn-primary * {
-  color: #ffffff !important;
+  color: white !important;
   background-color:   rgb(15, 4, 57);
   width: 100px;
 }
@@ -322,7 +320,7 @@ margin-right: 0px; }
     padding: 10px 24px;
   }
  #hero {
-    background-image: url("../images/final-background-for-developers.png");
+    background-image: url("assets/images/background-for-developers1.png");
       background-size: cover;      
   background-position: 53% center; 
   background-repeat: no-repeat;
@@ -361,7 +359,7 @@ margin-right: 0px; }
     padding: 10px 24px;
   }
  #hero {
-    background-image: url("../images/background.png");
+    background-image: url("assets/images/background-for-developers1.png");
       background-size: cover;      
   background-position: 53% center; 
   background-repeat: no-repeat;

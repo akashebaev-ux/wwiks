@@ -44,7 +44,7 @@ color: rgb(160, 106, 218);
 
 #hero h1, 
 h2 {
-    font-family: "DM Serif-Display", serif;
+    font-family: "DM Serif Display", serif;
     color: whitesmoke;
     
 }
@@ -174,13 +174,13 @@ main #about * {
 /*Contact section*/
 #contact {
     background-color: white;
-    font-family: "Poppins", serif;
+    font-family: "Poppins", sans-serif;
     
 }
 #contact h2 {
     color: rgb(15, 4, 57); 
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
-    font-family: "DM Serif-Display", serif;
+    font-family: "DM Serif Display", serif;
 }
 
 .custom-button {
@@ -220,7 +220,7 @@ main #about * {
 
 }
 #contact1 .color1 {
-  font-family: "DM Serif-Display", serif;
+  font-family: "DM Serif Display", serif;
    color: rgb(160, 106, 218);
 }
 
@@ -295,14 +295,14 @@ background-color:rgb(37, 8, 155);
 
   margin-top: 20px;
   text-align: center;
-   font-family: "DM Serif-Display", serif;
+   font-family: "DM Serif Display", serif;
    font-size: xx-large;
    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 
 }
 .inclusive2{
    margin-top: 20px;
-   font-family: "Poppins", serif;
+   font-family: "Poppins", sans-serif;
    font-size: larger;
   
    padding: 20px;
@@ -386,7 +386,7 @@ form {
 }
 .inclusive2{
    margin-top: 20px;
-   font-family: "Poppins", serif;
+   font-family: "Poppins", sans-serif;
    font-size: larger;
   
    padding: 5px;

@@ -41,7 +41,7 @@ color: rgb(160, 106, 218);
 section {
             color: rgb(15, 4, 57); 
      text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
-    font-family: "DM Serif-Display", serif;
+    font-family: "DM Serif Display", serif;
     padding: 20px;
 }
 
@@ -76,13 +76,13 @@ section {
   background-color: rgba(0, 19, 53);
   color: white;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
 
 
 
 }
 #contact1 .color1 {
-  font-family: "DM Serif-Display", serif;
+  font-family: "DM Serif Display", serif;
    color: rgb(160, 106, 218);
 }
 

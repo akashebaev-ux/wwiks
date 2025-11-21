@@ -21,7 +21,7 @@ color: rgb(15, 4, 57);
 
 }
 .navbar .btn-primary {
-  color: #ffffff !important;
+  color: white !important;
   justify-content: center;
   background-color:   rgb(15, 4, 57);
 }
@@ -44,7 +44,7 @@ color: rgb(160, 106, 218);
 
 #hero h1, 
 h2 {
-    font-family: "DM Serif-Display", serif;
+    font-family: "DM Serif Display", serif;
     color: whitesmoke;
     
 }
@@ -91,7 +91,7 @@ h2 {
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
 }
 #hero .btn-primary {
-  color: #ffffff !important;
+  color: white !important;
   justify-content: center;
   background-color:   rgb(15, 4, 57);
 }
@@ -185,7 +185,7 @@ main #about * {
 #contact h2 {
     color: rgb(15, 4, 57); 
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
-    font-family: "DM Serif-Display", serif;
+    font-family: "DM Serif Display", serif;
 }
 
 .custom-button {
@@ -199,7 +199,7 @@ main #about * {
 }
 .custom-button:hover {
  background-color: rgb(15, 4, 57);
-      color: #fff;
+      color: white;
     }
      footer {
       text-align: center;
@@ -253,7 +253,7 @@ main #about * {
 
   text-align: left !important;
  
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
 
 }
 
