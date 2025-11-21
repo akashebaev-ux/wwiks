@@ -31,7 +31,7 @@ color: rgb(15, 4, 57);
 
 }
 .navbar .btn-primary {
-  color: #ffffff !important;
+  color: white !important;
   justify-content: center;
   background-color:   rgb(15, 4, 57);
 }
@@ -48,7 +48,7 @@ color: rgb(160, 106, 218);
 
 }
 
-/*Main chess section*/
+/*Main section*/
 
 img {
 
@@ -74,6 +74,12 @@ img {
 .element:hover {
  border: 3px solid  rgb(160, 106, 218);
  transform: scale(1.05);
+}
+
+label span {
+
+  font-size: 15.52px;
+  color: rgb(15, 4, 57);
 }
 
 .icon {
@@ -232,7 +238,7 @@ color: rgb(15, 4, 57);
   margin-right: 0.5rem;}
 
   .navbar .btn-primary * {
-  color: #ffffff !important;
+  color: white !important;
   background-color:   rgb(15, 4, 57);
   width: 100px;
 }
@@ -263,6 +269,12 @@ form {
   padding: 0px;
   width: auto;
 }
+
+label span {
+
+  font-size: 15.52px;
+  color: rgb(15, 4, 57);
+}
 }
 
 
@@ -275,6 +287,12 @@ color: rgb(15, 4, 57);
   font-size: 97%;  
   font-weight: 500;   
   padding: 0.2rem 0.2rem; }
+
+  label span {
+
+  font-size: 15.52px;
+  color: rgb(15, 4, 57);
+}
  }
  
 
@@ -315,6 +333,12 @@ margin-right: 0px;}
   margin: 0;
    text-align: center;
   font-size: 97%;
+  color: rgb(15, 4, 57);
+}
+
+label span {
+
+  font-size: 15.52px;
   color: rgb(15, 4, 57);
 }
 }  
