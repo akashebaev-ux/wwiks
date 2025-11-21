@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
+
+
+/*Recovery section*/
+
+
+    body {
+      font-family: "Poppins" sans-serif;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      text-align: center;
+      max-width: 600px;
+    }
+    h1 {
+      font-size: 2.8rem;
+      color:rgb(160, 106, 218);
+      margin-bottom: 0.5rem;
+    }
+    form {
+      margin-top: 2rem;
+      text-align: left;
+      display: inline-block;
+    }
+    .option {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+      color: rgba(0, 19, 53);
+    }
+    input[type="radio"] {
+      accent-color: rgba(0, 19, 53);
+      margin-right: 10px;
+    }
+    .buttons {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+    button {
+      font-size: 1rem;
+      padding: 0.7rem 2rem;
+      border-radius: 25px;
+      border: 1px solid #dadce0;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .back-btn {
+  background-color: #fff;
+  color: rgba(0, 19, 53);
+  padding: 0.7rem 2rem;
+  border-radius: 25px;
+  text-decoration: none;
+  border: 1px solid rgba(0, 19, 53);
+  font-weight: bold;
+}
+
+.back-btn:hover {
+  background-color: rgb(160, 106, 218);
+  color: #fff;
+}
+
+    .next-btn {
+      background-color:rgba(0, 19, 53);
+      color: white;
+      border: none;
+    }
+    .next-btn:hover {
+      background-color: rgb(160, 106, 218);
+    }
+    .language {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 0.95rem;
+      color: #3c4043;
+    }
+  
