@@ -49,7 +49,7 @@ section {
 /*Main section*/
 
 .myvideo {
-    width: cover;
+    width: 100%;
     border: 3px solid black;
     border-radius: 15px;
     height: 500px;
@@ -101,9 +101,7 @@ section {
 
     color: rgb(160, 106, 218);
     font-size: 1.9rem;
-    -webkit-transition: color 0.3s ease-in-out;
-    -o-transition: color 0.3s ease-in-out;
-    transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out; 
 }
 
 .social-links i:hover {
@@ -144,7 +142,7 @@ form {
 /*Main section for smaller screens*/
 
 .myvideo {
-    width: 84%;
+    width: 100%;
     border: 3px solid black;
     border-radius: 15px;
     height: auto;
