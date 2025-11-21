@@ -121,6 +121,7 @@ main #about * {
 }   
 
 #templates h2 {
+  color: rgb(160, 106, 218);
     text-shadow: 4px 4px 10px rgb(255, 255, 255, 0.3);
 }
 
