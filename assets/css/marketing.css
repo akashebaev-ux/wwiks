@@ -21,7 +21,7 @@ color: rgb(15, 4, 57);
 
 }
 .navbar .btn-primary {
-  color: #ffffff !important;
+  color: white !important;
   justify-content: center;
   background-color:   rgb(15, 4, 57);
 }
@@ -38,42 +38,9 @@ color: rgb(160, 106, 218);
 
 }
 
+  
 
-
-/*Hero section*/
-
-#hero h1, 
-h2 {
-    font-family: "DM Serif Display", serif;
-    color: whitesmoke;
-    
-}
- 
- 
-#hero div {
-  position: absolute;
-  bottom: 1vh;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-  color: white;
-  text-align: center;
-
-}
-#hero div {
-  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
-}
-#hero .btn-primary {
-  color: #ffffff !important;
-  justify-content: center;
-  background-color:   rgb(15, 4, 57);
-}
-#hero .btn-primary:hover {
-background-color:  rgb(37, 8, 155);
-
-}
-
-/*About section*/
+/*About section*/ 
 main #about * {
     color: rgb(15, 4, 57);
 
@@ -298,6 +265,7 @@ background-color:rgb(37, 8, 155);
    font-family: "DM Serif Display", serif;
    font-size: xx-large;
    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+   color: rgb(15, 4, 57);
 
 }
 .inclusive2{
@@ -306,6 +274,8 @@ background-color:rgb(37, 8, 155);
    font-size: larger;
   
    padding: 20px;
+   color: rgb(15, 4, 57);
+
 }
 
  

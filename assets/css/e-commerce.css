@@ -38,22 +38,32 @@ color: rgb(160, 106, 218);
 
 }
 
-section {
+section h2 {
             color: rgb(15, 4, 57); 
-     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
     font-family: "DM Serif Display", serif;
     padding: 20px;
 }
+section h1{
+    color: rgb(160, 106, 218);
+      font-family: "Poppins", sans-serif;
+}
 
+section p {
+    color: rgb(15, 4, 57); 
+    padding: 1rem 5rem;
+}
 
 /*Main section*/
 
 .myvideo {
+  max-width: 100%;
     width: auto;
     border: 3px solid black;
     border-radius: 15px;
     height: 500px;
-    margin: 2rem 2rem;
+    margin: 2rem auto;
+    display: block;
 }
 .video-container {
 
@@ -120,10 +130,10 @@ color: rgb(15, 4, 57);
   font-size: 92%;  
   font-weight: 500;   
   padding: 0.5rem 1rem; 
-  margin-right: 10px;}
+  margin-right: 0px;}
 
   .navbar .btn-primary * {
-  color: #ffffff !important;
+  color: white !important;
   background-color:   rgb(15, 4, 57);
   width: 100px;
 }
@@ -139,14 +149,18 @@ form {
   width: 100%;
   padding: 2rem;
 }
+
+section p {
+    color: rgb(15, 4, 57); 
+    padding: 1rem 2rem;} 
 /*Main section for smaller screens*/
 
 .myvideo {
-    width: auto;
+    width: 85%;
     border: 3px solid black;
     border-radius: 15px;
     height: auto;
-    margin: 2rem 2rem;
+    margin: 1rem auto;
 }
 .video-container {
 
@@ -166,6 +180,12 @@ color: rgb(15, 4, 57);
   padding: 0.2rem 0.2rem;
 margin-right: 5px }
 
+section h1{
+    color: rgb(160, 106, 218);
+      font-family: "Poppins", sans-serif;
+      padding: 0.5rem 2rem;
+}
+
  }
 
 
@@ -177,6 +197,6 @@ color: rgb(15, 4, 57);
   font-size: 95%;  
   font-weight: 500;   
   padding: 0.2rem 0.2rem;
-margin-right: 5px }
+margin-right: 0px }
 
  }

@@ -217,6 +217,7 @@ main #about * {
   background-color: rgba(0, 19, 53);
   color: white;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  font-family: "Poppins", sans-serif;
 
 }
 #contact1 .color1 {
