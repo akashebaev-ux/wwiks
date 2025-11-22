@@ -21,7 +21,7 @@ color: rgb(15, 4, 57);
 
 }
 .navbar .btn-primary {
-  color: #ffffff !important;
+  color: white !important;
   justify-content: center;
   background-color:   rgb(15, 4, 57);
 }
@@ -130,7 +130,7 @@ color: rgb(15, 4, 57);
   font-size: 92%;  
   font-weight: 500;   
   padding: 0.5rem 1rem; 
-  margin-right: 0px;}
+  }
 
   .navbar .btn-primary * {
   color: white !important;
@@ -175,10 +175,9 @@ section p {
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 92%;  
+  font-size: 95%;  
   font-weight: 500;   
-  padding: 0.2rem 0.2rem;
-margin-right: 5px }
+  padding: 0.2rem 0.2rem;}
 
 section h1{
     color: rgb(160, 106, 218);

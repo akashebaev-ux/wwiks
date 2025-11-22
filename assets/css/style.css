@@ -179,7 +179,7 @@ main #about * {
 /*Contact section*/
 #contact {
     background-color: white;
-    font-family: "Poppins", serif;
+    font-family: "Poppins", sans-serif;
     
 }
 #contact h2 {
@@ -264,12 +264,56 @@ main #about * {
 
 
 
+ 
+ 
+ 
+/* Media queries medium screens */
+@media (max-width: 760px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 92%;  
+  font-weight: 500;   
+  padding: 0.5rem 1rem; }
+
+  .navbar .btn-primary * {
+  color: white !important;
+  background-color:   rgb(15, 4, 57);
+  width: 100px;
+}
+.navbar .btn-primary:hover {
+background-color:  rgb(37, 8, 155);
+
+}
+.navbar-nav * {
+  width: 100px !important;
+}
+form {
+
+  width: 100%;
+  padding: 2rem;
+}
+.custom-button {
+  width: 40%;
+  padding: 8px 0;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  color:rgb(15, 4, 57);
+  border-color: rgb(15, 4, 57);
+}
+.custom-button:hover {
+ background-color: rgb(15, 4, 57);
+      color: white;
+    }
+
+#contact .my-4 {
+  margin: 0 !important;
+}
+ }
 
 
-
-
-
-/* Media queries - to move div closer to the bottom on small screens */
+ /* Media queries - to move div closer to the bottom on small screens */
 @media (max-width: 768px) {
  
 
@@ -308,60 +352,13 @@ main #about * {
   display: flex;}}
 
 
-
-
-/* Media queries medium screens */
-@media (max-width: 760px) {
-   /*to make the navbar collapse properly*/
- .navbar * {
-color: rgb(15, 4, 57);
-  font-size: 95%;  
-  font-weight: 500;   
-  padding: 0.2rem 0.2rem; 
-  margin-right: 5px;}
-
-  .navbar .btn-primary * {
-  color: #ffffff !important;
-  background-color:   rgb(15, 4, 57);
-  width: 100px;
-}
-.navbar .btn-primary:hover {
-background-color:  rgb(37, 8, 155);
-
-}
-.navbar-nav * {
-  width: 100px !important;
-}
-form {
-
-  width: 100%;
-  padding: 2rem;
-}
-.custom-button {
-  width: 40%;
-  padding: 8px 0;
-  font-size: 1.2rem;
-  border-radius: 10px;
-  margin-bottom: 30px;
-  color:rgb(15, 4, 57);
-  border-color: rgb(15, 4, 57);
-}
-.custom-button:hover {
- background-color: rgb(15, 4, 57);
-      color: #fff;
-    }
-
-#contact .my-4 {
-  margin: 0 !important;
-}
- }
-
+ 
 /* Media queries medium screens */
 @media (max-width: 1000px) {
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 92%;  
+  font-size: 95%;  
   font-weight: 500;   
   padding: 0.2rem 0.2rem; }
 
@@ -373,10 +370,9 @@ color: rgb(15, 4, 57);
 @media (max-width: 1200px) {
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 92%;  
+  font-size: 95%;  
   font-weight: 500;   
-  padding: 0.2rem 0.2rem;
-  margin-right: 5px;}
+  padding: 0.2rem 0.2rem;}
 
 
   #hero div {

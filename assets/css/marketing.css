@@ -156,7 +156,7 @@ main #about * {
   font-size: 1.2rem;
   border-radius: 10px;
   margin-bottom: 30px;
-  color: #fff;
+  color: white;
   background-color: rgb(15, 4, 57);
 }
 .custom-button:hover {
@@ -218,7 +218,7 @@ main #about * {
 
   text-align: left !important;
  
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
 
 }
 
@@ -228,11 +228,11 @@ main #about * {
 .marketing h2 {
    color: rgb(15, 4, 57); 
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
-    font-family: "DM Serif-Display", serif;
+    font-family: "DM Serif Display", serif;
 }
 .promotions {
 
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
  
 }
 .marketing p {
@@ -242,11 +242,11 @@ main #about * {
 h3 {
 
 color:rgb(160, 106, 218);
- font-family: "Poppins", serif;
+ font-family: "Poppins", sans-serif;
 }
 .btn {
 
-  color:#ffffff !important;
+  color:white !important;
   justify-content: center;
   background-color:rgb(15, 4, 57);
 }
@@ -281,51 +281,23 @@ background-color:rgb(37, 8, 155);
  
 
 
+  
 
-
-/* Media queries - to move div closer to the bottom on small screens */
-@media (max-width: 768px) {
- 
-  #hero div {
-    bottom: 6vh;          
-  }
-
-  #hero h1 {
-    font-size: 1.8rem;
-  }
-
-  #hero h2 {
-    font-size: 1.2rem;
-  }
-
-  #hero p {
-    font-size: 1rem;
-  }
-
-  #hero .btn-primary {
-    font-size: 0.9rem;
-    padding: 10px 24px;
-  }
+  
 
     
-}
-
-
-
-
 
 /* Media queries medium screens */
 @media (max-width: 760px) {
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 95%;  
+  font-size: 92%;  
   font-weight: 500;   
-  padding: 0.5rem 0.1rem; 
-  margin-right: 1rem;}
+  padding: 0.5rem 1rem;}
 
   .navbar .btn-primary * {
-  color: #ffffff !important;
+  color: white !important;
   background-color:   rgb(15, 4, 57);
   width: 100px;
 }
@@ -364,6 +336,33 @@ form {
 
  }
 
+ /* Media queries - to move div closer to the bottom on small screens */
+@media (max-width: 768px) {
+ 
+  #hero div {
+    bottom: 6vh;          
+  }
+
+  #hero h1 {
+    font-size: 1.8rem;
+  }
+
+  #hero h2 {
+    font-size: 1.2rem;
+  }
+
+  #hero p {
+    font-size: 1rem;
+  }
+
+  #hero .btn-primary {
+    font-size: 0.9rem;
+    padding: 10px 24px;
+  }
+
+    
+}
+
 /* Media queries medium screens */
 @media (max-width: 1000px) {
    /*to make the navbar collapse properly*/
@@ -371,8 +370,7 @@ form {
 color: rgb(15, 4, 57);
   font-size: 95%;  
   font-weight: 500;   
-  padding: 0.2rem 0.2rem;
-margin-right: 0px; }
+  padding: 0.2rem 0.2rem;}
 
   /*Main section for smaller screens*/
 

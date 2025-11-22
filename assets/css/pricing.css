@@ -22,7 +22,7 @@ color: rgb(15, 4, 57);
 
 }
 .navbar .btn-primary {
-  color: #ffffff !important;
+  color: white !important;
   justify-content: center;
   background-color:   rgb(15, 4, 57);
 }
@@ -55,7 +55,7 @@ header nav {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
-  background: #fff;
+  background: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -102,7 +102,7 @@ header nav {
 }
 
 .plan {
-  background: #fff;
+  background: white;
   border-radius: 1rem;
   padding: 2rem;
   width: 270px;
@@ -168,11 +168,10 @@ header nav {
 color: rgb(15, 4, 57);
   font-size: 92%;  
   font-weight: 500;   
-  padding: 0.2rem 0.2rem; 
-  margin-right: 0px;}
+  padding: 0.5rem 0.1rem; }
 
 .btn-primary * {
-  color: #ffffff !important;
+  color: white !important;
   background-color:   rgb(15, 4, 57);
   width: 100px;
 }
@@ -190,7 +189,7 @@ background-color:  rgb(37, 8, 155);
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 92%;  
+  font-size: 95%;  
   font-weight: 500;   
   padding: 0.2rem 0.2rem; }
 

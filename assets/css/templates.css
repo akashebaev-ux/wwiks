@@ -162,11 +162,10 @@ color: rgb(160, 106, 218);
 color: rgb(15, 4, 57);
   font-size: 92%;  
   font-weight: 500;   
-  padding: 0.5rem 1rem; 
-  margin-right: 0.5rem;}
+  padding: 0.5rem 1rem;}
 
   .navbar .btn-primary * {
-  color: #ffffff !important;
+  color: white !important;
   background-color:   rgb(15, 4, 57);
   width: 100px;
 }
@@ -200,10 +199,9 @@ form {
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 92%;  
+  font-size: 95%;  
   font-weight: 500;   
-  padding: 0.2rem 0.2rem;
-margin-right: 5px; }
+  padding: 0.2rem 0.2rem;}
 
 
  }
@@ -216,8 +214,7 @@ margin-right: 5px; }
 color: rgb(15, 4, 57);
   font-size: 95%;  
   font-weight: 500;   
-  padding: 0.2rem 0.2rem;
-margin-right: 0px; }}
+  padding: 0.2rem 0.2rem; }}
 
  /* Media queries for Laptop  screens */
 @media (max-width: 1400px) {

@@ -232,10 +232,9 @@ label span {
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 95%;  
+  font-size: 92%;  
   font-weight: 500;   
-  padding: 0.5rem 1rem; 
-  margin-right: 0.5rem;}
+  padding: 0.5rem 1rem;}
 
   .navbar .btn-primary * {
   color: white !important;
@@ -284,7 +283,7 @@ label span {
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 97%;  
+  font-size: 95%;  
   font-weight: 500;   
   padding: 0.2rem 0.2rem; }
 
@@ -305,8 +304,7 @@ color: rgb(15, 4, 57);
 color: rgb(15, 4, 57);
   font-size: 95%;  
   font-weight: 500;   
-  padding: 0.2rem 0.2rem;
-margin-right: 0px;}
+  padding: 0.2rem 0.2rem;}
 
   .element {
   border: 1px solid rgb(15, 4, 57);
