@@ -102,7 +102,11 @@ The project was created to help individuals and small businesses quickly build s
 
 5th page (template pages): 
 
+|   |   |   | 
+|---|---|---|
 
+
+|<img src="https://github.com/akashebaev-ux/wwiks/blob/41f60e5189cea4207ff8907281743d1cf6caed89/5th%20page%205.1%20%20chess%20template.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/41f60e5189cea4207ff8907281743d1cf6caed89/5th%20page%205.2%20tech%20template%20.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/41f60e5189cea4207ff8907281743d1cf6caed89/5th%20page%205.3%20travel%20template%20.png" width="250">|
 
 
 6th page (login and recover pages): 
