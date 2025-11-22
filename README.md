@@ -65,10 +65,11 @@ The project was created to help individuals and small businesses quickly build s
 
 [![Watch the video] (https://www.youtube.com/watch?v=BJ4AtZyiUq4)
 
-1st page (home page): 
+1st page (home page):
+
+
 <img src="https://github.com/akashebaev-ux/wwiks/blob/d2efe1ac234562e4656da2a006d510458e62ae12/1st%20page%201.1%20home%20page.png" width="250">
 <img src="https://github.com/akashebaev-ux/wwiks/blob/86b03916a39744b043db598f34cbc3a5e0f9d80e/1st%20page%201.2%20home%20page.png" width="250">
-
 <img src="https://github.com/akashebaev-ux/wwiks/blob/86b03916a39744b043db598f34cbc3a5e0f9d80e/1st%20page%201.3%20home%20page.png" width="250">
 <img src="https://github.com/akashebaev-ux/wwiks/blob/86b03916a39744b043db598f34cbc3a5e0f9d80e/1st%20page%201.4%20home%20page%20(footer).png" width="250">
 
