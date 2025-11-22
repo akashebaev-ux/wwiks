@@ -107,7 +107,11 @@ The project was created to help individuals and small businesses quickly build s
 
 6th page (login and recover pages): 
 
+|   |   | 
+|---|---|
 
+
+|<img src="https://github.com/akashebaev-ux/wwiks/blob/2e4e2a826e75448ea074a89b6310434fe3b8f122/6th%20page%206.1%20login.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/2e4e2a826e75448ea074a89b6310434fe3b8f122/6th%20page%206.2%20recover.png" width="250">|
 
 
 7th page (pricing page): 
