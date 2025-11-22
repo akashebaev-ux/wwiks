@@ -47,11 +47,7 @@ main #about * {
 }
 #about{
     background-color: white;
-}
-.about {
-  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
-
-}
+} 
 
 /*About section video openart ai*/
 
@@ -115,23 +111,8 @@ main #about * {
       transform: scale(1.05);
     }
 
-
-
-/*Templates section*/
-
- .image-row {
-      display: flex;
-      justify-content: start; 
-      gap: 10px;
-    }
-
-    .image-row img {
-      width: 400px; 
-      border-radius: 5px; 
-      height: 30rem;
-    }
-
-
+ 
+ 
 /*All-inclusive*/
 
 #all-inclusive5{
@@ -150,26 +131,7 @@ main #about * {
     font-family: "DM Serif Display", serif;
 }
 
-.custom-button {
-  width: 20%;
-  padding: 8px 0;
-  font-size: 1.2rem;
-  border-radius: 10px;
-  margin-bottom: 30px;
-  color: white;
-  background-color: rgb(15, 4, 57);
-}
-.custom-button:hover {
-  color:rgb(15, 4, 57) !important;
-  border-color: rgb(15, 4, 57);
-  background-color: transparent !important;
-  border-radius: 10px;
-  border-width: 2px;
-  margin-bottom: 30px;
-    width: 20%;
-  padding: 8px 0;
-  font-size: 1.2rem;
-    }
+
      footer {
       text-align: center;
       margin-top: 40px;
@@ -308,11 +270,8 @@ background-color:  rgb(37, 8, 155);
 .navbar-nav * {
   width: 100px !important;
 }
-form {
 
-  width: 100%;
-  padding: 2rem;
-}
+ 
 /*Main section for smaller screens*/
 
 .myvideo {
@@ -339,27 +298,6 @@ form {
  /* Media queries - to move div closer to the bottom on small screens */
 @media (max-width: 768px) {
  
-  #hero div {
-    bottom: 6vh;          
-  }
-
-  #hero h1 {
-    font-size: 1.8rem;
-  }
-
-  #hero h2 {
-    font-size: 1.2rem;
-  }
-
-  #hero p {
-    font-size: 1rem;
-  }
-
-  #hero .btn-primary {
-    font-size: 0.9rem;
-    padding: 10px 24px;
-  }
-
     
 }
 
@@ -408,26 +346,7 @@ color: rgb(15, 4, 57);
   padding: 0.2rem 0.2rem;
   ;
 }
-  #hero div {
-    bottom: 8vh;          
-  }
 
-  #hero h1 {
-    font-size: 1.8rem;
-  }
-
-  #hero h2 {
-    font-size: 1.2rem;
-  }
-
-  #hero p {
-    font-size: 1rem;
-  }
-
-  #hero .btn-primary {
-    font-size: 0.9rem;
-    padding: 10px 24px;
-  }
 
 .myvideo {
     width: 100%;
@@ -447,28 +366,6 @@ color: rgb(15, 4, 57);
 /* Media queries move div closer to the center on laptop & PC screens */
 @media (max-width: 1400px) {
  
-  #hero div {
-    bottom: 8vh;          
-  }
-
-  #hero h1 {
-    font-size: 1.8rem;
-  }
-
-  #hero h2 {
-    font-size: 1.2rem;
-  }
-
-  #hero p {
-    font-size: 1rem;
-  }
-
-  #hero .btn-primary {
-    font-size: 0.9rem;
-    padding: 10px 24px;
-  }
-
-
   .myvideo {
     width: 100%;
     border: 3px solid black;
