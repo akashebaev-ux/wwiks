@@ -93,7 +93,11 @@ The project was created to help individuals and small businesses quickly build s
 
 4th page (the template page): 
 
+|   |   |   |   |
+|---|---|---|---|
 
+
+|<img src="https://github.com/akashebaev-ux/wwiks/blob/4d0a57de276c28ef75cc8af7e48020043f8f2bf1/4th%20page%204.1%20the%20template%20page.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/4d0a57de276c28ef75cc8af7e48020043f8f2bf1/4th%20page%204.2%20the%20template%20page.png" width="250">|
 
 
 5th page (template pages): 
