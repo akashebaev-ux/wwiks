@@ -63,7 +63,7 @@ The project was created to help individuals and small businesses quickly build s
 
 ## Visuals (print screens and video)
 
-[![Watch the video] (https://www.youtube.com/watch?v=BJ4AtZyiUq4)
+[![Watch the video](https://img.youtube.com/vi/BJ4AtZyiUq4/0.jpg)](https://www.youtube.com/watch?v=BJ4AtZyiUq4)
 
 1st page (home page):
 
