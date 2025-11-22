@@ -75,7 +75,11 @@ The project was created to help individuals and small businesses quickly build s
 
 2d page (for customers): 
 
+|   |   |   |   |
+|---|---|---|---|
 
+
+|<img src="https://github.com/akashebaev-ux/wwiks/blob/907e6fae7ae69cc7b17673b42244a7d0a6490d79/2d%20page%202.1%20for%20customers%20.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/907e6fae7ae69cc7b17673b42244a7d0a6490d79/2d%20page%202.2%20for%20customers.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/907e6fae7ae69cc7b17673b42244a7d0a6490d79/2d%20page%202.3%20for%20customers.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/907e6fae7ae69cc7b17673b42244a7d0a6490d79/2d%20page%202.4%20for%20customers%20(footer).png" width="250">|
 
 
 3rd page (for developers): 
