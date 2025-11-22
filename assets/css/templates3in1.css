@@ -108,14 +108,7 @@ label span {
 .button1 {
   height: 100%;
   width: 100%;
-}
-.el3 {
-  color: rgba(0, 19, 53);
-  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-}
-
+} 
 
 #file-input1 {
   display:none;
@@ -129,6 +122,7 @@ label span {
   color: white;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
   font-family: "Poppins", sans-serif;
+  text-align: left !important;
 
 
 
@@ -143,11 +137,7 @@ label span {
   color: white;
   margin-bottom: 2rem;
 }
-#contact i {
-    color: white;
-    font-size: 1.2rem;
-    margin-right: 15px;
-}
+
 
 .social-links i {
 
@@ -162,66 +152,13 @@ label span {
 
 }
 
-#contact1 {
 
-  text-align: left !important;
+
+
+
+
+
  
-  font-family: "Poppins", sans-serif;
-
-}
-
-
-
-
-
-
-
-/* Media queries medium screens */
-@media (man-width: 400px) {
-
-
-/*Media queries for buttons*/
-
-.elements-grid {
-  display: grid;
- grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
-  font-family: "Poppins", sans-serif;
-  padding: 5px;
-  width: auto;
-}
-
-.button1 {
-  height: 122px;
-  width: 100%;
-  padding-top: 2%;
-}
-
-
-.element {
-  border: 1px solid rgb(15, 4, 57);
-  padding: 5px;
-  text-align: center;
-  border-radius: 6px;
-  transition: 0.2s ease;
-  cursor: pointer;
-  width: 100%;
-}
-.el3 {
-  color: rgba(0, 19, 53);
-  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-}
-
-.element p {
-  margin: 0;
-   text-align: center;
-  font-size: 10px;
-  color: rgb(15, 4, 57);
-}
-
-}
 
 
 
@@ -236,7 +173,7 @@ color: rgb(15, 4, 57);
   font-weight: 500;   
   padding: 0.5rem 1rem;}
 
-  .navbar .btn-primary * {
+  .navbar .btn-primary {
   color: white !important;
   background-color:   rgb(15, 4, 57);
   width: 100px;
