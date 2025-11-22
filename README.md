@@ -84,7 +84,11 @@ The project was created to help individuals and small businesses quickly build s
 
 3rd page (for developers): 
 
+|   |   |   |   |
+|---|---|---|---|
 
+
+|<img src="https://github.com/akashebaev-ux/wwiks/blob/e43c1aca02c082fd977c15f1d242aeb1f1e6c156/3rd%20page%203.1%20for%20developers.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/e43c1aca02c082fd977c15f1d242aeb1f1e6c156/3rd%20page%203.2%20for%20developers%20.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/e43c1aca02c082fd977c15f1d242aeb1f1e6c156/3rd%20page%203.3%20for%20developers.png" width="250">|
 
 
 4th page (the template page): 
