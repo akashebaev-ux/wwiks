@@ -55,8 +55,8 @@ color: rgb(160, 106, 218);
     margin-bottom: 20px;
   }
 
-  input[type="text"] {
-    padding: 10px 15px;
+  input[type="search"] {
+    padding: 10px 42px;
     font-size: 16px;
     border-radius: 20px;
     border: 1px solid #ccc;
@@ -64,7 +64,7 @@ color: rgb(160, 106, 218);
     outline: none;
   }
 
-  input[type="text"]:focus {
+  input[type="search"]:focus {
     border-color: #0078ff;
     box-shadow: 0 0 5px rgba(0,120,255,0.4);
   }
@@ -126,11 +126,7 @@ color: rgb(160, 106, 218);
   color: white;
   margin-bottom: 2rem;
 }
-#contact i {
-    color: white;
-    font-size: 1.2rem;
-    margin-right: 15px;
-}
+
 
 .social-links i {
 
