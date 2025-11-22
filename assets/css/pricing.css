@@ -50,19 +50,7 @@ section {
    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-header nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 3rem;
-  background: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
 
-.logo {
-  font-size: 1.25rem;
-  font-weight: 600;
-}
 
 
 
@@ -143,10 +131,7 @@ header nav {
   color: rgb(15, 4, 57);
 }
 
-.recommended:hover {
-  border: 3px solid  rgb(160, 106, 218);
-}
-
+ 
 .badge {
   position: absolute;
   top: -12px;
