@@ -43,7 +43,7 @@ color: rgb(160, 106, 218);
 /*Hero section*/
 
 #hero h1, 
-h2 {
+#hero h2 {
     font-family: "DM Serif Display", serif;
     color: whitesmoke;
     
@@ -158,24 +158,8 @@ main #about * {
     .scroll-item:hover {
       transform: scale(1.05);
     }
-
-
-
-/*Templates section*/
-
- .image-row {
-      display: flex;
-      justify-content: start; 
-      gap: 10px;
-    }
-
-    .image-row img {
-      width: 400px; 
-      border-radius: 5px; 
-      height: 30rem;
-    }
-
-
+ 
+ 
 /*Contact section*/
 #contact {
     background-color: white;
