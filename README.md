@@ -67,6 +67,7 @@ The project was created to help individuals and small businesses quickly build s
 
 1st page (home page):
 
+|   |   |   |   |
 |---|---|---|---|
 
 
