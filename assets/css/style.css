@@ -369,8 +369,7 @@ form {
   background-repeat: no-repeat;
   height: 55vh;                
   width: 100%;                 
-  position: relative;         
-  
+  position: relative;          
   overflow: hidden;
   justify-content: center;
   text-align: center;
@@ -448,7 +447,7 @@ color: rgb(15, 4, 57);
   overflow: hidden;
   justify-content: center;
   text-align: center;
-  display: flex;
+  display: flex; }
   
   /*Adjust scroll images to a small screen*/
   .scroll-item img {
@@ -457,7 +456,7 @@ color: rgb(15, 4, 57);
       object-fit: cover;
     }
     
-}}
+}
 
 /* Media queries move div closer to the center on laptop & PC screens */
 @media (max-width: 1400px) {
@@ -494,7 +493,7 @@ color: rgb(15, 4, 57);
   overflow: hidden;
   justify-content: center;
   text-align: center;
-  display: flex;
+  display: flex;}
     
   /*Adjust scroll images to a small screen*/
   .scroll-item img {
@@ -502,4 +501,4 @@ color: rgb(15, 4, 57);
       height: 100%;
       object-fit: cover;
     }
-}}
+}
