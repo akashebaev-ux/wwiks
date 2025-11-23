@@ -50,6 +50,20 @@ background-color: transparent;
 
 }
 
+/* --- highlight child active--- */
+.nav-link.active,
+.dropdown-item.active {
+    color: rgb(160, 106, 218) !important;  
+    background-color: transparent !important; 
+   
+}
+
+/* ---highlight parent active --- */
+.nav-item.dropdown .nav-link.active {
+    color: rgb(160, 106, 218) !important;
+    
+}
+
 /*Main section*/
 
 img {

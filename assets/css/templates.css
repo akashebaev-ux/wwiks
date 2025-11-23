@@ -42,7 +42,24 @@ background-color: transparent;
     color:rgb(160, 106, 218);
     background-color: transparent;
 
-}/*Templates page*/
+}
+/* --- highlight child active--- */
+.nav-link.active,
+.dropdown-item.active {
+    color: rgb(160, 106, 218) !important;  
+    background-color: transparent !important; 
+   
+}
+
+/* ---highlight parent active --- */
+.nav-item.dropdown .nav-link.active {
+    color: rgb(160, 106, 218) !important;
+    
+}
+
+
+
+/*Templates page*/
 
 .search-form {
 
