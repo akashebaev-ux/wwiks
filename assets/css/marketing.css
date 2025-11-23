@@ -397,7 +397,8 @@ color: rgb(15, 4, 57);
 
     text-align: center;
 }
-/*Adjust scroll images to a small screen*/
+/*Adjust scroll images to a small screen on the marketing page*/
+
   .scroll-item img {
       width: auto;
       height: 100%;
