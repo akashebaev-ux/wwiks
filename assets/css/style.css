@@ -312,6 +312,15 @@ form {
 #contact .my-4 {
   margin: 0 !important;
 }
+
+
+/*Adjust scroll images to a small screen*/
+  .scroll-item img {
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+    }
+
  }
 
 
@@ -351,7 +360,16 @@ form {
   overflow: hidden;
   justify-content: center;
   text-align: center;
-  display: flex;}}
+  display: flex;}
+
+  /*Adjust scroll images to a small screen*/
+  .scroll-item img {
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+    }
+
+}
 
 
  
@@ -363,6 +381,13 @@ color: rgb(15, 4, 57);
   font-size: 95%;  
   font-weight: 500;   
   padding: 0.2rem 0.2rem; }
+
+  /*Adjust scroll images to a small screen*/
+  .scroll-item img {
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+    }
 
  }
 
@@ -410,6 +435,13 @@ color: rgb(15, 4, 57);
   justify-content: center;
   text-align: center;
   display: flex;
+  
+  /*Adjust scroll images to a small screen*/
+  .scroll-item img {
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+    }
     
 }}
 
@@ -450,4 +482,10 @@ color: rgb(15, 4, 57);
   text-align: center;
   display: flex;
     
+  /*Adjust scroll images to a small screen*/
+  .scroll-item img {
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+    }
 }}
