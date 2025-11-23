@@ -65,7 +65,7 @@ background-color: transparent;
 
 
 #hero {
-    background-image: url("../images/background.png");
+    background-image: url("../images/background-home-page.webp");
       background-size: cover;      
   background-position: 53% center; 
   background-repeat: no-repeat;
@@ -363,7 +363,7 @@ form {
     padding: 10px 24px;
   }
  #hero {
-    background-image: url("../images/background.png");
+    background-image: url("../images/background-home-page.webp");
       background-size: cover;      
   background-position: 53% center; 
   background-repeat: no-repeat;
@@ -436,7 +436,7 @@ color: rgb(15, 4, 57);
     padding: 10px 24px;
   }
  #hero {
-    background-image: url("../images/background.png");
+    background-image: url("../images/background-home-page.webp");
       background-size: cover;      
   background-position: 53% center; 
   background-repeat: no-repeat;
@@ -482,7 +482,7 @@ color: rgb(15, 4, 57);
     padding: 10px 24px;
   }
  #hero {
-    background-image: url("../images/background.png");
+    background-image: url("../images/background-home-page.webp");
       background-size: cover;      
   background-position: 53% center; 
   background-repeat: no-repeat;
