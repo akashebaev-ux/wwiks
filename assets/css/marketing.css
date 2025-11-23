@@ -146,6 +146,9 @@ main #about * {
 #all-inclusive5{
   background-color: white;
 }
+li i {
+      margin-right: 20px;
+}
 
 /*Contact section*/
 #contact {
@@ -159,6 +162,9 @@ main #about * {
     font-family: "DM Serif Display", serif;
 }
 
+strong {
+   color: rgb(160, 106, 218);
+}
 
      footer {
       text-align: center;
