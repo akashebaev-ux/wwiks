@@ -45,9 +45,11 @@ background-color:  rgb(37, 8, 155);
 
 .navbar .nav-link:hover {
 color: rgb(160, 106, 218);
+background-color: transparent;
 }
 .navbar .dropdown-item:hover {
     color: rgb(160, 106, 218);
+    background-color: transparent;
 
 }
 
