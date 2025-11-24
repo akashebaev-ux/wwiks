@@ -1,12 +1,11 @@
-# wwiks
-website-builder
+# wWiks
+---
 
-# wWiks — Effortless Website Building for Everyone
+The wWiks platform is designed as a fully responsive website builder, ensuring that users can create and view their sites seamlessly across all devices — from mobile phones to full desktop screens.
 
-A modern, intuitive, and elegant static web-builder platform.
+The service is aimed at individuals, small businesses, and creators who want to build a professional-looking website without needing any coding skills. Each section of the wWiks homepage introduces users to the platform’s key features, such as customizable templates, an intuitive drag-and-drop editor, and built-in hosting. Visitors can explore available templates, learn about the benefits of using wWiks, and use multiple contact options to reach out for support or guidance.
 
-
-## 4.1
+The layout makes it easy for potential users to understand the tools offered and to quickly start creating a website that fits their needs.
 
 🌐 Live Demo (Deployment)
 
