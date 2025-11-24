@@ -110,7 +110,7 @@ Each of the nine pages—three of which display only the navbar brand logo (spec
 On the left side, the site’s brand logo and the title **wWiks** are presented, both functioning as clickable elements that redirect users to the homepage. Additional navigation items are also positioned on the left.
 On the right side, the navigation bar provides access to the login page and the registration form/inquiry section.
 
-<img width="1872" height="88" alt="image" src="https://github.com/user-attachments/assets/8e85cc35-fa71-4b92-b676-e9b2b882afca">
+<img src="https://github.com/user-attachments/assets/8e85cc35-fa71-4b92-b676-e9b2b882afca" width="600">
 
 
 
