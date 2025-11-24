@@ -11,7 +11,7 @@ The layout makes it easy for potential users to understand the tools offered and
 
 <img src="https://github.com/akashebaev-ux/wwiks/blob/4573a5a0a82751fde4134bc504b718c7f82b13c2/all-screens-view.png" width="600">
 
-## Description 
+## Table of Contents
 
 **wWiks** is a lightweight, clean, and beautifully designed platform for building modern static websites with zero coding experience. Whether you're a blogger, freelancer, café owner, travel agency, or tech enthusiast, wWiks provides polished website templates that you can customize effortlessly.
 
