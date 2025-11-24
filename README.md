@@ -13,11 +13,40 @@ The layout makes it easy for potential users to understand the tools offered and
 
 ## Table of Contents
 
-**wWiks** is a lightweight, clean, and beautifully designed platform for building modern static websites with zero coding experience. Whether you're a blogger, freelancer, café owner, travel agency, or tech enthusiast, wWiks provides polished website templates that you can customize effortlessly.
+
+
+
+
+
+
+
+
+
+
+## 1. User Experience
+
+Many of our users shared the same struggle:
+they wanted to build unique, engaging websites, but most builders were expensive and too limited. They couldn’t easily add games, tools, or creative content from independent developers—and their ideas felt boxed in.
+
+To solve this, we created a platform that combines both worlds:
+
+- **Clients** get an affordable, flexible builder that lets them integrate games, websites, images, videos, and more.
+
+- **Developers** get a space where their creations can be easily added and discovered.
+
+Together, this forms a single ecosystem where creativity flows freely and building great websites becomes simpler for everyone.
+
+The site also includes a user-friendly enquiry form that allows potential customers to request more information and receive direct follow-up from the wWiks developers.
+
+
+## Target audience
+**wWiks** is designed for anyone who wants to build a modern static website with zero coding experience. Whether you're a blogger, freelancer, café owner, travel agency, or tech enthusiast, wWiks offers polished templates you can customize with ease.
 
 ```
 # Description
 ```
+<img src="https://github.com/user-attachments/assets/5aefce61-f93d-4217-9338-27473bcfa2c4" width="600">
+
 
 
 ## wWiks focuses on:
@@ -149,10 +178,31 @@ For help, questions, or collaboration:
  - Improve accessibility (WCAG-compliant)
 
 
-## 👤 Authors & Acknowledgments
+## 7.1 Code Used
+Bootstrap - as referenced in this readme, Bootstrap has been used to implement a number of elements in the page.
+navigation bar
+grid layout
+cards
+
+## 7.4 Documentation and testing
+The sources listed below served as foundational references in shaping the structure and content of this project’s documentation.
+
+The love running and Boardwalk games README.md templates and website structures 
+A markdown cheat sheet
+Pawsome's readme template - shared on Discord
+Diffchecker
+W3C -Autoprefixer
+WebAIM - referred to in 3.3
+Web Disability Simulator - referred to in 3.3
+Amiresponsive - to show the website on a range of device screens
+
+
+## 👤 7.5 Authors & Acknowledgments
 
 Created and maintained by Akashebaev-UX.
-Special thanks to everyone who provides feedback, tests templates, or shares wWiks with others.
+Special thanks for providing feedback and support along the way in completion of this project..
+
+Tindy Chan - Facilitator at code institute who contributed valuable time to help teach me how to use various tools and troubleshoot a number of issues on the site. 
 
 ## 📌 Project Status
 
