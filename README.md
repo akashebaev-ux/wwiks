@@ -20,6 +20,7 @@ A modern, intuitive, and elegant static web-builder platform.
 ```
 # Description
 ```
+<img src="https://github.com/akashebaev-ux/wwiks/blob/4573a5a0a82751fde4134bc504b718c7f82b13c2/all-screens-view.png" width="600">
 
 ## wWiks focuses on:
 
