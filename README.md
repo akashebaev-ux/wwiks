@@ -1,5 +1,4 @@
 # wWiks
----
 
 The wWiks platform is designed as a fully responsive website builder, ensuring that users can create and view their sites seamlessly across all devices — from mobile phones to full desktop screens.
 
