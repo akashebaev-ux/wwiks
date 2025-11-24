@@ -92,6 +92,29 @@ I used images sourced from the internet, combined them, and enhanced the final v
 
 The video included in the marketing and e-commerce sections—showcasing the advantages and the process of creating a website—was produced with [OpenArt AI](https://openart.ai/home). I wrote a custom script for it.
 
+
+## 3. Features
+
+The **wWiks** website consists of nine pages, seven of which can be accessed through the main navigation menu. The first page presents general information, a carousel, and a registration form. The second page (Products) includes two subpages: Website Templates and E-commerce. The third page (For Customers) contains information on marketing, promotion, and all-inclusive services. The fourth page (For Developers) focuses on the advantages of collaboration for developers. The fifth page covers pricing and subscription options. The sixth page is the login page, which also includes the “Forgot Password” page and a sign-up link that leads to the registration form on the main page.
+
+A confirmation page with the message **“Thank you! Your form has been successfully submitted!”** appears after the registration form is completed and submitted, as the form is required.
+
+Bootstrap v5.3 is used across the entire wWiks site, and a significant portion of the layout and components rely on its built-in classes and features.
+
+## 3.1 General Features
+## 3.1.1 Shared Elements Across All Pages
+
+**Navigation**
+
+Each of the nine pages—three of which display only the navbar brand logo (specifically the login, forgotten email, and success pages)—features a responsive, Bootstrap-based navigation bar fixed at the top of the viewport. The default Bootstrap navbar serves as the foundation and has been further refined through custom CSS styling.
+On the left side, the site’s brand logo and the title **wWiks** are presented, both functioning as clickable elements that redirect users to the homepage. Additional navigation items are also positioned on the left.
+On the right side, the navigation bar provides access to the login page and the registration form/inquiry section.
+
+<img width="1872" height="88" alt="image" src="https://github.com/user-attachments/assets/8e85cc35-fa71-4b92-b676-e9b2b882afca">
+
+
+
+
 ## wWiks focuses on:
 
 - *Simplicity* — everything should “just work”
