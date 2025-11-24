@@ -135,7 +135,7 @@ The footer is located at the bottom of the page and becomes visible once the use
 
 ## Visuals (print screens and video)
 
-[![Watch the video](https://img.youtube.com/vi/BJ4AtZyiUq4/0.jpg)](https://www.youtube.com/watch?v=BJ4AtZyiUq4)
+[![Watch the video](https://img.youtube.com/vi/BJ4AtZyiUq4/0.jpg)](https://www.youtube.com/watch?v=BJ4AtZyiUq4 width="600")
 
 1st page (home page):
 
