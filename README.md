@@ -133,7 +133,7 @@ The footer is located at the bottom of the page and becomes visible once the use
 
 
 
-## Visuals (print screens and video)
+## Visuals (video)
 
 [<img src="https://img.youtube.com/vi/BJ4AtZyiUq4/0.jpg" width="600">](https://www.youtube.com/watch?v=BJ4AtZyiUq4)
 
