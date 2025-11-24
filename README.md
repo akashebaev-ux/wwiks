@@ -6,10 +6,10 @@ The service is aimed at individuals, small businesses, and creators who want to 
 
 The layout makes it easy for potential users to understand the tools offered and to quickly start creating a website that fits their needs.
 
-🌐 Live Demo (Deployment)
 
-👉 [wwiks](https://akashebaev-ux.github.io/wwiks/).
+👉 [View the website from here](https://akashebaev-ux.github.io/wwiks/).
 
+<img src="https://github.com/akashebaev-ux/wwiks/blob/4573a5a0a82751fde4134bc504b718c7f82b13c2/all-screens-view.png" width="600">
 
 ## Description 
 
@@ -18,7 +18,7 @@ The layout makes it easy for potential users to understand the tools offered and
 ```
 # Description
 ```
-<img src="https://github.com/akashebaev-ux/wwiks/blob/4573a5a0a82751fde4134bc504b718c7f82b13c2/all-screens-view.png" width="600">
+
 
 ## wWiks focuses on:
 
