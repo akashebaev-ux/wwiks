@@ -202,7 +202,7 @@ main #about * {
 
 #contact h2 {
     color: rgb(15, 4, 57); 
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     font-family: "DM Serif Display", serif;
 }
 

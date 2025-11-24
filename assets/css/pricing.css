@@ -31,25 +31,25 @@ background-color:  rgb(37, 8, 155);
 
 } 
 .navbar .nav-link:hover {
-color: rgb(160, 106, 218);
+color: rgb(113, 49, 196);
 background-color: transparent;
 }
 .navbar .dropdown-item:hover {
-    color: rgb(160, 106, 218);
+    color: rgb(113, 49, 196);
     background-color: transparent;
 
 }  
 /* --- highlight child active--- */
 .nav-link.active,
 .dropdown-item.active {
-    color: rgb(160, 106, 218) !important;  
+    color: rgb(113, 49, 196) !important;  
     background-color: transparent !important; 
    
 }
 
 /* ---highlight parent active --- */
 .nav-item.dropdown .nav-link.active {
-    color: rgb(160, 106, 218) !important;
+    color: rgb(113, 49, 196) !important;
     
 }
 
