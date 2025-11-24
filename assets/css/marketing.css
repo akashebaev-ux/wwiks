@@ -31,40 +31,28 @@ background-color:  rgb(37, 8, 155);
 }
 
 .navbar .nav-link:hover {
-color: rgb(160, 106, 218);
+color: rgb(113, 49, 196);
 background-color: transparent;
 }
 .navbar .dropdown-item:hover {
-    color: rgb(160, 106, 218);
+    color: rgb(113, 49, 196);
 background-color: transparent;
 }
 
 /* --- highlight child active--- */
 .nav-link.active,
 .dropdown-item.active {
-    color: rgb(160, 106, 218) !important;  
+    color: rgb(113, 49, 196) !important;  
     background-color: transparent !important; 
    
 }
 
 /* ---highlight parent active --- */
 .nav-item.dropdown .nav-link.active {
-    color: rgb(160, 106, 218) !important;
+    color: rgb(113, 49, 196) !important;
     
-}
-/* --- highlight child active--- */
-.nav-link.active,
-.dropdown-item.active {
-    color: rgb(160, 106, 218) !important;  
-    background-color: transparent !important; 
-   
 }
 
-/* ---highlight parent active --- */
-.nav-item.dropdown .nav-link.active {
-    color: rgb(160, 106, 218) !important;
-    
-}
 
   
 
@@ -101,7 +89,7 @@ main #about * {
 }   
 
 #templates h2 {
-  color: rgb(160, 106, 218);
+  color: rgb(113, 49, 196);
     text-shadow: 4px 4px 10px rgb(255, 255, 255, 0.3);
 }
 
@@ -163,7 +151,7 @@ li i {
 }
 
 strong {
-   color: rgb(160, 106, 218);
+   color: rgb(113, 49, 196);
 }
 
      footer {
@@ -184,7 +172,7 @@ strong {
 }
 #contact1 .color1 {
   font-family: "DM Serif Display", serif;
-   color: rgb(160, 106, 218);
+   color: rgb(113, 49, 196);
 }
 
 #contact1 #table1 * {
@@ -200,7 +188,7 @@ strong {
 
 #contact .social-links i {
 
-    color: rgb(160, 106, 218);
+    color: rgb(113, 49, 196);
     font-size: 1.9rem; 
     transition: color 0.3s ease-in-out;
 }
@@ -232,12 +220,12 @@ strong {
  
 }
 .marketing p {
-    color:rgb(160, 106, 218);
+    color: rgb(113, 49, 196);
 }
 
 h3 {
 
-color:rgb(160, 106, 218);
+color: rgb(113, 49, 196);
  font-family: "Poppins", sans-serif;
 }
 .btn {

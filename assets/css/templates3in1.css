@@ -41,11 +41,11 @@ background-color:  rgb(37, 8, 155);
 }
 
 .navbar .nav-link:hover {
-color: rgb(160, 106, 218);
+color: rgb(113, 49, 196);
 background-color: transparent;
 }
 .navbar .dropdown-item:hover {
-    color: rgb(160, 106, 218);
+    color: rgb(113, 49, 196);
     background-color: transparent;
 
 }
@@ -53,14 +53,14 @@ background-color: transparent;
 /* --- highlight child active--- */
 .nav-link.active,
 .dropdown-item.active {
-    color: rgb(160, 106, 218) !important;  
+    color: rgb(113, 49, 196) !important;  
     background-color: transparent !important; 
    
 }
 
 /* ---highlight parent active --- */
 .nav-item.dropdown .nav-link.active {
-    color: rgb(160, 106, 218) !important;
+    color: rgb(113, 49, 196) !important;
     
 }
 
@@ -88,7 +88,7 @@ img {
 }
 
 .element:hover {
- border: 3px solid  rgb(160, 106, 218);
+ border: 3px solid rgb(113, 49, 196);
  transform: scale(1.05);
 }
 
@@ -102,7 +102,7 @@ label span {
   width: 40px;
   height: 40px;
   margin: 0 auto 10px;
-  border: 1px solid rgb(160, 106, 218);
+  border: 1px solid rgb(113, 49, 196);
   border-radius: 6px;
   display: flex;
   align-items: center;
@@ -144,8 +144,8 @@ label span {
 
 }
 #contact1 .color1 {
-  font-family: "DM Serif-Display", serif;
-   color: rgb(160, 106, 218);
+  font-family: "DM Serif Display", serif;
+   color: rgb(113, 49, 196);
 }
 
 #contact1 #table1 * {
@@ -157,7 +157,7 @@ label span {
 
 .social-links i {
 
-    color: rgb(160, 106, 218);
+   color: rgb(113, 49, 196);
     font-size: 1.9rem;
     -webkit-transition: color 0.3s ease-in-out;
     -o-transition: color 0.3s ease-in-out;
