@@ -212,10 +212,6 @@ The footer is located at the bottom of the page and becomes visible once the use
 - the carousel (enhanced with custom JavaScript)
 
 ## 7.2 Content
-Chatgpt - has been utilised to create some of the text throughout the website.
-mycolor.space - referred to in 2.1
-Google fonts - referred to in 2.2
-Favicon.io - to create an emoji favicon
 
 [ChatGPT (OpenAI)](https://chatgpt.com/) – Used to assist in generating and refining portions of the website’s text.
 
