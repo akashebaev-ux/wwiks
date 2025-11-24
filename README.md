@@ -77,7 +77,20 @@ I used [ImageColorPicker.com](https://imagecolorpicker.com/) to develop a colour
 |<img src="https://github.com/user-attachments/assets/ae350b93-3cac-4439-8642-0b2e8e032711" width="300">|<img src="https://github.com/user-attachments/assets/2d29a730-d0b3-4ad6-8adc-fdc42814a61b" width="300">|
 
 
+## 2.2 Typography
 
+Google Fonts are used to style the text on the wWiks website:
+**DM Serif Display** is applied to the main page titles across the site. (Examples: “Choose a template and customize your website”, “wWiks for developers”, etc.)
+**Poppins** is used for longer text blocks and some titles to ensure readability and contrast. (Examples: “Marketing and Promotions on wWiks”, “Create. Upload. Earn.”, etc.)
+
+In addition, [Font Awesome](https://fontawesome.com/) is incorporated to provide the icons used throughout the website, including in the navigation bar and footer.
+
+
+## 2.3 Imagery
+
+I used images sourced from the internet, combined them, and enhanced the final visuals with ChatGPT. I also used CloudConvert to adjust the visuals to comply with WCAG standards and to resize them as needed.
+
+The video included in the marketing and e-commerce sections—showcasing the advantages and the process of creating a website—was produced with [OpenArt AI](https://openart.ai/home). I wrote a custom script for it.
 
 ## wWiks focuses on:
 
