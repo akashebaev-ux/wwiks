@@ -42,11 +42,33 @@ The site also includes a user-friendly enquiry form that allows potential custom
 ## Target audience
 **wWiks** is designed for anyone who wants to build a modern static website with zero coding experience. Whether you're a blogger, freelancer, café owner, travel agency, or tech enthusiast, wWiks offers polished templates you can customize with ease.
 
-```
-# Description
-```
+
+## 1.1 User Stories
+
+## Client Goals
+
+- View the wWiks website seamlessly across all device sizes, including mobile, tablet, and desktop.
+- Easily customize the site using wWiks’s built-in templates and design tools.
+- Allow developers/clients to add and showcase their own projects on the site.
+
+## Potential Client Goals
+
+- Browse high-quality website templates and view engaging client testimonials showcased through wWiks galleries.
+- Clearly see the integrated banking system where the service is offered.
+- Review the available payment options.
+- Navigate the wWiks site easily to locate the relevant sections.
+- Quickly access the enquiry form to submit new questions or requests.
+
+I have used the wWiks project planning tools (GitHub) to track the User Story progress related to the site. Each story includes acceptance criteria and the tasks required to complete it. The stories are organised into progress stages, helping me stay on track throughout the development process.
+
 <img src="https://github.com/user-attachments/assets/5aefce61-f93d-4217-9338-27473bcfa2c4" width="600">
 
+In addition, each goal has been categorized by priority—must-haves, should-haves, and could-haves. This helps me focus on the highest-priority items to ensure the essential functions of the site are delivered
+
+<img src="https://github.com/user-attachments/assets/02c83507-3614-4b52-82df-5b877519dedb" width="600">
+
+
+## 2. Design
 
 
 ## wWiks focuses on:
