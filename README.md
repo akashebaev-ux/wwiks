@@ -9,7 +9,12 @@ The layout makes it easy for potential users to understand the tools offered and
 
 👉 [View the website from here](https://akashebaev-ux.github.io/wwiks/).
 
-<img src="https://github.com/akashebaev-ux/wwiks/blob/4573a5a0a82751fde4134bc504b718c7f82b13c2/all-screens-view.png" width="600" height="100">
+<img src="https://github.com/akashebaev-ux/wwiks/blob/4573a5a0a82751fde4134bc504b718c7f82b13c2/all-screens-view.png" width="600">
+
+
+
+
+
 
 ## Table of Contents
 
@@ -112,48 +117,21 @@ On the right side, the navigation bar provides access to the login page and the 
 
 <img src="https://github.com/user-attachments/assets/8e85cc35-fa71-4b92-b676-e9b2b882afca" width="600">
 
+To enhance usability and prevent the navigation bar from feeling overcrowded, the menu collapses into a hamburger icon on screens 768px wide or smaller. Users can open the menu by tapping this icon. On very small screens — a minimum of 400px — the page title, images, video, and content are reduced in size based on the device type (laptop, tablet, or phone). The hamburger icon is used because it’s a widely recognised convention across many websites, making the interface familiar and intuitive for users.
+
+The navigation bar is fixed at the top of the page, remaining visible while users scroll up or down through any section of the site.
+
+<img src="https://github.com/user-attachments/assets/d86df9ab-e7c1-4eb1-8744-42a5a4e6d0a8" width="300">
+
+**Footer**
+
+The footer is divided into two primary sections: one presents the contact information and incorporates icons linking to various social media platforms, while the other displays the operating hours. The use of familiar iconography facilitates intuitive navigation and contributes to a clean, well-organized design. The layout is structured using a grid system, with the code and styling adapted from Bootstrap.
+
+The footer is located at the bottom of the page and becomes visible once the user has scrolled through all primary content.
+
+<img src="https://github.com/user-attachments/assets/76e24236-34a8-4250-83af-ba5b045bd996" width="400">
 
 
-
-## wWiks focuses on:
-
-- *Simplicity* — everything should “just work”
-
-- *Elegance* — modern UI, clean typography, responsive layouts
-
-- *Variety* — multi-niche templates ready out of the box
-
-- *Speed* — works instantly via GitHub Pages, no backend required (for templates)
-
-🌟 **Features**
-
-- Fully responsive templates (blog, travel, tech, coffee-house and more)
-
-- Modern UI components
-
-- Fast static hosting (optimized for GitHub Pages)
-
-- SEO-friendly structure
-
-- Lightweight codebase for easy customization
-
-- Open for personal or commercial projects
-
-🕰 **Background** (purposes)
-
-The project was created to help individuals and small businesses quickly build stylish landing pages, portfolios, or small static websites without learning code or dealing with complicated CMS systems.
-
-### Usage 🚀 
-
-**Use Templates - steps**
-
-1. Select the desired template folder
-
-2. Replace default text, images, brand colors, and icons
-
-3. Publish using: your private domain 🔏 
-
-**Note:** JavaScript has not been used, and at this stage the website templates are not fully interactive, but they will be later.
 
 ## Visuals (print screens and video)
 
@@ -221,54 +199,51 @@ The project was created to help individuals and small businesses quickly build s
 |<img src="https://github.com/akashebaev-ux/wwiks/blob/25514ea2810383ba7e19a59cf5e8f7494abf4489/7th%20page%20pricing.png" width="250">|
 
 
-## 🆘 Support
-
-
-For help, questions, or collaboration:
-
-📧 Email: info@wWiks.com
-
-📍 Address: Björkvägen 3B, 74450 Morgongåva, Uppsala Län
-
-
-## 🛣 Roadmap
-
-*Planned improvements:*
-
- - Add more advanced templates (portfolio, SaaS, photography)
-
-- Add on back-end for login and templates
-
- - Add drag-and-drop editor (experimental)
-
- - Improve accessibility (WCAG-compliant)
 
 
 ## 7.1 Code Used
-Bootstrap - as referenced in this readme, Bootstrap has been used to implement a number of elements in the page.
-navigation bar
-grid layout
-cards
+[Bootstrap](https://getbootstrap.com/) - as referenced in this README, Bootstrap has been utilized to implement several components within the page, including:
+
+- the navigation bar
+- the grid layout
+- cards
+- buttons
+- forms
+- the carousel (enhanced with custom JavaScript)
+
+## 7.2 Content
+Chatgpt - has been utilised to create some of the text throughout the website.
+mycolor.space - referred to in 2.1
+Google fonts - referred to in 2.2
+Favicon.io - to create an emoji favicon
+
+[ChatGPT (OpenAI)](https://chatgpt.com/) – Used to assist in generating and refining portions of the website’s text.
+
+[ImageColorPicker](https://imagecolorpicker.com/) – Referenced in section 2.1 for color palette generation and design inspiration.
+
+[Google Fonts](https://fonts.google.com/) – Referenced in section 2.2 for font selection and typography.
+
+[Favicon.io](https://favicon.io/) – Used to create the website’s emoji favicon.
 
 ## 7.4 Documentation and testing
 The sources listed below served as foundational references in shaping the structure and content of this project’s documentation.
 
-The love running and Boardwalk games README.md templates and website structures 
-A markdown cheat sheet
-Pawsome's readme template - shared on Discord
-Diffchecker
-W3C -Autoprefixer
-WebAIM - referred to in 3.3
-Web Disability Simulator - referred to in 3.3
-Amiresponsive - to show the website on a range of device screens
+- The love running and Boardwalk games README.md templates and website structures 
+- A markdown cheat sheet
+- Pawsome's readme template - shared on Discord
+- Diffchecker
+- W3C -Autoprefixer
+- WebAIM - referred to in 3.3
+- Web Disability Simulator - referred to in 3.3
+- Amiresponsive - to show the website on a range of device screens
 
 
 ## 👤 7.5 Authors & Acknowledgments
 
 Created and maintained by Akashebaev-UX.
-Special thanks for providing feedback and support along the way in completion of this project..
+Special thanks for providing feedback and support throughout the completion of this project.
 
-Tindy Chan - Facilitator at code institute who contributed valuable time to help teach me how to use various tools and troubleshoot a number of issues on the site. 
+- **Tindy Chan** — Facilitator at Code Institute, who generously contributed time to instruct me in the use of various tools and to assist in troubleshooting multiple issues on the site.
 
 ## 📌 Project Status
 
