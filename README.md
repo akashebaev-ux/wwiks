@@ -129,7 +129,7 @@ The footer is divided into two primary sections: one presents the contact inform
 
 The footer is located at the bottom of the page and becomes visible once the user has scrolled through all primary content.
 
-<img src="https://github.com/user-attachments/assets/76e24236-34a8-4250-83af-ba5b045bd996" width="400">
+<img src="https://github.com/user-attachments/assets/76e24236-34a8-4250-83af-ba5b045bd996" width="600">
 
 
 
