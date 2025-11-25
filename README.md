@@ -133,10 +133,22 @@ The footer is located at the bottom of the page and becomes visible once the use
 <img src="https://github.com/user-attachments/assets/76e24236-34a8-4250-83af-ba5b045bd996" width="600">
 
 
+## 3.1.2 Home Page
 
-## Visuals (video)
+The Home page functions as the primary landing area of the website and is organised into several clearly defined sections. Throughout the page, selected sections feature enquiry buttons designed to direct users immediately to the enquiry or sign-up form. Additional key elements include the About section, an image carousel equipped with a scroll bar that activates when the cursor is positioned near the edges, and a footer containing contact information, operating hours, and social media links.
 
-[<img rc="https://github.com/user-attachments/assets/ade2f6e3-9c80-475b-b17f-69a42d8131f0" width="600">](https://www.youtube.com/watch?v=BJ4AtZyiUq4)
+**Introductory Title**
+
+At the top of the page, a dedicated div contains the main title together with the aforementioned button linking to the enquiry form. A concise introductory statement summarises the purpose of the website, ensuring that users promptly understand its primary objective.
+
+
+
+
+**Image Carousel**
+
+The homepage also includes a rotating image carousel that highlights various website templates. This feature gives visitors an immediate visual impression of the available designs.
+
+The carousel activates when users hover their mouse over its edges. Its layout is fully responsive, scaling down smoothly on smaller screens to maintain usability and visual balance.
 
 
 
