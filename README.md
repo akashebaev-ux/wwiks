@@ -1,69 +1,141 @@
-# wwiks
-website-builder
+# wWiks
 
-# wWiks — Effortless Website Building for Everyone
+The wWiks platform is designed as a fully responsive website builder, ensuring that users can create and view their sites seamlessly across all devices — from mobile phones to full desktop screens.
 
-A modern, intuitive, and elegant static web-builder platform.
+The service is aimed at individuals, small businesses, and creators who want to build a professional-looking website without needing any coding skills. Each section of the wWiks homepage introduces users to the platform’s key features, such as customizable templates, an intuitive drag-and-drop editor, and built-in hosting. Visitors can explore available templates, learn about the benefits of using wWiks, and use multiple contact options to reach out for support or guidance.
 
-
-## 4.1
-
-🌐 Live Demo (Deployment)
-
-👉 [wwiks](https://akashebaev-ux.github.io/wwiks/).
+The layout makes it easy for potential users to understand the tools offered and to quickly start creating a website that fits their needs.
 
 
-## Description 
+👉 [View the website from here](https://akashebaev-ux.github.io/wwiks/).
 
-**wWiks** is a lightweight, clean, and beautifully designed platform for building modern static websites with zero coding experience. Whether you're a blogger, freelancer, café owner, travel agency, or tech enthusiast, wWiks provides polished website templates that you can customize effortlessly.
+<img src="https://github.com/akashebaev-ux/wwiks/blob/4573a5a0a82751fde4134bc504b718c7f82b13c2/all-screens-view.png" width="600">
 
-```
-# Description
-```
 
-## wWiks focuses on:
 
-- *Simplicity* — everything should “just work”
 
-- *Elegance* — modern UI, clean typography, responsive layouts
 
-- *Variety* — multi-niche templates ready out of the box
 
-- *Speed* — works instantly via GitHub Pages, no backend required (for templates)
+## Table of Contents
 
-🌟 **Features**
 
-- Fully responsive templates (blog, travel, tech, coffee-house and more)
 
-- Modern UI components
 
-- Fast static hosting (optimized for GitHub Pages)
 
-- SEO-friendly structure
 
-- Lightweight codebase for easy customization
 
-- Open for personal or commercial projects
 
-🕰 **Background** (purposes)
 
-The project was created to help individuals and small businesses quickly build stylish landing pages, portfolios, or small static websites without learning code or dealing with complicated CMS systems.
 
-### Usage 🚀 
 
-**Use Templates - steps**
+## 1. User Experience
 
-1. Select the desired template folder
+Many of our users shared the same struggle:
+they wanted to build unique, engaging websites, but most builders were expensive and too limited. They couldn’t easily add games, tools, or creative content from independent developers—and their ideas felt boxed in.
 
-2. Replace default text, images, brand colors, and icons
+To solve this, we created a platform that combines both worlds:
 
-3. Publish using: your private domain 🔏 
+- **Clients** get an affordable, flexible builder that lets them integrate games, websites, images, videos, and more.
 
-**Note:** JavaScript has not been used, and at this stage the website templates are not fully interactive, but they will be later.
+- **Developers** get a space where their creations can be easily added and discovered.
 
-## Visuals (print screens and video)
+Together, this forms a single ecosystem where creativity flows freely and building great websites becomes simpler for everyone.
 
-[![Watch the video](https://img.youtube.com/vi/BJ4AtZyiUq4/0.jpg)](https://www.youtube.com/watch?v=BJ4AtZyiUq4)
+The site also includes a user-friendly enquiry form that allows potential customers to request more information and receive direct follow-up from the wWiks developers.
+
+
+## Target audience
+**wWiks** is designed for anyone who wants to build a modern static website with zero coding experience. Whether you're a blogger, freelancer, café owner, travel agency, or tech enthusiast, wWiks offers polished templates you can customize with ease.
+
+
+## 1.1 User Stories
+
+## Client Goals
+
+- View the wWiks website seamlessly across all device sizes, including mobile, tablet, and desktop.
+- Easily customize the site using wWiks’s built-in templates and design tools.
+- Allow developers/clients to add and showcase their own projects on the site.
+
+## Potential Client Goals
+
+- Browse high-quality website templates and view engaging client testimonials showcased through wWiks galleries.
+- Clearly see the integrated banking system where the service is offered.
+- Review the available payment options.
+- Navigate the wWiks site easily to locate the relevant sections.
+- Quickly access the enquiry form to submit new questions or requests.
+
+I have used the wWiks project planning tools (GitHub) to track the User Story progress related to the site. Each story includes acceptance criteria and the tasks required to complete it. The stories are organised into progress stages, helping me stay on track throughout the development process.
+
+<img src="https://github.com/user-attachments/assets/5aefce61-f93d-4217-9338-27473bcfa2c4" width="600">
+
+In addition, each goal has been categorized by priority—must-haves, should-haves, and could-haves. This helps me focus on the highest-priority items to ensure the essential functions of the site are delivered
+
+<img src="https://github.com/user-attachments/assets/02c83507-3614-4b52-82df-5b877519dedb" width="600">
+
+
+## 2. Design
+## 2.1 Colour Scheme
+I used [ImageColorPicker.com](https://imagecolorpicker.com/) to develop a colour palette for the website and to ensure consistency with the text colour. I selected the RGB colour codes rgb(15, 4, 57) and rgb(113, 49, 196) as the initial colours for the page and extracted these values from the image generated by ChatGPT.
+
+|   |   |
+|---|---|
+|<img src="https://github.com/user-attachments/assets/ae350b93-3cac-4439-8642-0b2e8e032711" width="300">|<img src="https://github.com/user-attachments/assets/2d29a730-d0b3-4ad6-8adc-fdc42814a61b" width="300">|
+
+
+## 2.2 Typography
+
+Google Fonts are used to style the text on the wWiks website:
+**DM Serif Display** is applied to the main page titles across the site. (Examples: “Choose a template and customize your website”, “wWiks for developers”, etc.)
+**Poppins** is used for longer text blocks and some titles to ensure readability and contrast. (Examples: “Marketing and Promotions on wWiks”, “Create. Upload. Earn.”, etc.)
+
+In addition, [Font Awesome](https://fontawesome.com/) is incorporated to provide the icons used throughout the website, including in the navigation bar and footer.
+
+
+## 2.3 Imagery
+
+I used images sourced from the internet, combined them, and enhanced the final visuals with ChatGPT. I also used CloudConvert to adjust the visuals to comply with WCAG standards and to resize them as needed.
+
+The video included in the marketing and e-commerce sections—showcasing the advantages and the process of creating a website—was produced with [OpenArt AI](https://openart.ai/home). I wrote a custom script for it.
+
+
+## 3. Features
+
+The **wWiks** website consists of nine pages, seven of which can be accessed through the main navigation menu. The first page presents general information, a carousel, and a registration form. The second page (Products) includes two subpages: Website Templates and E-commerce. The third page (For Customers) contains information on marketing, promotion, and all-inclusive services. The fourth page (For Developers) focuses on the advantages of collaboration for developers. The fifth page covers pricing and subscription options. The sixth page is the login page, which also includes the “Forgot Password” page and a sign-up link that leads to the registration form on the main page.
+
+A confirmation page with the message **“Thank you! Your form has been successfully submitted!”** appears after the registration form is completed and submitted, as the form is required.
+
+Bootstrap v5.3 is used across the entire wWiks site, and a significant portion of the layout and components rely on its built-in classes and features.
+
+## 3.1 General Features
+## 3.1.1 Shared Elements Across All Pages
+
+**Navigation**
+
+Each of the nine pages—three of which display only the navbar brand logo (specifically the login, forgotten email, and success pages)—features a responsive, Bootstrap-based navigation bar fixed at the top of the viewport. The default Bootstrap navbar serves as the foundation and has been further refined through custom CSS styling.
+On the left side, the site’s brand logo and the title **wWiks** are presented, both functioning as clickable elements that redirect users to the homepage. Additional navigation items are also positioned on the left.
+On the right side, the navigation bar provides access to the login page and the registration form/inquiry section.
+
+<img src="https://github.com/user-attachments/assets/8e85cc35-fa71-4b92-b676-e9b2b882afca" width="600">
+
+To enhance usability and prevent the navigation bar from feeling overcrowded, the menu collapses into a hamburger icon on screens 768px wide or smaller. Users can open the menu by tapping this icon. On very small screens — a minimum of 400px — the page title, images, video, and content are reduced in size based on the device type (laptop, tablet, or phone). The hamburger icon is used because it’s a widely recognised convention across many websites, making the interface familiar and intuitive for users.
+
+The navigation bar is fixed at the top of the page, remaining visible while users scroll up or down through any section of the site.
+
+<img src="https://github.com/user-attachments/assets/d86df9ab-e7c1-4eb1-8744-42a5a4e6d0a8" width="300">
+
+**Footer**
+
+The footer is divided into two primary sections: one presents the contact information and incorporates icons linking to various social media platforms, while the other displays the operating hours. The use of familiar iconography facilitates intuitive navigation and contributes to a clean, well-organized design. The layout is structured using a grid system, with the code and styling adapted from Bootstrap.
+
+The footer is located at the bottom of the page and becomes visible once the user has scrolled through all primary content.
+
+<img src="https://github.com/user-attachments/assets/76e24236-34a8-4250-83af-ba5b045bd996" width="600">
+
+
+
+## Visuals (video)
+
+[<img src="https://img.youtube.com/vi/BJ4AtZyiUq4/0.jpg" width="600">](https://www.youtube.com/watch?v=BJ4AtZyiUq4)
 
 1st page (home page):
 
@@ -127,33 +199,47 @@ The project was created to help individuals and small businesses quickly build s
 |<img src="https://github.com/akashebaev-ux/wwiks/blob/25514ea2810383ba7e19a59cf5e8f7494abf4489/7th%20page%20pricing.png" width="250">|
 
 
-## 🆘 Support
 
 
-For help, questions, or collaboration:
+## 7.1 Code Used
+[Bootstrap](https://getbootstrap.com/) - as referenced in this README, Bootstrap has been utilized to implement several components within the page, including:
 
-📧 Email: info@wWiks.com
+- the navigation bar
+- the grid layout
+- cards
+- buttons
+- forms
+- the carousel (enhanced with custom JavaScript)
 
-📍 Address: Björkvägen 3B, 74450 Morgongåva, Uppsala Län
+## 7.2 Content
+
+[ChatGPT (OpenAI)](https://chatgpt.com/) – Used to assist in generating and refining portions of the website’s text.
+
+[ImageColorPicker](https://imagecolorpicker.com/) – Referenced in section 2.1 for color palette generation and design inspiration.
+
+[Google Fonts](https://fonts.google.com/) – Referenced in section 2.2 for font selection and typography.
+
+[Favicon.io](https://favicon.io/) – Used to create the website’s emoji favicon.
+
+## 7.4 Documentation and testing
+The sources listed below served as foundational references in shaping the structure and content of this project’s documentation.
+
+- The love running and Boardwalk games README.md templates and website structures 
+- A markdown cheat sheet
+- Pawsome's readme template - shared on Discord
+- Diffchecker
+- W3C -Autoprefixer
+- WebAIM - referred to in 3.3
+- Web Disability Simulator - referred to in 3.3
+- Amiresponsive - to show the website on a range of device screens
 
 
-## 🛣 Roadmap
-
-*Planned improvements:*
-
- - Add more advanced templates (portfolio, SaaS, photography)
-
-- Add on back-end for login and templates
-
- - Add drag-and-drop editor (experimental)
-
- - Improve accessibility (WCAG-compliant)
-
-
-## 👤 Authors & Acknowledgments
+## 👤 7.5 Authors & Acknowledgments
 
 Created and maintained by Akashebaev-UX.
-Special thanks to everyone who provides feedback, tests templates, or shares wWiks with others.
+Special thanks for providing feedback and support throughout the completion of this project.
+
+- **Tindy Chan** — Facilitator at Code Institute, who generously contributed time to instruct me in the use of various tools and to assist in troubleshooting multiple issues on the site.
 
 ## 📌 Project Status
 
