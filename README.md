@@ -214,6 +214,34 @@ After this, a Deployments section will appear on the repository’s main page. I
 
 ## 6. Testing
 
+---
+## 6.1 Testing User Stories
+
+**Testing Client Goals**
+---
+
+**Goal: Ability to view the website across a variety of screen sizes.**
+Result — ✔ The layout is responsive and displays correctly on multiple devices and browsers.
+
+**Goal: Access to easy-to-use templates for clients to work with without prior coding knowledge.**
+Result — ✔ This requirement is only partially met. Some interactivity is not included in the templates3in1.css and 3 HTML templates (chess, tech, and travel) (due to the lack of knowledge in JavaScript), but future iterations should introduce a dedicated area or visual interactive elements to highlight professional credentials more effectively.
+
+**Goal: A simple method for submitting enquiries or finding contact details.**
+Result — ✔ A user-friendly enquiry form is available on the main page. After submission, users are redirected to a confirmation page displaying a success message.
+
+---
+
+**Potential Client Goals**
+
+**Goal: Ability to view price options, templates, engaging content, and videos.**
+Result — ✔ The site includes multiple high-resolution images, videos, and a dedicated templates section.
+
+**Goal: Clear information on the areas where services are offered.**
+Result — ✔ Service locations are listed within the *Marketing and Promotions* as well as *All-inclusive sections*. For future improvements, a separate page or visual map could be added for greater clarity.
+
+**Goal: Easy access to social media profiles.**
+Result — ✔ Social media links are placed in the footer and open in a new tab when selected.
+
 
 
 ## 6.4 Lighthouse
@@ -221,6 +249,12 @@ After this, a Deployments section will appear on the repository’s main page. I
 Using the Lighthouse feature in Chrome DevTools, I assessed the website’s performance, accessibility, and best-practice compliance for both mobile and desktop views.
 
 <img src="https://github.com/user-attachments/assets/bf7949c9-a6e6-486c-bec0-6c9fc916a7ea" width="600">
+
+## 6.5 Validation
+## 6.5.1 W3C HTML and CSS
+To ensure code quality, I validated every HTML page and the CSS file using the official W3C validators.
+
+<img src="https://github.com/user-attachments/assets/ba0486e7-37d3-46f3-855c-42d0ed7b307d" width="600">
 
 
 
