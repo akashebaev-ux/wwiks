@@ -338,6 +338,7 @@ form {
  }
 
 
+
  /* Media queries - to move div closer to the bottom on small screens */
 @media (max-width: 768px) {
  
@@ -501,4 +502,12 @@ color: rgb(15, 4, 57);
       height: 100%;
       object-fit: cover;
     }
+}
+
+ /* Media queries - to move div closer to the bottom on small screens */
+@media (max-width: 400px) {
+     #hero div {
+        bottom: auto;
+    }
+
 }
