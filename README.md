@@ -9,7 +9,7 @@ The layout makes it easy for potential users to understand the tools offered and
 
 👉 [View the website from here](https://akashebaev-ux.github.io/wwiks/).
 
-<img src="https://github.com/user-attachments/assets/599f4f46-f140-4745-bc93-ccd53626676f" width="600">
+<img src="https://github.com/user-attachments/assets/320f1788-3f4b-46cf-b1f4-8b52f0eeae5e" width="600">
 
 
 
