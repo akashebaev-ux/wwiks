@@ -255,8 +255,10 @@ Several problems were identified during this process and resolved accordingly:
 **Colour contrast accessibility issues:**
 
 - During checks with a contrast-checking tool, the violet colour appeared blurred against the dark blue background, failing to meet WCAG AAA standards. I adjusted the light-violet tone to achieve a higher contrast score, ensuring the colour scheme met accessibility requirements across all levels, and replaced the footer hover colour with yellow.
+  
 |   |   |
 |---|---|
+
 |<img src="https://github.com/user-attachments/assets/5aedfb53-d2a4-4bd4-b368-e4bc09c03d15" width="300">|<img src="https://github.com/user-attachments/assets/3942ff25-0043-4c77-859d-9784a72e5132" width="300">
 
 
