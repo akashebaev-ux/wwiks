@@ -265,31 +265,9 @@ background-color:rgb(37, 8, 155);
 
   
 
-    
+     
 
-/* Media queries medium screens */
-@media (max-width: 760px) {
-   /*to make the navbar collapse properly*/
- .navbar * {
-color: rgb(15, 4, 57);
-  font-size: 92%;  
-  font-weight: 500;   
-  padding: 0.5rem 1rem;}
-
-  .navbar .btn-primary * {
-  color: white !important;
-  background-color:   rgb(15, 4, 57);
-  width: 100px;
-}
-.navbar .btn-primary:hover {
-background-color:  rgb(37, 8, 155);
-
-}
-.navbar-nav * {
-  width: 100px !important;
-}
-
- 
+  
 /*Main section for smaller screens*/
 
 .myvideo {
@@ -318,12 +296,70 @@ background-color:  rgb(37, 8, 155);
       object-fit: cover;
     }
 
- }
-
- /* Media queries - to move div closer to the bottom on small screens */
-@media (max-width: 768px) {
  
-    
+
+ 
+
+
+
+
+
+
+/* Media queries move div closer to the center on laptop & PC screens */
+@media (max-width: 1400px) {
+ 
+  .myvideo {
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: auto;
+    margin: 0rem 0.5rem;
+}
+.video-container {
+
+    text-align: center;
+}
+/*Adjust scroll images to the laptop & PC screen on the marketing page*/
+
+  .scroll-item img {
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+    }
+
+}
+
+/* Media queries move div closer to the center on tablet screens */
+@media (max-width: 1200px) {
+ 
+   .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 95%;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem;
+  ;
+}
+
+
+.myvideo {
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: auto;
+    margin: 1rem 1rem;
+}
+.video-container {
+
+    text-align: center;
+}
+
+/*Adjust scroll images to a small screen*/
+  .scroll-item img {
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+    }
+
 }
 
 /* Media queries medium screens */
@@ -366,61 +402,24 @@ color: rgb(15, 4, 57);
 
 
 
-
-
-/* Media queries move div closer to the center on tablet screens */
-@media (max-width: 1200px) {
- 
-   .navbar * {
+/* Media queries medium screens */
+@media (max-width: 760px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 95%;  
+  font-size: 92%;  
   font-weight: 500;   
-  padding: 0.2rem 0.2rem;
-  ;
+  padding: 0.5rem 1rem;}
+
+  .navbar .btn-primary * {
+  color: white !important;
+  background-color:   rgb(15, 4, 57);
+  width: 100px;
 }
-
-
-.myvideo {
-    width: 100%;
-    border: 3px solid black;
-    border-radius: 15px;
-    height: auto;
-    margin: 1rem 1rem;
-}
-.video-container {
-
-    text-align: center;
-}
-
-/*Adjust scroll images to a small screen*/
-  .scroll-item img {
-      width: auto;
-      height: 100%;
-      object-fit: cover;
-    }
+.navbar .btn-primary:hover {
+background-color:  rgb(37, 8, 155);
 
 }
-
-/* Media queries move div closer to the center on laptop & PC screens */
-@media (max-width: 1400px) {
- 
-  .myvideo {
-    width: 100%;
-    border: 3px solid black;
-    border-radius: 15px;
-    height: auto;
-    margin: 0rem 0.5rem;
-}
-.video-container {
-
-    text-align: center;
-}
-/*Adjust scroll images to the laptop & PC screen on the marketing page*/
-
-  .scroll-item img {
-      width: auto;
-      height: 100%;
-      object-fit: cover;
-    }
-
-}
+.navbar-nav * {
+  width: 100px !important;
+}}

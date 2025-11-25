@@ -339,12 +339,13 @@ form {
 
 
 
- /* Media queries - to move div closer to the bottom on small screens */
-@media (max-width: 768px) {
- 
 
+
+/* Media queries move div closer to the center on laptop & PC screens */
+@media (max-width: 1400px) {
+ 
   #hero div {
-    bottom: 6vh;          
+    bottom: 8vh;          
   }
 
   #hero h1 {
@@ -368,44 +369,22 @@ form {
       background-size: cover;      
   background-position: 53% center; 
   background-repeat: no-repeat;
-  height: 55vh;                
+  height: 70vh;                
   width: 100%;                 
-  position: relative;          
+  position: relative;         
+  
   overflow: hidden;
   justify-content: center;
   text-align: center;
   display: flex;}
-
+    
   /*Adjust scroll images to a small screen*/
   .scroll-item img {
       width: auto;
       height: 100%;
       object-fit: cover;
     }
-
 }
-
-
- 
-/* Media queries medium screens */
-@media (max-width: 1000px) {
-   /*to make the navbar collapse properly*/
- .navbar * {
-color: rgb(15, 4, 57);
-  font-size: 95%;  
-  font-weight: 500;   
-  padding: 0.2rem 0.2rem; }
-
-  /*Adjust scroll images to a small screen*/
-  .scroll-item img {
-      width: auto;
-      height: 100%;
-      object-fit: cover;
-    }
-
- }
-
-
 
 /* Media queries move div closer to the center on tablet screens */
 @media (max-width: 1200px) {
@@ -459,11 +438,31 @@ color: rgb(15, 4, 57);
     
 }
 
-/* Media queries move div closer to the center on laptop & PC screens */
-@media (max-width: 1400px) {
+/* Media queries medium screens */
+@media (max-width: 1000px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 95%;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem; }
+
+  /*Adjust scroll images to a small screen*/
+  .scroll-item img {
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+    }
+
+ }
+
+
+/* Media queries - to move div closer to the bottom on small screens */
+@media (max-width: 768px) {
  
+
   #hero div {
-    bottom: 8vh;          
+    bottom: 6vh;          
   }
 
   #hero h1 {
@@ -487,22 +486,24 @@ color: rgb(15, 4, 57);
       background-size: cover;      
   background-position: 53% center; 
   background-repeat: no-repeat;
-  height: 70vh;                
+  height: 55vh;                
   width: 100%;                 
-  position: relative;         
-  
+  position: relative;          
   overflow: hidden;
   justify-content: center;
   text-align: center;
   display: flex;}
-    
+
   /*Adjust scroll images to a small screen*/
   .scroll-item img {
       width: auto;
       height: 100%;
       object-fit: cover;
     }
+
 }
+
+
 
  /* Media queries - to move div closer to the bottom on small screens */
 @media (max-width: 400px) {

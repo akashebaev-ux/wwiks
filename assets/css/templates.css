@@ -63,7 +63,7 @@ background-color: transparent;
 
 .search-form {
 
-    height: 16vh;
+    height: 13vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;   
@@ -170,7 +170,46 @@ background-color: transparent;
 
 
 
-/* Media queries medium screens */
+
+
+ /* Media queries for Laptop  screens */
+@media (max-width: 1400px) {
+
+ .search-form {
+
+    height: 13vh; /*make smaller the margin top*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;   
+    font-family: "DM Serif Display", serif;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    color: rgb(15, 4, 57);
+    margin-top: 60px;
+  }}
+
+
+   /* Media queries Laptop screens */
+@media (max-width: 1200px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 95%;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem; }}
+
+  /* Media queries medium screens */
+@media (max-width: 1000px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 95%;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem;}
+
+
+ }
+
+  /* Media queries medium screens */
 @media (max-width: 760px) {
    /*to make the navbar collapse properly*/
  .navbar * {
@@ -194,10 +233,11 @@ background-color:  rgb(37, 8, 155);
 form {
   padding-left: 2rem;
   padding-right: 2rem;
+  padding-top: 2rem;
 }
 .search-form {
 
-    height: 24vh; /*make smaller the margin top*/
+    height: 16vh; /*make smaller the margin top*/
     display: flex;
     justify-content: center;
     align-items: flex-start;   
@@ -207,41 +247,4 @@ form {
     margin-top: 40px;
   }}
 
- 
-
-/* Media queries medium screens */
-@media (max-width: 1000px) {
-   /*to make the navbar collapse properly*/
- .navbar * {
-color: rgb(15, 4, 57);
-  font-size: 95%;  
-  font-weight: 500;   
-  padding: 0.2rem 0.2rem;}
-
-
- }
-
-
- /* Media queries Laptop screens */
-@media (max-width: 1200px) {
-   /*to make the navbar collapse properly*/
- .navbar * {
-color: rgb(15, 4, 57);
-  font-size: 95%;  
-  font-weight: 500;   
-  padding: 0.2rem 0.2rem; }}
-
- /* Media queries for Laptop  screens */
-@media (max-width: 1400px) {
-
- .search-form {
-
-    height: 24vh; /*make smaller the margin top*/
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;   
-    font-family: "DM Serif Display", serif;
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
-    color: rgb(15, 4, 57);
-    margin-top: 60px;
-  }}
+  

@@ -161,7 +161,35 @@ section {
 
 
 
+
+
+
+
+
+
+/* Media queries move div closer to the center on tablet screens */
+@media (max-width: 1200px) {
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 95%;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem; }
+ }
+
+
 /* Media queries medium screens */
+@media (max-width: 1000px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 95%;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem; }
+
+ }
+
+
+ /* Media queries medium screens */
 @media (max-width: 760px) {
    /*to make the navbar collapse properly*/
  .navbar * {
@@ -183,25 +211,3 @@ background-color:  rgb(37, 8, 155);
   width: 100px !important;
 }
 }
-
-/* Media queries medium screens */
-@media (max-width: 1000px) {
-   /*to make the navbar collapse properly*/
- .navbar * {
-color: rgb(15, 4, 57);
-  font-size: 95%;  
-  font-weight: 500;   
-  padding: 0.2rem 0.2rem; }
-
- }
-
-
-
-/* Media queries move div closer to the center on tablet screens */
-@media (max-width: 1200px) {
- .navbar * {
-color: rgb(15, 4, 57);
-  font-size: 95%;  
-  font-weight: 500;   
-  padding: 0.2rem 0.2rem; }
- }

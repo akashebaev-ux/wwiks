@@ -133,9 +133,43 @@ section p {
 }
 
 
+ 
+
+
+ /* Media queries Laptop screens */
+@media (max-width: 1200px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 95%;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem;
+margin-right: 0px }
+
+ }
+
 
 
 /* Media queries medium screens */
+@media (max-width: 1000px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 95%;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem;}
+
+section h1{
+    color: rgb(113, 49, 196);
+      font-family: "Poppins", sans-serif;
+      padding: 0.5rem 2rem;
+}
+
+ }
+
+
+
+ /* Media queries medium screens */
 @media (max-width: 760px) {
    /*to make the navbar collapse properly*/
  .navbar * {
@@ -173,37 +207,9 @@ section p {
 .video-container {
 
     text-align: center;
-}
-
-
- }
-
-/* Media queries medium screens */
-@media (max-width: 1000px) {
-   /*to make the navbar collapse properly*/
- .navbar * {
-color: rgb(15, 4, 57);
-  font-size: 95%;  
-  font-weight: 500;   
-  padding: 0.2rem 0.2rem;}
-
-section h1{
-    color: rgb(113, 49, 196);
-      font-family: "Poppins", sans-serif;
-      padding: 0.5rem 2rem;
-}
-
+} 
  }
 
 
- /* Media queries Laptop screens */
-@media (max-width: 1200px) {
-   /*to make the navbar collapse properly*/
- .navbar * {
-color: rgb(15, 4, 57);
-  font-size: 95%;  
-  font-weight: 500;   
-  padding: 0.2rem 0.2rem;
-margin-right: 0px }
 
- }
+ 

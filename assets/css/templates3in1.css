@@ -176,76 +176,7 @@ label span {
 
  
 
-
-
-
-
-/* Media queries medium screens */
-@media (max-width: 760px) {
-   /*to make the navbar collapse properly*/
- .navbar * {
-color: rgb(15, 4, 57);
-  font-size: 92%;  
-  font-weight: 500;   
-  padding: 0.5rem 1rem;}
-
-  .navbar .btn-primary {
-  color: white !important;
-  background-color:   rgb(15, 4, 57);
-  width: 100px;
-}
-.navbar .btn-primary:hover {
-background-color:  rgb(37, 8, 155);
-
-}
-.navbar-nav * {
-  width: 100px !important;
-}
-form {
-
-  width: 100%;
-  padding: 2rem;
-}
-
-.element p {
-  margin: 0;
-   text-align: center;
-  font-size: 10px;
-  color: rgb(15, 4, 57);
-}
-.elements-grid {
-  display: grid;
- grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
-  font-family: "Poppins", sans-serif;
-  padding: 0px;
-  width: auto;
-}
-
-label span {
-
-  font-size: 15.52px;
-  color: rgb(15, 4, 57);
-}
-}
-
-
-
-/* Media queries medium screens */
-@media (max-width: 1000px) {
-   /*to make the navbar collapse properly*/
- .navbar * {
-color: rgb(15, 4, 57);
-  font-size: 95%;  
-  font-weight: 500;   
-  padding: 0.2rem 0.2rem; }
-
-  label span {
-
-  font-size: 15.52px;
-  color: rgb(15, 4, 57);
-}
- }
+ 
  
 
 
@@ -295,5 +226,70 @@ label span {
 }  
 
 
+/* Media queries medium screens */ 
+@media (max-width: 1000px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 95%;  
+  font-weight: 500;   
+  padding: 0.2rem 0.2rem; }
 
+  label span {
+
+  font-size: 15.52px;
+  color: rgb(15, 4, 57);
+}
+ }
+ 
+
+
+/* Media queries medium screens */
+@media (max-width: 760px) {
+   /*to make the navbar collapse properly*/
+ .navbar * {
+color: rgb(15, 4, 57);
+  font-size: 92%;  
+  font-weight: 500;   
+  padding: 0.5rem 1rem;}
+
+  .navbar .btn-primary {
+  color: white !important;
+  background-color:   rgb(15, 4, 57);
+  width: 100px;
+}
+.navbar .btn-primary:hover {
+background-color:  rgb(37, 8, 155);
+
+}
+.navbar-nav * {
+  width: 100px !important;
+}
+form {
+
+  width: 100%;
+  padding: 2rem;
+}
+
+.element p {
+  margin: 0;
+   text-align: center;
+  font-size: 10px;
+  color: rgb(15, 4, 57);
+}
+.elements-grid {
+  display: grid;
+ grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  font-family: "Poppins", sans-serif;
+  padding: 0px;
+  width: auto;
+}
+
+label span {
+
+  font-size: 15.52px;
+  color: rgb(15, 4, 57);
+}
+} 
 
