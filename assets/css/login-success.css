@@ -128,7 +128,7 @@ body {
 }
    
     .btn-outline-dark {
-      color: white;
+      color: white !important;
       background-color:rgb(15, 4, 57);
       transition: 0.3s;
       border-radius: 30px;
@@ -140,7 +140,7 @@ body {
       border-radius: 30px;
       padding: 10px 20px;
       background-color: transparent;
-      color:rgb(15, 4, 57);
+      color:rgb(15, 4, 57) !important;
     }
 
 /*Success page*/
@@ -156,7 +156,7 @@ body {
 }
 #contact1 .color1 {
   font-family: "DM Serif Display", serif;
-   color: rgb(113, 49, 196);
+   color: rgb(181, 150, 228);
 }
 
 #contact1 #table1 * {
@@ -168,13 +168,13 @@ body {
 
 .social-links i {
 
-    color: rgb(113, 49, 196);
+    color: rgb(181, 150, 228);
     font-size: 1.9rem;
     transition: color 0.3s ease-in-out;
 }
 
 .social-links i:hover {
-    color: rgb(56, 18, 96);
+    color: rgb(221, 227, 45);
 
 }
 

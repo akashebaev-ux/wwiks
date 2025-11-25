@@ -89,7 +89,7 @@ main #about * {
 }   
 
 #templates h2 {
-  color: rgb(113, 49, 196);
+  color: rgb(181, 150, 228);
     text-shadow: 4px 4px 10px rgb(255, 255, 255, 0.3);
 }
 
@@ -148,11 +148,7 @@ li i {
     color: rgb(15, 4, 57); 
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
     font-family: "DM Serif Display", serif;
-}
-
-strong {
-   color: rgb(113, 49, 196);
-}
+} 
 
      footer {
       text-align: center;
@@ -172,7 +168,7 @@ strong {
 }
 #contact1 .color1 {
   font-family: "DM Serif Display", serif;
-   color: rgb(113, 49, 196);
+    color: rgb(181, 150, 228);
 }
 
 #contact1 #table1 * {
@@ -188,13 +184,13 @@ strong {
 
 #contact .social-links i {
 
-    color: rgb(113, 49, 196);
+     color: rgb(181, 150, 228);
     font-size: 1.9rem; 
     transition: color 0.3s ease-in-out;
 }
 
 #contact .social-links i:hover {
-    color: rgb(56, 18, 96);
+   color: rgb(221, 227, 45);
 
 }
 
