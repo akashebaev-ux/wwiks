@@ -242,6 +242,23 @@ Result — ✔ Service locations are listed within the *Marketing and Promotions
 **Goal: Easy access to social media profiles.**
 Result — ✔ Social media links are placed in the footer and open in a new tab when selected.
 
+## 6.2 Fixing Bugs
+
+Throughout the development phase, testing was carried out continuously. Chrome DevTools played a key role in reviewing the site, diagnosing issues, and verifying fixes as new features were implemented.
+
+Several problems were identified during this process and resolved accordingly:
+
+**Inconsistent image sizes on small screens and large file sizes slowing loading times:**
+
+- The images added at the beginning of the project varied in size on small screens, causing layout irregularities. I applied custom CSS with media queries and width rules to ensure each image fit correctly within its container. These changes resolved the issue.
+
+**Colour contrast accessibility issues:**
+
+- During checks with a contrast-checking tool, the violet colour appeared blurred against the dark blue background, failing to meet WCAG AAA standards. I adjusted the light-violet tone to achieve a higher contrast score, ensuring the colour scheme met accessibility requirements across all levels, and replaced the footer hover colour with yellow.
+|   |   |
+|---|---|
+|<img src="https://github.com/user-attachments/assets/5aedfb53-d2a4-4bd4-b368-e4bc09c03d15" width="300">|<img src="https://github.com/user-attachments/assets/3942ff25-0043-4c77-859d-9784a72e5132" width="300">
+
 
 
 ## 6.4 Lighthouse
