@@ -247,4 +247,10 @@ form {
     margin-top: 40px;
   }}
 
-  
+   /* Media queries - to move div closer to the bottom on small screens */
+@media (max-width: 400px) {
+     #hero div {
+        bottom: auto;
+    }
+
+}
