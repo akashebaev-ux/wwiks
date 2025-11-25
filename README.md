@@ -301,8 +301,7 @@ CSS validator [Jigsaw](https://jigsaw.w3.org/css-validator/validator)
 
 <img src="https://github.com/user-attachments/assets/f642cf44-1053-4356-9e1f-299975b344e2" width="600">
 
-
-
+**Note:** .scroll-gallery::-webkit-scrollbar { display: none; } was used to apply custom styles to the scrollbar and hide it while preserving its primary functionality. 
 
 # 7. Credits
 ## 7.1 Code Used
