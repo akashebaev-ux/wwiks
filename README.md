@@ -160,7 +160,7 @@ The About wWiks section is structured using a grid layout that incorporates a de
 
 
 
-## 3.1.3 Enquiry Form Page
+## 3.1.3 Enquiry Form
 
 The enquiry form is hosted on the main page and is accessible through the enquiry buttons located on all pages, as well as via the primary navigation menu.
 
@@ -168,10 +168,14 @@ The page opens with a clearly defined, bold header, accompanied by a brief line 
 
 Users can submit the form via the “Send” button, which follows the overall design style of the site while using a colour palette distinct from the enquiry buttons on the homepage. All form fields are mandatory, and validation prevents submission if any required information is missing. When this occurs, a tooltip appears to indicate the field that requires attention.
 
+<img src="https://github.com/user-attachments/assets/1576ffbe-24d7-4f67-8c21-a81c45c38c87" width="600">
+
 
 ## 3.1.4 Success Page
 
 The Success Page is displayed to the user after the enquiry form has been successfully submitted. Its primary purpose is to confirm that the form has been received. The page also includes a short message: “Thank you! Your form has been successfully submitted!”
+
+<img src="https://github.com/user-attachments/assets/d5dc4298-edc2-48f3-a763-6c0b876055c3" width="600">
 
 
 ## 4. Technologies Used
