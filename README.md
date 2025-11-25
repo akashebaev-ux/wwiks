@@ -136,68 +136,9 @@ The footer is located at the bottom of the page and becomes visible once the use
 
 ## Visuals (video)
 
-[<img src="https://img.youtube.com/vi/BJ4AtZyiUq4/0.jpg" width="600">](https://www.youtube.com/watch?v=BJ4AtZyiUq4)
-
-1st page (home page):
-
-|   |   |   |   |
-|---|---|---|---|
+[<img rc="https://github.com/user-attachments/assets/ade2f6e3-9c80-475b-b17f-69a42d8131f0" width="600">](https://www.youtube.com/watch?v=BJ4AtZyiUq4)
 
 
-|<img src="https://github.com/akashebaev-ux/wwiks/blob/d2efe1ac234562e4656da2a006d510458e62ae12/1st%20page%201.1%20home%20page.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/86b03916a39744b043db598f34cbc3a5e0f9d80e/1st%20page%201.2%20home%20page.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/86b03916a39744b043db598f34cbc3a5e0f9d80e/1st%20page%201.3%20home%20page.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/86b03916a39744b043db598f34cbc3a5e0f9d80e/1st%20page%201.4%20home%20page%20(footer).png" width="250">|
-
-2d page (for customers): 
-
-|   |   |   |   |
-|---|---|---|---|
-
-
-|<img src="https://github.com/akashebaev-ux/wwiks/blob/907e6fae7ae69cc7b17673b42244a7d0a6490d79/2d%20page%202.1%20for%20customers%20.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/907e6fae7ae69cc7b17673b42244a7d0a6490d79/2d%20page%202.2%20for%20customers.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/907e6fae7ae69cc7b17673b42244a7d0a6490d79/2d%20page%202.3%20for%20customers.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/907e6fae7ae69cc7b17673b42244a7d0a6490d79/2d%20page%202.4%20for%20customers%20(footer).png" width="250">|
-
-
-3rd page (for developers): 
-
-|   |   |   | 
-|---|---|---|
-
-
-|<img src="https://github.com/akashebaev-ux/wwiks/blob/e43c1aca02c082fd977c15f1d242aeb1f1e6c156/3rd%20page%203.1%20for%20developers.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/e43c1aca02c082fd977c15f1d242aeb1f1e6c156/3rd%20page%203.2%20for%20developers%20.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/e43c1aca02c082fd977c15f1d242aeb1f1e6c156/3rd%20page%203.3%20for%20developers.png" width="250">|
-
-
-4th page (the template page): 
-
-|   |   | 
-|---|---|
-
-
-|<img src="https://github.com/akashebaev-ux/wwiks/blob/4d0a57de276c28ef75cc8af7e48020043f8f2bf1/4th%20page%204.1%20the%20template%20page.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/4d0a57de276c28ef75cc8af7e48020043f8f2bf1/4th%20page%204.2%20the%20template%20page.png" width="250">|
-
-
-5th page (template pages): 
-
-|   |   |   | 
-|---|---|---|
-
-
-|<img src="https://github.com/akashebaev-ux/wwiks/blob/41f60e5189cea4207ff8907281743d1cf6caed89/5th%20page%205.1%20%20chess%20template.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/41f60e5189cea4207ff8907281743d1cf6caed89/5th%20page%205.2%20tech%20template%20.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/41f60e5189cea4207ff8907281743d1cf6caed89/5th%20page%205.3%20travel%20template%20.png" width="250">|
-
-
-6th page (login and recover pages): 
-
-|   |   | 
-|---|---|
-
-
-|<img src="https://github.com/akashebaev-ux/wwiks/blob/2e4e2a826e75448ea074a89b6310434fe3b8f122/6th%20page%206.1%20login.png" width="250">|<img src="https://github.com/akashebaev-ux/wwiks/blob/2e4e2a826e75448ea074a89b6310434fe3b8f122/6th%20page%206.2%20recover.png" width="250">|
-
-
-7th page (pricing page): 
-
-|   |
-|---|
-
-
-|<img src="https://github.com/akashebaev-ux/wwiks/blob/25514ea2810383ba7e19a59cf5e8f7494abf4489/7th%20page%20pricing.png" width="250">|
 
 ## 4. Technologies Used
 ## 4.1 Languages Used
