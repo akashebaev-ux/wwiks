@@ -94,7 +94,7 @@ img {
 
 label span {
 
-  font-size: 15.52px;
+  font-size: 14px;
   color: rgb(15, 4, 57);
 }
 
@@ -288,8 +288,9 @@ form {
 
 label span {
 
-  font-size: 15.52px;
+  font-size: 10px;
   color: rgb(15, 4, 57);
+
 }
 } 
 
