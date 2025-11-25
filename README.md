@@ -143,10 +143,6 @@ At the top of the page, a dedicated div contains the main title together with th
 
 <img src="https://github.com/user-attachments/assets/4a0a40bd-a05f-4d4a-86cf-76a9a0576f33" width="600">
 
-
-
-
-
 **Image Carousel**
 
 The homepage also includes a rotating image carousel that highlights various website templates. This feature gives visitors an immediate visual impression of the available designs.
@@ -155,7 +151,9 @@ The carousel activates when users hover their mouse over its edges. Its layout i
 
 ![Carousel 5s](https://github.com/user-attachments/assets/7a773e9f-d2a8-457f-b5a2-17bd28489c3b)
 
+**About wWiks**
 
+The About wWiks section is structured using a grid layout that incorporates a descriptive text block and an accompanying image. The design is fully responsive, automatically adjusting its arrangement on smaller screens to preserve clarity and ensure that the content remains accessible without appearing overcrowded.
 
 ## 4. Technologies Used
 ## 4.1 Languages Used
