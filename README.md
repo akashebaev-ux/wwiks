@@ -199,6 +199,15 @@ The footer is located at the bottom of the page and becomes visible once the use
 
 |<img src="https://github.com/akashebaev-ux/wwiks/blob/25514ea2810383ba7e19a59cf5e8f7494abf4489/7th%20page%20pricing.png" width="250">|
 
+## 4. Technologies Used
+## 4.1 Languages Used
+
+**HTML** – Used to structure all content and pages across the website.
+**CSS** – Applied for styling, layout design, and visual presentation.
+**JavaScript:**
+- Used through **Bootstrap 5.3** to support interactive components, including the carousel.
+- Additional JavaScript snippets were adapted from the Boardwalk Games project.
+- One JavaScript function used for the carousel was written with assistance from ChatGPT.
 
 ## 4.2 Frameworks, Libraries & Programs Used
 
