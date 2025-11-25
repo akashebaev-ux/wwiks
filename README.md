@@ -9,7 +9,8 @@ The layout makes it easy for potential users to understand the tools offered and
 
 👉 [View the website from here](https://akashebaev-ux.github.io/wwiks/).
 
-<img src="https://github.com/akashebaev-ux/wwiks/blob/4573a5a0a82751fde4134bc504b718c7f82b13c2/all-screens-view.png" width="600">
+<img src="https://github.com/user-attachments/assets/320f1788-3f4b-46cf-b1f4-8b52f0eeae5e" width="600">
+
 
 
 
@@ -199,6 +200,20 @@ The footer is located at the bottom of the page and becomes visible once the use
 |<img src="https://github.com/akashebaev-ux/wwiks/blob/25514ea2810383ba7e19a59cf5e8f7494abf4489/7th%20page%20pricing.png" width="250">|
 
 
+## 4.2 Frameworks, Libraries & Programs Used
+
+- Balsamiq – design and plan wireframes for the website layout.
+- Git – Deployment and version control.
+- GitHub – the repository for storing project files.
+- Bootstrap 5.3 – a navigation bar, a carousel, cards, buttons, forms. The Bootstrap CSS was adapted where necessary, and supporting JavaScript was implemented to enhance component functionality.
+- Google Fonts – Integrated to apply the chosen typography across the website.
+- Font Awesome – icons and logos.
+- Chrome DevTools – testing, debugging, and checking responsiveness.
+- CloudConvert – Used to convert image files into different formats.
+- Favicon.io – Used to create the site’s emoji favicon.
+- Amiresponsive – Used to display how the website appears across multiple device sizes.
+- OpenArt AI – Used to generate the custom AI-created video.
+
 ## 5. Deployment
 
 The website is deployed using GitHub Pages. To deploy the project, the following steps were taken:
@@ -213,6 +228,68 @@ The website is deployed using GitHub Pages. To deploy the project, the following
 After this, a Deployments section will appear on the repository’s main page. It may take a few minutes before the website is fully live. Once deployment is complete, the site can be accessed through the generated GitHub Pages link.
 
 ## 6. Testing
+
+## 6.1 Testing User Stories
+
+**Testing Client Goals**
+
+---
+
+**Goal: Ability to view the website across a variety of screen sizes.**
+Result — ✔ The layout is responsive and displays correctly on multiple devices and browsers.
+
+**Goal: Access to easy-to-use templates for clients to work with without prior coding knowledge.**
+Result — ✔ This requirement is only partially met. Some interactivity is not included in the templates3in1.css and 3 HTML templates (chess, tech, and travel) (due to the lack of knowledge in JavaScript), but future iterations should introduce a dedicated area or visual interactive elements to highlight professional credentials more effectively.
+
+**Goal: A simple method for submitting enquiries or finding contact details.**
+Result — ✔ A user-friendly enquiry form is available on the main page. After submission, users are redirected to a confirmation page displaying a success message.
+
+---
+
+**Potential Client Goals**
+
+**Goal: Ability to view price options, templates, engaging content, and videos.**
+Result — ✔ The site includes multiple high-resolution images, videos, and a dedicated templates section.
+
+**Goal: Clear information on the areas where services are offered.**
+Result — ✔ Service locations are listed within the *Marketing and Promotions* as well as *All-inclusive sections*. For future improvements, a separate page or visual map could be added for greater clarity.
+
+**Goal: Easy access to social media profiles.**
+Result — ✔ Social media links are placed in the footer and open in a new tab when selected.
+
+## 6.2 Fixing Bugs
+
+Throughout the development phase, testing was carried out continuously. Chrome DevTools played a key role in reviewing the site, diagnosing issues, and verifying fixes as new features were implemented.
+
+Several problems were identified during this process and resolved accordingly:
+
+**Inconsistent image sizes on small screens and large file sizes slowing loading times:**
+
+- The images added at the beginning of the project varied in size on small screens, causing layout irregularities. I applied custom CSS with media queries and width rules to ensure each image fit correctly within its container. These changes resolved the issue.
+
+**Colour contrast accessibility issues:**
+
+- During checks with a contrast-checking tool, the violet colour appeared blurred against the dark blue background, failing to meet WCAG AAA standards. I adjusted the light-violet tone to achieve a higher contrast score, ensuring the colour scheme met accessibility requirements across all levels, and replaced the footer hover colour with yellow.
+  
+|   |   |
+|---|---|
+
+|<img src="https://github.com/user-attachments/assets/5aedfb53-d2a4-4bd4-b368-e4bc09c03d15" width="300">|<img src="https://github.com/user-attachments/assets/3942ff25-0043-4c77-859d-9784a72e5132" width="300">
+
+
+
+## 6.4 Lighthouse
+
+Using the Lighthouse feature in Chrome DevTools, I assessed the website’s performance, accessibility, and best-practice compliance for both mobile and desktop views.
+
+<img src="https://github.com/user-attachments/assets/bf7949c9-a6e6-486c-bec0-6c9fc916a7ea" width="600">
+
+## 6.5 Validation
+## 6.5.1 W3C HTML and CSS
+To ensure code quality, I validated every HTML page and the CSS file using the official W3C validators.
+
+<img src="https://github.com/user-attachments/assets/ba0486e7-37d3-46f3-855c-42d0ed7b307d" width="600">
+
 
 
 # 7. Credits
