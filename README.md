@@ -199,8 +199,23 @@ The footer is located at the bottom of the page and becomes visible once the use
 |<img src="https://github.com/akashebaev-ux/wwiks/blob/25514ea2810383ba7e19a59cf5e8f7494abf4489/7th%20page%20pricing.png" width="250">|
 
 
+## 5. Deployment
+
+The website is deployed using GitHub Pages. To deploy the project, the following steps were taken:
+
+- Sign in to the GitHub account.
+- [wWiks's repository](https://github.com/akashebaev-ux/wwiks).
+- Settings.
+- Select Pages.
+- Deploy from a branch. Then select the main branch and save.
+- The deployment process will begin automatically.
+
+After this, a Deployments section will appear on the repository’s main page. It may take a few minutes before the website is fully live. Once deployment is complete, the site can be accessed through the generated GitHub Pages link.
+
+## 6. Testing
 
 
+# 7. Credits
 ## 7.1 Code Used
 [Bootstrap](https://getbootstrap.com/) - as referenced in this README, Bootstrap has been utilized to implement several components within the page, including:
 
@@ -214,14 +229,20 @@ The footer is located at the bottom of the page and becomes visible once the use
 ## 7.2 Content
 
 [ChatGPT (OpenAI)](https://chatgpt.com/) – Used to assist in generating and refining portions of the website’s text.
-
 [ImageColorPicker](https://imagecolorpicker.com/) – Referenced in section 2.1 for color palette generation and design inspiration.
-
 [Google Fonts](https://fonts.google.com/) – Referenced in section 2.2 for font selection and typography.
-
 [Favicon.io](https://favicon.io/) – Used to create the website’s emoji favicon.
 
+
+## 7.3 Media
+
+[Font Awesome](https://fontawesome.com/) – previously mentioned in section 2.2.
+[Cloud Convert](https://cloudconvert.com/webp-converter) – the image-format conversion tool referenced in Section 2.3.
+[OpenArt AI](https://openart.ai/home) – utilized for creating customized AI-generated videos.
+
+
 ## 7.4 Documentation and testing
+
 The sources listed below served as foundational references in shaping the structure and content of this project’s documentation.
 
 - The love running and Boardwalk games README.md templates and website structures 
