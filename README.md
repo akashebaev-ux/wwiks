@@ -202,17 +202,15 @@ The footer is located at the bottom of the page and becomes visible once the use
 
 ## 4.2 Frameworks, Libraries & Programs Used
 
-- Balsamiq – design and plan wireframes for the website layout.
-- Git – Deployment and version control.
-- GitHub – the repository for storing project files.
-- Bootstrap 5.3 – a navigation bar, a carousel, cards, buttons, forms. The Bootstrap CSS was adapted where necessary, and supporting JavaScript was implemented to enhance component functionality.
-- Google Fonts – Integrated to apply the chosen typography across the website.
-- Font Awesome – icons and logos.
+- [GitHub](https://github.com/) – Deployment and version control. The repository for storing project files.
+- [Bootstrap 5.3](https://getbootstrap.com/) – a navigation bar, a carousel, cards, buttons, forms. The Bootstrap CSS was adapted where necessary, and supporting JavaScript was implemented to enhance component functionality.
+- [Google Fonts](https://fonts.google.com/) – Integrated to apply the chosen typography across the website.
+- [Font Awesome](https://fontawesome.com/) – icons and logos.
 - Chrome DevTools – testing, debugging, and checking responsiveness.
-- CloudConvert – Used to convert image files into different formats.
-- Favicon.io – Used to create the site’s emoji favicon.
-- Amiresponsive – Used to display how the website appears across multiple device sizes.
-- OpenArt AI – Used to generate the custom AI-created video.
+- [CloudConvert](https://cloudconvert.com/webp-converter) – Used to convert image files into different formats.
+- [Favicon.io](https://favicon.io/) – Used to create the site’s emoji favicon.
+- [Amiresponsive](https://ui.dev/amiresponsive) – Used to display how the website appears across multiple device sizes.
+- [OpenArt AI](https://openart.ai/home) – Used to generate the custom AI-created video.
 
 ## 5. Deployment
 
