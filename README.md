@@ -214,10 +214,10 @@ After this, a Deployments section will appear on the repository’s main page. I
 
 ## 6. Testing
 
----
 ## 6.1 Testing User Stories
 
 **Testing Client Goals**
+
 ---
 
 **Goal: Ability to view the website across a variety of screen sizes.**
