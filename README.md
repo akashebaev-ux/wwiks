@@ -155,6 +155,11 @@ The carousel activates when users hover their mouse over its edges. Its layout i
 
 The About wWiks section is structured using a grid layout that incorporates a descriptive text block and an accompanying image. The design is fully responsive, automatically adjusting its arrangement on smaller screens to preserve clarity and ensure that the content remains accessible without appearing overcrowded.
 
+
+<img src="https://github.com/user-attachments/assets/60575796-0ca3-4064-adae-989d88d7beb0" width="600">
+
+
+
 ## 4. Technologies Used
 ## 4.1 Languages Used
 
