@@ -295,7 +295,12 @@ Using the Lighthouse feature in Chrome DevTools, I assessed the website’s perf
 ## 6.5.1 W3C HTML and CSS
 To ensure code quality, I validated every HTML page and the CSS file using the official W3C validators.
 
-<img src="https://github.com/user-attachments/assets/ba0486e7-37d3-46f3-855c-42d0ed7b307d" width="600">
+<img src="https://github.com/user-attachments/assets/ba0486e7-37d3-46f3-855c-42d0ed7b307d" width="600"> 
+
+CSS validator [Jigsaw](https://jigsaw.w3.org/css-validator/validator)
+
+<img src="https://github.com/user-attachments/assets/f642cf44-1053-4356-9e1f-299975b344e2" width="600">
+
 
 
 
