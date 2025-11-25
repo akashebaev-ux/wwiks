@@ -215,6 +215,15 @@ After this, a Deployments section will appear on the repository’s main page. I
 ## 6. Testing
 
 
+
+## 6.4 Lighthouse
+
+Using the Lighthouse feature in Chrome DevTools, I assessed the website’s performance, accessibility, and best-practice compliance for both mobile and desktop views.
+
+<img src="https://github.com/user-attachments/assets/bf7949c9-a6e6-486c-bec0-6c9fc916a7ea" width="600">
+
+
+
 # 7. Credits
 ## 7.1 Code Used
 [Bootstrap](https://getbootstrap.com/) - as referenced in this README, Bootstrap has been utilized to implement several components within the page, including:
