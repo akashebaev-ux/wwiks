@@ -150,7 +150,8 @@ The homepage also includes a rotating image carousel that highlights various web
 
 The carousel activates when users hover their mouse over its edges. Its layout is fully responsive, scaling down smoothly on smaller screens to maintain usability and visual balance.
 
-![Carousel 3s](https://github.com/user-attachments/assets/0900b9c0-230a-4985-95a0-f53b50bc36ce)
+![Carousel 5s](https://github.com/user-attachments/assets/7a773e9f-d2a8-457f-b5a2-17bd28489c3b)
+
 
 
 ## 4. Technologies Used
