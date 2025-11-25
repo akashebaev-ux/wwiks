@@ -141,6 +141,9 @@ The Home page functions as the primary landing area of the website and is organi
 
 At the top of the page, a dedicated div contains the main title together with the aforementioned button linking to the enquiry form. A concise introductory statement summarises the purpose of the website, ensuring that users promptly understand its primary objective.
 
+<img src="https://github.com/user-attachments/assets/4a0a40bd-a05f-4d4a-86cf-76a9a0576f33" width="600">
+
+
 
 
 
