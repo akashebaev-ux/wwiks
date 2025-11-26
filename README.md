@@ -19,7 +19,7 @@ The layout makes it easy for potential users to understand the tools offered and
 
 ## Table of Contents
 
-[1. User Experience](#1. User Experience)
+[1. User Experience](#User-Experience)
 
 
 
