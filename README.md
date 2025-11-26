@@ -169,7 +169,8 @@ The **E-commerce page** features an AI-generated video showing the client, the w
 
 The entire section has been designed to be fully responsive, with a layout that automatically adjusts across different screen sizes to ensure a consistent and accessible user experience.
 
-![Product page](https://github.com/user-attachments/assets/eb800cea-4452-44c0-98c4-35542e70917d)
+![Product1](https://github.com/user-attachments/assets/44f22c6d-7509-4889-bb54-e7a6d0995aca)
+
 
 
 ## 3.1.3 Enquiry Form
