@@ -24,7 +24,7 @@ The layout makes it easy for potential users to understand the tools offered and
 [2. Design](#Design)
 [2.1 Colour Scheme](#Colour-Scheme)
 [2.2 Typography](#Typography)
-[2.3 Imagery](#Imagery)
+[2.3 Imagery](#2.3 Imagery)
 [3. Features](#Features)
 [3.1 General Features](#General-Features)
 [2.2 Typography](#Typography)
