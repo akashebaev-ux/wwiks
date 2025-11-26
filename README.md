@@ -49,7 +49,7 @@ The layout makes it easy for potential users to understand the tools offered and
 - [7.2 Content](#72-content)
 - [7.3 Media](#73-media)
 - [7.4 Documentation and testing](#74-documentation-and-testing)
-- [7.5 Authors & Acknowledgments](#75-authors-&-acknowledgments)
+- [7.5 Authors and Acknowledgments](#75-authors-and-acknowledgments)
 
 
 
@@ -467,7 +467,7 @@ The sources listed below served as foundational references in shaping the struct
 - Amiresponsive - to show the website on a range of device screens
 
 
-## 👤 7.5 Authors & Acknowledgments
+## 👤 7.5 Authors and Acknowledgments
 
 Created and maintained by Akashebaev-UX.
 Special thanks for providing feedback and support throughout the completion of this project.
