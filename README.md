@@ -250,24 +250,26 @@ The Success Page is displayed to the user after the enquiry form has been succes
 
 **Cloning the Repository / Running the Project Locally**
 
-I set up the project on my local machine by following these steps:
+The project repository was cloned to the local development environment through the following procedure:
+
   1. Installed the GitHub Desktop application.
   2. Logged in to my GitHub account through the client.
   3. Chose **File → Clone Repository**.
      ```bash
      https://github.com/akashebaev-ux/wwiks.git
      
-  5. Selected the wWiks repository, specified the destination folder on my computer, and clicked Clone.
+  4. Selected the wWiks repository, specified the destination folder on my computer, and clicked Clone.
 
-After the repository finished cloning, I was able to open and run the project locally.
+This process enabled the project to be accessed, modified, and run locally for development purposes.
 
 --- 
 
 **Publishing the Site**
 
-I deployed the project to GitHub Pages using this procedure:
-  1. Opened the project’s GitHub repository and went to Settings.
-  2. Navigated to the Pages section under Code and automation.
+Deployment to GitHub Pages was completed using the steps outlined below:
+
+  1. Opened the project’s GitHub repository and went to **Settings**.
+  2. Navigated to the **Pages** section under Code and automation.
   3. Configured the following deployment settings:
       - **Source:** Deploy from a branch
       - **Branch:** main
