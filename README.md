@@ -255,6 +255,7 @@ I set up the project on my local machine by following these steps:
   2. Logged in to my GitHub account through the client.
   3. Chose **File → Clone Repository**.
      ```bash
+     https://github.com/akashebaev-ux/wwiks.git
      
   5. Selected the wWiks repository, specified the destination folder on my computer, and clicked Clone.
 
