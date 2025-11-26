@@ -241,6 +241,9 @@ Users can either:
 - Return to the Login page by clicking **Back**, or
 - Click **Next**, which redirects them to the Main Enquiry Form.
 
+![Login](https://github.com/user-attachments/assets/7f6587e6-2063-469a-a348-5cf909d86556)
+
+
 
 ## 3.3 Future Implementations
 
