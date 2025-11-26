@@ -181,6 +181,10 @@ The section is fully responsive, with the cards reorganising themselves as the s
 **All-inclusive solutions** are offered, going beyond regular website-building services. An enquiry button is placed at the top, supporting one of the client’s goals by giving users straightforward and immediate access to the enquiry form.
 
 
+![For-customers](https://github.com/user-attachments/assets/6638afde-dfef-45fc-a002-7cd81c3f01b1)
+
+
+
 ## 3.1.3 Enquiry Form
 
 The enquiry form is hosted on the main page and is accessible through the enquiry buttons located on all pages, as well as via the primary navigation menu.
