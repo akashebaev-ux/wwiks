@@ -172,6 +172,14 @@ The entire section has been designed to be fully responsive, with a layout that 
 ![Product1](https://github.com/user-attachments/assets/44f22c6d-7509-4889-bb54-e7a6d0995aca)
 
 
+**For customers**
+
+The **For Customers page** section features the title, the *OpenArt AI with music*, and information about the advantages that Wiks offers to its clients, creating a consistent visual style across the site. A total of six templates are displayed, just like on the home page, maintaining this consistency.
+
+The section is fully responsive, with the cards reorganising themselves as the screen size decreases to preserve readability across all devices.
+
+**All-inclusive solutions** are offered, going beyond regular website-building services. An enquiry button is placed at the top, supporting one of the client’s goals by giving users straightforward and immediate access to the enquiry form.
+
 
 ## 3.1.3 Enquiry Form
 
