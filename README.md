@@ -159,7 +159,15 @@ The About wWiks section is structured using a grid layout that incorporates a de
 <img src="https://github.com/user-attachments/assets/1cf16b0b-6a97-4d57-ba2e-a58ed211e76a" width="600">
 
 
+**Product page**
 
+The **Product page** presents information through a series of Bootstrap cards on the **Website Templates page**, each containing an image and a title, similar to how it appears on the real website.
+
+By **clicking these cards**, users are taken to pages where the website preview and buttons are available. From there, users can edit the selected template and drag and drop elements as they like. (Note: only the video and image buttons are functional for now because JavaScript is required to make the template fully interactive.)
+
+The **E-commerce page** features an AI-generated video showing the client, the wWiks manager, and satisfied customers. In the video, the manager explains various details, and the clients discuss how wWiks compares favorably to other services they have used.
+
+The entire section has been designed to be fully responsive, with a layout that automatically adjusts across different screen sizes to ensure a consistent and accessible user experience.
 
 ## 3.1.3 Enquiry Form
 
