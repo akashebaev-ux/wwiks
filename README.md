@@ -248,16 +248,35 @@ The Success Page is displayed to the user after the enquiry form has been succes
 
 ## 5. Deployment
 
-The website is deployed using GitHub Pages. To deploy the project, the following steps were taken:
+**Cloning the Repository / Running the Project Locally**
 
-- Sign in to the GitHub account.
-- [wWiks's repository](https://github.com/akashebaev-ux/wwiks).
-- Settings.
-- Select Pages.
-- Deploy from a branch. Then select the main branch and save.
-- The deployment process will begin automatically.
+I set up the project on my local machine by following these steps:
+  1. Installed the GitHub Desktop application.
+  2. Logged in to my GitHub account through the client.
+  3. Chose **File → Clone Repository**.
+     ```bash
+     
+  5. Selected the wWiks repository, specified the destination folder on my computer, and clicked Clone.
 
-After this, a Deployments section will appear on the repository’s main page. It may take a few minutes before the website is fully live. Once deployment is complete, the site can be accessed through the generated GitHub Pages link.
+After the repository finished cloning, I was able to open and run the project locally.
+
+--- 
+
+**Publishing the Site**
+
+I deployed the project to GitHub Pages using this procedure:
+  1. Opened the project’s GitHub repository and went to Settings.
+  2. Navigated to the Pages section under Code and automation.
+  3. Configured the following deployment settings:
+      - **Source:** Deploy from a branch
+      - **Branch:** main
+      - **Folder:** / (root)
+
+  4. Saved the changes, triggering the initial deployment. All subsequent pushes to the main branch are automatically published as well.
+
+Deployment history and active versions can be viewed in the repository under **Deployments** in the right-hand sidebar.
+
+
 
 ## 6. Testing
 
