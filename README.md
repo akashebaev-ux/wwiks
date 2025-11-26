@@ -227,7 +227,22 @@ The Success Page is displayed to the user after the enquiry form has been succes
 <img src="https://github.com/user-attachments/assets/d5dc4298-edc2-48f3-a763-6c0b876055c3" width="600">
 
 
-## 3.2 Future Implementations
+## 3.2 Login
+
+The **Login page** includes three social login buttons: Google, Facebook, and Apple, each of which redirects users to the main page of the corresponding social media platform.
+
+A **Sign Up** button is available near the login.
+Clicking it redirects users directly to the **Main Enquiry Form** on the main page.
+
+The **Forgot Email** button leads to an additional page with radio options.
+
+Users can either:
+
+- Return to the Login page by clicking **Back**, or
+- Click **Next**, which redirects them to the Main Enquiry Form.
+
+
+## 3.3 Future Implementations
 
 Due to limited knowledge of Python and JavaScript, not all identified user goals could be fully implemented. Nevertheless, all requirements deemed essential for PP1 were completed within the project timeframe.
 
