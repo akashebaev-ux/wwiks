@@ -19,14 +19,14 @@ The layout makes it easy for potential users to understand the tools offered and
 
 ## Table of Contents
 
-[1. User Experience](#User-Experience)
-[1.1 User Stories](#User-Stories)
-[2. Design](#Design)
-[2.1 Colour Scheme](#Colour-Scheme)
-[2.2 Typography](#Typography)
-  - [2.3 Imagery](#23-imagery)
-[3. Features](#Features)
-[3.1 General Features](#General-Features)
+- [1. User Experience](#1-User-Experience)
+- [1.1 User Stories](#11-User-Stories)
+- [2. Design](#2-Design)
+- [2.1 Colour Scheme](#21-Colour-Scheme)
+- [2.2 Typography](#22-Typography)
+- [2.3 Imagery](#23-imagery)
+- [3. Features](#3-Features)
+- [3.1 General Features](#31-General-Features)
 [2.2 Typography](#Typography)
 [2.2 Typography](#Typography)
 
