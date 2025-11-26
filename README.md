@@ -468,7 +468,7 @@ The sources listed below served as foundational references in shaping the struct
 - Amiresponsive - to show the website on a range of device screens
 
 
-## 👤 7.5 Authors and Acknowledgments
+## 7.5 Authors and Acknowledgments
 
 Created and maintained by Akashebaev-UX.
 Special thanks for providing feedback and support throughout the completion of this project.
