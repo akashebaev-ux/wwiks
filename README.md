@@ -169,6 +169,9 @@ The **E-commerce page** features an AI-generated video showing the client, the w
 
 The entire section has been designed to be fully responsive, with a layout that automatically adjusts across different screen sizes to ensure a consistent and accessible user experience.
 
+![Product page](https://github.com/user-attachments/assets/eb800cea-4452-44c0-98c4-35542e70917d)
+
+
 ## 3.1.3 Enquiry Form
 
 The enquiry form is hosted on the main page and is accessible through the enquiry buttons located on all pages, as well as via the primary navigation menu.
