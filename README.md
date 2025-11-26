@@ -101,7 +101,7 @@ The video included in the marketing and e-commerce sections—showcasing the adv
 
 ## 3. Features
 
-The **wWiks** website consists of nine pages, seven of which can be accessed through the main navigation menu. The first page presents general information, a carousel, and a registration form. The second page (Products) includes two subpages: Website Templates and E-commerce. The third page (For Customers) contains information on marketing, promotion, and all-inclusive services. The fourth page (For Developers) focuses on the advantages of collaboration for developers. The fifth page covers pricing and subscription options. The sixth page is the login page, which also includes the “Forgot Password” page and a sign-up link that leads to the registration form on the main page.
+The **wWiks** website consists of twelve pages, seven of which can be accessed through the main navigation menu. The first page presents general information, a carousel, and a registration form. The second page (Products) includes two subpages: Website Templates (this section includes links to three additional pages of the website templates editor) and E-commerce. The third page (For Customers) contains information on marketing, promotion, and all-inclusive services. The fourth page (For Developers) focuses on the advantages of collaboration for developers. The fifth page covers pricing and subscription options. The sixth page is the login page, which also includes the “Forgot Password” page and a sign-up link that leads to the registration form on the main page.
 
 A confirmation page with the message **“Thank you! Your form has been successfully submitted!”** appears after the registration form is completed and submitted, as the form is required.
 
@@ -112,7 +112,7 @@ Bootstrap v5.3 is used across the entire wWiks site, and a significant portion o
 
 **Navigation**
 
-Each of the nine pages—three of which display only the navbar brand logo (specifically the login, forgotten email, and success pages)—features a responsive, Bootstrap-based navigation bar fixed at the top of the viewport. The default Bootstrap navbar serves as the foundation and has been further refined through custom CSS styling.
+Each of the twelve pages—three of which display only the navbar brand logo (specifically the login, forgotten email, and success pages)—features a responsive, Bootstrap-based navigation bar fixed at the top of the viewport. The default Bootstrap navbar serves as the foundation and has been further refined through custom CSS styling.
 On the left side, the site’s brand logo and the title **wWiks** are presented, both functioning as clickable elements that redirect users to the homepage. Additional navigation items are also positioned on the left.
 On the right side, the navigation bar provides access to the login page and the registration form/inquiry section.
 
@@ -205,7 +205,7 @@ wWiks’ website builder provides clear and transparent pricing tailored to the 
 Each plan includes a comprehensive range of options and features suitable for various budget levels:
 
 
-<img width="1211" height="766" alt="image" src="https://github.com/user-attachments/assets/a260c2b5-f805-4325-9041-a429b9d96a2e" />
+<img src="https://github.com/user-attachments/assets/a260c2b5-f805-4325-9041-a429b9d96a2e" width="600">
 
 
 
