@@ -19,13 +19,8 @@ The layout makes it easy for potential users to understand the tools offered and
 
 ## Table of Contents
 
-## Table of Contents
-
-- [User Experience](#1-user-experience)
-- [Target audience](#target-audience)
+- [1.User Experience](#1-user-experience)
 - [1.1 User Stories](#11-user-stories)
-- [Client Goals](#client-goals)
-- [Potential Client Goals](#potential-client-goals)
 - [2. Design](#2-design)
 - [2.1 Colour Scheme](#21-colour-scheme)
 - [2.2 Typography](#22-typography)
@@ -54,7 +49,7 @@ The layout makes it easy for potential users to understand the tools offered and
 - [7.2 Content](#72-content)
 - [7.3 Media](#73-media)
 - [7.4 Documentation and testing](#74-documentation-and-testing)
-- [7.5 Authors & Acknowledgments](#75-authors--acknowledgments)
+- [7.5 Authors & Acknowledgments](#75-authors-&-acknowledgments)
 
 
 
