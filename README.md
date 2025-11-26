@@ -255,10 +255,11 @@ The project repository was cloned to the local development environment through t
   1. Installed the GitHub Desktop application.
   2. Logged in to my GitHub account through the client.
   3. Chose **File → Clone Repository**.
+     
      ```bash
      https://github.com/akashebaev-ux/wwiks.git
      
-  4. Selected the wWiks repository, specified the destination folder on my computer, and clicked Clone.
+  5. Selected the wWiks repository, specified the destination folder on my computer, and clicked Clone.
 
 This process enabled the project to be accessed, modified, and run locally for development purposes.
 
@@ -267,15 +268,15 @@ This process enabled the project to be accessed, modified, and run locally for d
 **Publishing the Site**
 
 Deployment to GitHub Pages was completed using the steps outlined below:
-
-  1. Opened the project’s GitHub repository and went to **Settings**.
-  2. Navigated to the **Pages** section under Code and automation.
-  3. Configured the following deployment settings:
+1. Opened the project’s GitHub repository and went to **Settings**.
+2. Navigated to the **Pages** section under Code and automation.
+3. Configured the following deployment settings:
+     
       - **Source:** Deploy from a branch
       - **Branch:** main
       - **Folder:** / (root)
 
-  4. Saved the changes, triggering the initial deployment. All subsequent pushes to the main branch are automatically published as well.
+  5. Saved the changes, triggering the initial deployment. All subsequent pushes to the main branch are automatically published as well.
 
 Deployment history and active versions can be viewed in the repository under **Deployments** in the right-hand sidebar.
 
