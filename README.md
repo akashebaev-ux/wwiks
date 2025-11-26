@@ -191,6 +191,10 @@ An enquiry button is positioned at the top of the section, aligning with the cli
 The section is fully responsive, with the cards automatically adjusting their layout as the screen size decreases to ensure optimal readability across all devices.
 
 
+![For-developers](https://github.com/user-attachments/assets/1d2f35ad-4384-44c4-abeb-342b00dd370d)
+
+
+
 
 
 ## 3.1.3 Enquiry Form
