@@ -163,7 +163,7 @@ The About wWiks section is structured using a grid layout that incorporates a de
 
 The **Product page** presents information through a series of Bootstrap cards on the **Website Templates page**, each containing an image and a title, similar to how it appears on the real website.
 
-By **clicking these cards**, users are taken to pages where the website preview and buttons are available. From there, users can edit the selected template and drag and drop elements as they like. (Note: only the video and image buttons are functional for now because JavaScript is required to make the template fully interactive.)
+By **clicking these cards**, users are taken to pages where the website preview and buttons are available. From there, users can edit the selected template and drag and drop elements as they like. (**Note:** only the video and image buttons are functional for now because JavaScript is required to make the template fully interactive.)
 
 The **E-commerce page** features an AI-generated video showing the client, the wWiks manager, and satisfied customers. In the video, the manager explains various details, and the clients discuss how wWiks compares favorably to other services they have used.
 
@@ -194,6 +194,14 @@ The section is fully responsive, with the cards automatically adjusting their la
 ![For-developers](https://github.com/user-attachments/assets/1d2f35ad-4384-44c4-abeb-342b00dd370d)
 
 
+**🧾 Pricing**
+
+wWiks’ website builder provides clear and transparent pricing tailored to the needs of creators, businesses, and teams of all sizes. Users may review each plan individually, during which the corresponding plan card’s border will be visually highlighted.
+
+Each plan includes a comprehensive range of options and features suitable for various budget levels:
+
+
+<img width="1211" height="766" alt="image" src="https://github.com/user-attachments/assets/a260c2b5-f805-4325-9041-a429b9d96a2e" />
 
 
 
@@ -236,6 +244,7 @@ The Success Page is displayed to the user after the enquiry form has been succes
 - [Favicon.io](https://favicon.io/) – Used to create the site’s emoji favicon.
 - [Amiresponsive](https://ui.dev/amiresponsive) – Used to display how the website appears across multiple device sizes.
 - [OpenArt AI](https://openart.ai/home) – Used to generate the custom AI-created video.
+- [Ezgif](https://ezgif.com/video-to-gif) - Used to generate the GIF images.
 
 ## 5. Deployment
 
