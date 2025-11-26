@@ -175,10 +175,14 @@ The entire section has been designed to be fully responsive, with a layout that 
 **For customers**
 
 The **For Customers page** section features the title, the *OpenArt AI with music*, and information about the advantages that Wiks offers to its clients, creating a consistent visual style across the site. A total of six templates are displayed, just like on the home page, maintaining this consistency.
+An enquiry button is placed at the top, supporting one of the client’s goals by giving users straightforward and immediate access to the enquiry form.
 
 The section is fully responsive, with the cards reorganising themselves as the screen size decreases to preserve readability across all devices.
 
-**All-inclusive solutions** are offered, going beyond regular website-building services. An enquiry button is placed at the top, supporting one of the client’s goals by giving users straightforward and immediate access to the enquiry form.
+The **all-inclusive solutions** section provides information about a range of services that extend beyond the scope of conventional website-building offerings.
+
+- Ready-to-launch ecosystems, including blogs, CRM systems, and full-scale e-commerce platforms.
+- Secure payment integration, influencer marketing, ongoing promotional campaigns, supplier communication across global markets, and full logistics coordination.
 
 
 ![For-customers](https://github.com/user-attachments/assets/6638afde-dfef-45fc-a002-7cd81c3f01b1)
@@ -221,6 +225,15 @@ Users can submit the form via the “Send” button, which follows the overall d
 The Success Page is displayed to the user after the enquiry form has been successfully submitted. Its primary purpose is to confirm that the form has been received. The page also includes a short message: “Thank you! Your form has been successfully submitted!”
 
 <img src="https://github.com/user-attachments/assets/d5dc4298-edc2-48f3-a763-6c0b876055c3" width="600">
+
+
+## 3.2 Future Implementations
+
+Due to limited knowledge of Python and JavaScript, not all identified user goals could be fully implemented. Nevertheless, all requirements deemed essential for PP1 were completed within the project timeframe.
+
+Future enhancements could include the development of interactive website templates and drag-and-drop buttons, potentially incorporating an interactive map to provide users with clearer geographical information.
+
+Another enhancement under consideration is the addition of JavaScript-based backend features for login and banking on the pricing and login/sign-up pages.
 
 
 ## 4. Technologies Used
