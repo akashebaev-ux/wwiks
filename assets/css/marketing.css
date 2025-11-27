@@ -4,6 +4,8 @@ body {
 
     background-color:  white;
     padding-top: 62px; /*pushes the top of the header down under fixed navbar*/
+    
+  
 }
 /*Navbar custom CSS style*/
 
@@ -265,38 +267,8 @@ background-color:rgb(37, 8, 155);
 
   
 
-     
-
   
-/*Main section for smaller screens*/
 
-.myvideo {
-    width: 100%;
-    border: 3px solid black;
-    border-radius: 15px;
-    height: auto;
-    margin: 1rem 1rem;
-}
-.video-container {
-
-    text-align: center;
-}
-.inclusive2{
-   margin-top: 20px;
-   font-family: "Poppins", sans-serif;
-   font-size: larger;
-  
-   padding: 5px;
-}
-
-/*Adjust scroll images to a small screen*/
-  .scroll-item img {
-      width: auto;
-      height: 100%;
-      object-fit: cover;
-    }
-
- 
 
  
 
@@ -407,9 +379,9 @@ color: rgb(15, 4, 57);
    /*to make the navbar collapse properly*/
  .navbar * {
 color: rgb(15, 4, 57);
-  font-size: 92%;  
+  font-size: 100%;  
   font-weight: 500;   
-  padding: 0.5rem 0.5rem;}
+  padding: 0.5rem 0.5rem; }
 
   .navbar .btn-primary * {
   color: white !important;
@@ -420,6 +392,35 @@ color: rgb(15, 4, 57);
 background-color:  rgb(37, 8, 155);
 
 }
-.navbar-nav * {
-  width: 100px !important;
-}}
+
+  
+/*Main section for smaller screens*/
+
+.myvideo {
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: auto;
+    margin: 1rem 1rem;
+}
+.video-container {
+
+    text-align: center;
+}
+.inclusive2{
+   margin-top: 20px;
+   font-family: "Poppins", sans-serif;
+   font-size: larger;
+  
+   padding: 5px;
+}
+
+/*Adjust scroll images to a small screen*/
+  .scroll-item img {
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+}

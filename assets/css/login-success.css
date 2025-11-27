@@ -13,8 +13,9 @@ body {
 /*Navbar custom CSS style*/
 
 .navbar-brand img {
-  height: 50px;
+  height: 55px;
   width: auto;
+  padding-top: 7px;
 }
 
 
@@ -199,6 +200,13 @@ body {
         padding-left: 2px;
         padding-right: 2px;
     }
+
+    /*Navbar custom CSS style*/
+
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
 }
 
 
