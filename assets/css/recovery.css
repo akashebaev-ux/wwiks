@@ -18,8 +18,9 @@
 /*Navbar custom CSS style*/
 
 .navbar-brand img {
-  height: 50px;
+  height: 55px;
   width: auto;
+  padding-top: 7px;
 }
 
     .container {
@@ -88,7 +89,23 @@
     }
 
 
+    /* Media queries */
+@media (max-width: 760px) {
 
+
+    .social-btn {
+        width:auto; 
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    /*Navbar custom CSS style*/
+
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+}
 
  /* Media queries - on small screens */
 @media (max-width: 600px) {
