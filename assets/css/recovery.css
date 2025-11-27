@@ -86,3 +86,32 @@
     .next-btn:hover {
       background-color: rgb(113, 49, 196);
     }
+
+
+
+
+ /* Media queries - on small screens */
+@media (max-width: 600px) {
+     
+    
+form{
+  margin-left: 3rem !important;
+}
+    h1 {
+    font-size: 1.8rem;
+    color: rgb(113, 49, 196);
+    margin-bottom: 0.5rem;
+}}
+
+ /* Media queries - on small screens */
+@media (max-width: 400px) {
+     
+    
+form{
+  margin-left: 1rem !important;
+}
+    h1 {
+    font-size: 1.8rem;
+    color: rgb(113, 49, 196);
+    margin-bottom: 0.5rem;
+}}
