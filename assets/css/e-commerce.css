@@ -100,7 +100,7 @@ section p {
 
     /*Contact info*/
 #contact1 {
-  background-color: rgba(0, 19, 53);
+  background-color: rgb(15, 4, 57);
   color: white;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
   font-family: "Poppins", sans-serif;
@@ -169,7 +169,7 @@ section h1{
 
 
 
- /* Media queries medium screens */
+ /* Media queries small screens */
 @media (max-width: 760px) {
    /*to make the navbar collapse properly*/
  .navbar * {
@@ -195,6 +195,7 @@ background-color:  rgb(37, 8, 155);
 section p {
     color: rgb(15, 4, 57); 
     padding: 1rem 2rem;} 
+
 /*Main section for smaller screens*/
 
 .myvideo {

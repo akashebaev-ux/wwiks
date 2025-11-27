@@ -84,7 +84,7 @@ main #about * {
 
 /*Templates*/
 #templates {
-    background-color:rgba(0, 19, 53);
+    background-color:rgb(15, 4, 57);
 
 }   
 
@@ -161,7 +161,7 @@ li i {
 
     /*Contact info*/
 #contact1 {
-  background-color: rgba(0, 19, 53);
+  background-color: rgb(15, 4, 57);
   color: white;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 
@@ -353,7 +353,7 @@ color: rgb(15, 4, 57);
     text-align: center;
 }
 
-/*Adjust scroll images to a small screen*/
+/*Adjust scroll images*/
   .scroll-item img {
       width: auto;
       height: 100%;
@@ -402,7 +402,7 @@ color: rgb(15, 4, 57);
 
 
 
-/* Media queries medium screens */
+/* Media queries small screens */
 @media (max-width: 760px) {
    /*to make the navbar collapse properly*/
  .navbar * {

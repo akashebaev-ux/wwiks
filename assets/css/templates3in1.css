@@ -158,9 +158,7 @@ label span {
 .social-links i {
 
    color: rgb(181, 150, 228);
-    font-size: 1.9rem;
-    -webkit-transition: color 0.3s ease-in-out;
-    -o-transition: color 0.3s ease-in-out;
+    font-size: 1.9rem; 
     transition: color 0.3s ease-in-out;
 }
  .social-links i:hover {

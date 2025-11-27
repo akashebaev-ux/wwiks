@@ -52,7 +52,7 @@ background-color: transparent;
     background-color: transparent;
 
 }
-/* --- highlight child active--- */
+/* highlight child active */
 .nav-link.active,
 .dropdown-item.active {
     color: rgb(113, 49, 196) !important;  
@@ -60,7 +60,7 @@ background-color: transparent;
    
 }
 
-/* ---highlight parent active --- */
+/*highlight parent active*/
 .nav-item.dropdown .nav-link.active {
     color: rgb(113, 49, 196) !important;
     
@@ -100,7 +100,7 @@ main #about {
 
     /*Contact info*/
 #contact1 {
-  background-color: rgba(0, 19, 53);
+  background-color: rgb(15, 4, 57);
   color: white;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 
@@ -150,7 +150,7 @@ main #about {
 
 
 
-/* Media queries move div closer to the center on tablet screens */
+/* Media queries move div closer to the center on tablet/laptop screens */
 @media (max-width: 1200px) {
     /*to make the navbar collapse properly*/
  .navbar * {
@@ -187,7 +187,7 @@ color: rgb(15, 4, 57);
 }
 } 
 
-/* Media queries medium screens */
+/* Media queries small screens */
 @media (max-width: 760px) {
    /*to make the navbar collapse properly*/
  .navbar * {

@@ -69,7 +69,7 @@ section {
 
 
 
-.btn-primary:hover {
+.btn-primary.big:hover {
   background:  rgb(37, 8, 155);
 }
 
@@ -189,7 +189,7 @@ color: rgb(15, 4, 57);
  }
 
 
- /* Media queries medium screens */
+ /* Media queries small screens */
 @media (max-width: 760px) {
    /*to make the navbar collapse properly*/
  .navbar * {
