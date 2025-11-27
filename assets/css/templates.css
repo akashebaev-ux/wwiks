@@ -232,10 +232,11 @@ form {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .search-form {
 
-    height: 16vh; /*make smaller the margin top*/
+    height: 24vh; /*make smaller the margin top*/
     display: flex;
     justify-content: center;
     align-items: flex-start;   
@@ -250,5 +251,13 @@ form {
      #hero div {
         bottom: auto;
     }
+    input[type="search"] {
+  padding-right: 2px;
+    font-size: 12px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+    outline: none;
+}
 
 }
