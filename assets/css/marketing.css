@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
 body {
@@ -24,7 +31,9 @@ color: rgb(15, 4, 57);
 }
 .navbar .btn-primary {
   color: white !important;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color:   rgb(15, 4, 57);
 }
 .navbar .btn-primary:hover {
@@ -96,6 +105,8 @@ main #about * {
 }
 
 .scroll-gallery {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
       overflow-x: auto;
       scroll-behavior: smooth;
@@ -109,24 +120,33 @@ main #about * {
     }
 
     .scroll-item {
-      flex: 0 0 auto;
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 auto;
+              flex: 0 0 auto;
       width: auto;
       height: 30rem;
       border-radius: 12px;
       overflow: hidden;
       position: relative;
       cursor: pointer;
+      -webkit-transition: -webkit-transform 0.3s ease;
+      transition: -webkit-transform 0.3s ease;
+      -o-transition: transform 0.3s ease;
       transition: transform 0.3s ease;
+      transition: transform 0.3s ease, -webkit-transform 0.3s ease;
     }
 
     .scroll-item img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      -o-object-fit: cover;
+         object-fit: cover;
     }
 
     .scroll-item:hover {
-      transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+              transform: scale(1.05);
     }
 
  
@@ -188,6 +208,8 @@ li i {
 
      color: rgb(181, 150, 228);
     font-size: 1.9rem; 
+    -webkit-transition: color 0.3s ease-in-out; 
+    -o-transition: color 0.3s ease-in-out; 
     transition: color 0.3s ease-in-out;
 }
 
@@ -229,7 +251,9 @@ color: rgb(113, 49, 196);
 .btn {
 
   color:white !important;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color:rgb(15, 4, 57);
 }
 .btn:hover {
@@ -296,7 +320,8 @@ background-color:rgb(37, 8, 155);
   .scroll-item img {
       width: auto;
       height: 100%;
-      object-fit: cover;
+      -o-object-fit: cover;
+         object-fit: cover;
     }
 
 }
@@ -329,7 +354,8 @@ color: rgb(15, 4, 57);
   .scroll-item img {
       width: auto;
       height: 100%;
-      object-fit: cover;
+      -o-object-fit: cover;
+         object-fit: cover;
     }
 
 }
@@ -368,7 +394,8 @@ color: rgb(15, 4, 57);
   .scroll-item img {
       width: auto;
       height: 100%;
-      object-fit: cover;
+      -o-object-fit: cover;
+         object-fit: cover;
     }
  }
 
@@ -419,8 +446,15 @@ background-color:  rgb(37, 8, 155);
   .scroll-item img {
       width: auto;
       height: 100%;
-      object-fit: cover;
+      -o-object-fit: cover;
+         object-fit: cover;
     }
 
 
 }
+
+
+
+
+
+ 

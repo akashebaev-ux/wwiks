@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
 body {
@@ -23,7 +30,9 @@ color: rgb(15, 4, 57);
 }
 .navbar .btn-primary {
   color: white !important;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color:   rgb(15, 4, 57);
 }
 .navbar .btn-primary:hover {
@@ -97,9 +106,14 @@ section {
 }
 
 .plans {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 1.5rem;
   padding: 2rem;
 }
@@ -109,7 +123,8 @@ section {
   border-radius: 1rem;
   padding: 2rem;
   width: 270px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   position: relative;
   text-align: left;
 }
@@ -151,7 +166,9 @@ section {
   position: absolute;
   top: -12px;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   background: #10b981;
   color: white;
   font-size: 0.75rem;
@@ -210,3 +227,9 @@ background-color:  rgb(37, 8, 155);
 
 
 }
+
+
+
+
+
+ 

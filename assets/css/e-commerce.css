@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
 body {
@@ -22,7 +29,9 @@ color: rgb(15, 4, 57);
 }
 .navbar .btn-primary {
   color: white !important;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color:   rgb(15, 4, 57);
 }
 .navbar .btn-primary:hover {
@@ -124,6 +133,8 @@ section p {
 
    color: rgb(181, 150, 228);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out; 
 }
 
@@ -208,7 +219,5 @@ section p {
     text-align: center;
 } 
  }
-
-
-
  
+

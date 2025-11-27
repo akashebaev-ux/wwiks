@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
 body {
@@ -26,7 +33,9 @@ color: rgb(15, 4, 57);
 }
 .navbar .btn-primary {
   color: white !important;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color:   rgb(15, 4, 57);
 }
 .navbar .btn-primary:hover {
@@ -64,9 +73,15 @@ background-color: transparent;
 .search-form {
 
     height: 13vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;   
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;   
     font-family: "DM Serif Display", serif;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     color: rgb(15, 4, 57);
@@ -85,7 +100,8 @@ background-color: transparent;
 
   input[type="search"]:focus {
     border-color: #0078ff;
-    box-shadow: 0 0 5px rgba(0,120,255,0.4);
+    -webkit-box-shadow: 0 0 5px rgba(0,120,255,0.4);
+            box-shadow: 0 0 5px rgba(0,120,255,0.4);
   }
 
     .search-input {
@@ -101,18 +117,29 @@ background-color: transparent;
 /*Main section for templates*/
 
 .card-img-top {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
   transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 .card {
   height: auto;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
   transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 .card:hover{
     border: 3px solid rgb(113, 49, 196);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
 }
 
 
@@ -151,6 +178,8 @@ background-color: transparent;
 
      color: rgb(181, 150, 228);
     font-size: 1.9rem; 
+    -webkit-transition: color 0.3s ease-in-out; 
+    -o-transition: color 0.3s ease-in-out; 
     transition: color 0.3s ease-in-out;
 }
  .social-links i:hover {
@@ -178,9 +207,15 @@ background-color: transparent;
  .search-form {
 
     height: 13vh; /*make smaller the margin top*/
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;   
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;   
     font-family: "DM Serif Display", serif;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     color: rgb(15, 4, 57);
@@ -237,9 +272,15 @@ form {
 .search-form {
 
     height: 24vh; /*make smaller the margin top*/
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;   
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;   
     font-family: "DM Serif Display", serif;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     color: rgb(15, 4, 57);

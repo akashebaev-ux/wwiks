@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
 
@@ -7,9 +14,15 @@
     body {
       font-family: "Poppins", sans-serif;
       background-color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: center;
-      align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       height: 100vh;
       margin: 0;
     }
@@ -48,8 +61,12 @@
     }
     .buttons {
       margin-top: 2rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
       gap: 1rem;
     }
     .button {
@@ -58,6 +75,8 @@
       border-radius: 25px;
       border: 1px solid #dadce0;
       cursor: pointer;
+      -webkit-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
       transition: all 0.2s ease;
     }
     .back-btn {
@@ -132,3 +151,4 @@ form{
     color: rgb(113, 49, 196);
     margin-bottom: 0.5rem;
 }}
+ 
